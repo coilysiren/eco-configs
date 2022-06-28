@@ -1,0 +1,7 @@
+{
+  "SaveName": "Game",
+  "SaveFrequency": 60,
+  "CleanupFilesOnExceptions": false,
+  "UseCacheForDBQueries": true,
+  "StorageDirectory": "Storage"
+}

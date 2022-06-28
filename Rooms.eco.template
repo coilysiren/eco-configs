@@ -1,0 +1,5 @@
+{
+  "EmptyBlocksCountAsWindows": true,
+  "RoomCategoryDiminishingReturnRate": 0.5,
+  "WallBlocksPerWindow": 10
+}

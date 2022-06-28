@@ -1,0 +1,12 @@
+{
+  "EnableStatWrites": true,
+  "EnableStatReads": true,
+  "EnablePendingWritesOnBackup": true,
+  "WriteTimeoutMS": 1000,
+  "ReadTimeoutMS": 1000,
+  "StorageDirectory": "Storage",
+  "MaxRecordsToGroup": 500000,
+  "KeepDetailsHours": 3,
+  "RebuildDatabaseOnExit": true,
+  "GroupingLevel": "GroupByEssentialFields"
+}

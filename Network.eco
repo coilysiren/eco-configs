@@ -1,0 +1,21 @@
+{
+  "PublicServer": true,
+  "Playtime": "",
+  "Password": "",
+  "Description": "CatsBunsWolves",
+  "DetailedDescription": "",
+  "ServerCategory": "Strange",
+  "IPAddress": "Any",
+  "WebServerUrl": "",
+  "GameServerPort": 3000,
+  "WebServerPort": 3001,
+  "RconServerPort": 3002,
+  "RconIPAddress": "Any",
+  "RconPassword": "",
+  "Rate": 20,
+  "MaxConnections": -1,
+  "ID": "ddf87189-46fb-4824-85ef-6a150447e844",
+  "Passport": "dcdae738-194d-4052-a3ba-9e17b2837e9e",
+  "UPnPEnabled": true,
+  "RelayServerAddress": ""
+}
