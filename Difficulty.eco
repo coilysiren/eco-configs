@@ -3,13 +3,13 @@
   "DifficultyModifiers": {
     "SpecialtyCostMultiplier": 0.1,
     "SkillGainMultiplier": 5.0,
-    "SpecialtyExperiencePerLevel": 25.0,
-    "CraftResourceModifier": 0.25,
-    "CraftTimeModifier": 0.25,
+    "SpecialtyExperiencePerLevel": 20.0,
+    "CraftResourceModifier": 0.20,
+    "CraftTimeModifier": 0.20,
     "SpecialtyRefundPercentage": 1.0,
     "PlayerExperiencePerSpecialtyExperience": 0.01,
     "StackSizeModifier": 4.0,
-    "WeightModifier": 0.25,
+    "WeightModifier": 0.20,
     "FuelModifier": 1.0,
     "ConnectionRangeModifier": 4.0
   },
