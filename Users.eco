@@ -124,7 +124,10 @@
       "Collection": {
         "System.String": {
           "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
-          "$values": []
+          "$values": [
+            "76561197991069474",
+            "76561198345874122"
+          ]
         }
       }
     },
@@ -132,7 +135,12 @@
       "Collection": {
         "Eco.Gameplay.Players.TimeUser": {
           "$type": "System.Collections.Generic.List`1[[Eco.Gameplay.Players.TimeUser, Eco.Gameplay]], System.Private.CoreLib",
-          "$values": []
+          "$values": [
+            {
+              "UserName": "76561198834400411",
+              "ReleaseDate": "2027-08-20T16:23:52.5985019-04:00"
+            }
+          ]
         }
       }
     },
@@ -148,7 +156,10 @@
       "Collection": {
         "System.String": {
           "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
-          "$values": []
+          "$values": [
+            "76561197991069474",
+            "76561198345874122"
+          ]
         }
       }
     }
