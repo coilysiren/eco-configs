@@ -1,6 +1,0 @@
-{
-    "AutoShutdownHour": -1,
-    "AutoShutdownReason": "Automatic Restart",
-    "CountdownIntervals": [60, 45, 30, 15, 5, 3, 1],
-    "CountdownStart": 30
-}
