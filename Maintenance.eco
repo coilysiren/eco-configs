@@ -1,0 +1,14 @@
+{
+  "AutoShutdownHour": 9,
+  "AutoShutdownReason": "Automatic Restart",
+  "CountdownStart": 30,
+  "CountdownIntervals": [
+    60,
+    45,
+    30,
+    15,
+    5,
+    3,
+    1
+  ]
+}
