@@ -10,7 +10,7 @@
     "AllowFriendsToJoin": true,
     "GenerateRandomWorld": true,
     "AdvancedGameSettings": {
-      "MeteorImpactInDays": 30,
+      "MeteorImpactInDays": 35,
       "MaxProfessionsPerCitizen": 10,
       "MaxSpecialtiesPerCitizen": 33,
       "SkillCostMultiplier": 1,
