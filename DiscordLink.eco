@@ -8,8 +8,8 @@
     "Eco Admins"
   ],
   "ServerName": "Eco Degenerates",
-  "ServerDescription": "",
-  "ConnectionInfo": "https://eco-server.coilysiren.me/",
+  "ServerDescription": "=== Welcome ===\n\n Welcome to the Eco Degenerates. Hello and a warm welcome to all of our new members! We're thrilled to have you join our community \n Please, take some time to introduce yourself to the community share a bit about yourself, your interests, and what brings you here. \n Before you dive in, please take a moment to read through our server rules. We want everyone to have a great time here, and following the guidelines helps create a positive environment for everyone.",
+  "ConnectionInfo": "<eco://connect/1038163042740998185>",
   "ChatSyncMode": "OptOut",
   "ChatChannelLinks": [
     {
@@ -88,12 +88,16 @@
   "UseDemographicRoles": true,
   "DemographicReplacementRoles": [
     {
-      "DemographicName": "everyone",
-      "RoleName": "Eco Everyone"
+      "DemographicName": "admins",
+      "RoleName": "Moderator"
     },
     {
       "DemographicName": "admins",
-      "RoleName": "Eco Admins"
+      "RoleName": "Host"
+    },
+    {
+      "DemographicName": "everyone",
+      "RoleName": "Econian"
     }
   ],
   "UseSpecialtyRoles": true,
@@ -101,7 +105,7 @@
   "MaxTradeWatcherDisplaysPerUser": 5,
   "InviteMessage": "Join us on Discord!\nhttps://discord.gg/4bxQHg2w",
   "LogLevel": "Information",
-  "BackendLogLevel": "None",
+  "BackendLogLevel": "Information",
   "TraceFileLogging": false,
   "UseVerboseDisplay": false,
   "EmoteIconSubstitutions": [],
