@@ -1,0 +1,109 @@
+{
+  "BotToken": "MTI5MDE4MTU1NDExMDIwMTk1MA.GgtxX3.dksgaUYPwM_XWbndajfgz7XFCbBpj6JxRmf6Yw",
+  "DiscordServerId": "1038163042740998185",
+  "AdminRoles": [
+    "Admin",
+    "Administrator",
+    "Moderator",
+    "Eco Admins"
+  ],
+  "ServerName": "Eco Degenerates",
+  "ServerDescription": "",
+  "ConnectionInfo": "https://eco-server.coilysiren.me/",
+  "ChatSyncMode": "OptOut",
+  "ChatChannelLinks": [
+    {
+      "AllowUserMentions": true,
+      "AllowRoleMentions": true,
+      "AllowChannelMentions": true,
+      "Direction": "Duplex",
+      "HereAndEveryoneMentionPermission": "Forbidden",
+      "EcoChannel": "General",
+      "DiscordChannelId": "1290166766495858701",
+      "UseTimestamp": true
+    }
+  ],
+  "TradeFeedChannels": [
+    {
+      "DiscordChannelId": "1290213558323253260"
+    }
+  ],
+  "CraftingFeedChannels": [
+    {
+      "DiscordChannelId": "1290214871496917033"
+    }
+  ],
+  "ServerStatusFeedChannels": [
+    {
+      "DiscordChannelId": "1290214725199855668"
+    }
+  ],
+  "PlayerStatusFeedChannels": [
+    {
+      "DiscordChannelId": "1290215590585438250"
+    }
+  ],
+  "ElectionFeedChannels": [
+    {
+      "DiscordChannelId": "1290215651771678811"
+    }
+  ],
+  "ServerLogFeedChannels": [
+    {
+      "LogLevel": "Information",
+      "DiscordChannelId": "1290216151241986079"
+    }
+  ],
+  "UseTradeWatcherFeeds": true,
+  "ServerInfoDisplayChannels": [
+    {
+      "UseName": true,
+      "UseDescription": false,
+      "UseLogo": true,
+      "UseConnectionInfo": true,
+      "UsePlayerCount": true,
+      "UsePlayerList": true,
+      "UsePlayerListLoggedInTime": true,
+      "UsePlayerListExhaustionTime": false,
+      "UseIngameTime": true,
+      "UseTimeRemaining": true,
+      "UseServerTime": true,
+      "UseExhaustionResetServerTime": false,
+      "UseExhaustionResetTimeLeft": false,
+      "UseExhaustedPlayerCount": false,
+      "UseElectionCount": false,
+      "UseElectionList": true,
+      "UseLawCount": false,
+      "UseLawList": false,
+      "DiscordChannelId": "1290216534278406144"
+    }
+  ],
+  "WorkPartyDisplayChannels": [],
+  "ElectionDisplayChannels": [],
+  "CurrencyDisplayChannels": [],
+  "MapDisplayChannels": [],
+  "LayerDisplayChannels": [],
+  "SnippetInputChannels": [],
+  "UseLinkedAccountRole": true,
+  "UseDemographicRoles": true,
+  "DemographicReplacementRoles": [
+    {
+      "DemographicName": "everyone",
+      "RoleName": "Eco Everyone"
+    },
+    {
+      "DemographicName": "admins",
+      "RoleName": "Eco Admins"
+    }
+  ],
+  "UseSpecialtyRoles": true,
+  "UseElectedTitleRoles": true,
+  "MaxTradeWatcherDisplaysPerUser": 5,
+  "InviteMessage": "Join us on Discord!\nhttps://discord.gg/4bxQHg2w",
+  "LogLevel": "Information",
+  "BackendLogLevel": "None",
+  "TraceFileLogging": false,
+  "UseVerboseDisplay": false,
+  "EmoteIconSubstitutions": [],
+  "MinEmbedSizeForFooter": "Medium"
+}

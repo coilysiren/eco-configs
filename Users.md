@@ -1,0 +1,8 @@
+# Elizabeth and Kai's Admin IDS
+
+76561197991069474
+76561198345874122
+
+# The Formal Goat
+
+76561198291669243
