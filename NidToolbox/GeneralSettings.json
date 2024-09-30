@@ -1,0 +1,13 @@
+{
+  "Info1": "NidToolbox Light: General settings.",
+  "Info2": "CommandFeedbackString appears in between brackets: [NidToolbox]: Some text.",
+  "Info3": "ServerTag is used in announcements as server name: SERVER: Some text. ",
+  "Info4": "ServerIconId is identifies server icon in assets. It shows in mail.",
+  "Info5": "ServerIconId can also be used on objects like signs and messages text in popups.",
+  "Info6": "-----------------------------------------------------------------------------------",
+  "CommandFeedbackString": "<color=#50C878>[NidToolbox]: ",
+  "ServerTag": "SERVER",
+  "ServerIconId": "NidToolbox",
+  "ForceTimezone": "Pacific Standard Time",
+  "BlackListed": false
+}

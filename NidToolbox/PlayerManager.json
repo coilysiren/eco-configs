@@ -1,0 +1,10 @@
+{
+  "Info1": "NidToolbox Light: Player Manager settings.",
+  "ShowIPinTooltip": true,
+  "ShowSteamIdinTooltip": true,
+  "ShowSlgIdInTooltip": true,
+  "ShowShopsInTooltip": true,
+  "EnableUserVehicleRescueCommand": true,
+  "UserVehicleCommandCooldownMinutes": 120.0,
+  "BlackListed": false
+}

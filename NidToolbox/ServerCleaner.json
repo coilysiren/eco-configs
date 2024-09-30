@@ -1,0 +1,19 @@
+{
+  "Info1": "NidToolbox Light: Server Cleaner Settings.",
+  "Info2": "------------------------------------------",
+  "CleanPeriodically": false,
+  "CleanEveryMinutes": 1440.0,
+  "CleanAtScheduledTime": true,
+  "ScheduledTime": ["3:00"],
+  "CleanMiningRubble": true,
+  "CleanTreeDebris": true,
+  "CleanFallenTrees": false,
+  "CleanStumps": false,
+  "CleanTailingsNotContained": false,
+  "CleanTailingsInStorages": false,
+  "CleanWetTailingsNotContained": false,
+  "CleanWetTailingsInStorages": false,
+  "ReportInConsole": true,
+  "ReportInLog": true,
+  "BlackListed": false
+}
