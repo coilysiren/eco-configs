@@ -81,7 +81,11 @@
   "WorkPartyDisplayChannels": [],
   "ElectionDisplayChannels": [],
   "CurrencyDisplayChannels": [],
-  "MapDisplayChannels": [],
+  "MapDisplayChannels": [
+    {
+      "DiscordChannelId": "1290813264481222706"
+    }
+  ],
   "LayerDisplayChannels": [],
   "SnippetInputChannels": [],
   "UseLinkedAccountRole": true,
