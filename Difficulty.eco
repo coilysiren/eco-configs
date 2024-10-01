@@ -8,9 +8,9 @@
     "ExhaustionEnabled": false,
     "HasMeteor": true,
     "AllowFriendsToJoin": true,
-    "GenerateRandomWorld": true,
+    "GenerateRandomWorld": false,
     "AdvancedGameSettings": {
-      "MeteorImpactInDays": 35,
+      "MeteorImpactInDays": 30,
       "MaxProfessionsPerCitizen": 10,
       "MaxSpecialtiesPerCitizen": 33,
       "SkillCostMultiplier": 1,
