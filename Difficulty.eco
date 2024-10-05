@@ -31,7 +31,7 @@
     }
   },
   "EndgameCraftCost": "Normal",
-  "SkillbookCraftCost": "Expensive",
+  "SkillbookCraftCost": "Normal",
   "SwimSpeed": {
     "Ocean": 0.75,
     "DeepOcean": 0.25
