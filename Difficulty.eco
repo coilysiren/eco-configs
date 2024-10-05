@@ -1,10 +1,10 @@
 {
   "GameSettings": {
-    "DesiredNumberOfPlayers": 25,
+    "DesiredNumberOfPlayers": 100,
     "HoursPlayedPerDay": 0,
     "CollaborationLevel": "HighCollaboration",
     "GameSpeed": "Normal",
-    "SimulationLevel": "Harcore",
+    "SimulationLevel": "Normal",
     "ExhaustionEnabled": false,
     "HasMeteor": true,
     "AllowFriendsToJoin": true,

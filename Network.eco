@@ -15,9 +15,9 @@
   "SteamServerPort": 3003,
   "RconIPAddress": "Any",
   "RconPassword": "",
-  "Rate": 20,
+  "Rate": 10,
   "DefaultSlots": -1,
-  "ReservedSlots": 5,
+  "ReservedSlots": 10,
   "MaxUsersLoadingAtSameTime": 10,
   "UPnPEnabled": true,
   "RelayServerAddress": ""

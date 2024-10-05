@@ -7,7 +7,7 @@
   "ScheduledTime": ["3:00"],
   "CleanMiningRubble": true,
   "CleanTreeDebris": true,
-  "CleanFallenTrees": false,
+  "CleanFallenTrees": true,
   "CleanStumps": false,
   "CleanTailingsNotContained": false,
   "CleanTailingsInStorages": false,

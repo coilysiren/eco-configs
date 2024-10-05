@@ -55,8 +55,8 @@
         "System.String": {
           "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
           "$values": [
-            "76561197991069470",
-            "76561198345874130",
+            "76561197991069474",
+            "76561198345874122",
             "76561198291669243"
           ]
         }
