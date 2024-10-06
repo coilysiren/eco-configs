@@ -66,9 +66,9 @@
   "AllowOptionToPreventSettlementsFromSeceding": false,
   "CultureDeedLinkPercentRequirement": 30,
   "SettlementFoundationBaseInfluence": [
-    75,
-    225,
-    675
+    45,
+    150,
+    400
   ],
   "SettlementInfluenceMultiplier": [
     1,
