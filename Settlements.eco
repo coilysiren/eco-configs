@@ -66,9 +66,9 @@
   "AllowOptionToPreventSettlementsFromSeceding": false,
   "CultureDeedLinkPercentRequirement": 30,
   "SettlementFoundationBaseInfluence": [
-    45,
-    150,
-    400
+    75,
+    225,
+    675
   ],
   "SettlementInfluenceMultiplier": [
     1,
@@ -89,23 +89,23 @@
   ],
   "MinCitizensToFoundSettlement": [
     2,
-    12,
-    30
+    10,
+    20
   ],
   "MinCitizensToMaintainSettlement": [
-    2,
-    6,
-    15
+    1,
+    5,
+    10
   ],
   "MinCultureToFoundSettlement": [
     0,
-    60,
-    400
+    40,
+    200
   ],
   "MinCultureToMaintainSettlement": [
     0,
-    30,
-    120
+    20,
+    100
   ],
   "CultureToInfluenceMappingPerSettlementType": [
     {
