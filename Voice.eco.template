@@ -2,5 +2,5 @@
   "AudibleDistance": 32,
   "ConversationalDistance": 1,
   "AudioFadeModel": "InverseByDistance",
-  "AudioFadeIntensityByDistance": 1.0
+  "AudioFadeIntensityByDistance": 1
 }

@@ -2,10 +2,10 @@
   "UseWaste": false,
   "ConfigVersion": 1,
   "AllowDebugCalls": false,
-  "UnStuckDisableTime": 60.0,
+  "UnStuckDisableTime": 60,
   "AdminCommandsLoggingLevel": "LogFileAndNotifyEveryone",
-  "DelayNearbyFoodCheckMinutes": 4.0,
-  "NearbyFoodSpawnLocationRadius": 20.0,
+  "DelayNearbyFoodCheckMinutes": 4,
+  "NearbyFoodSpawnLocationRadius": 20,
   "NearbyFoodSpawnCount": 5,
   "UseExactSpawnLocation": false,
   "SpawnLocation": {
@@ -15,8 +15,8 @@
   },
   "SpawnSearchRange": 600,
   "MovementHackDetection": false,
-  "RequiredOccupancyBeforeAFKKick": 0.0,
-  "TimeRequiredForAFKMinutes": 0.0,
+  "RequiredOccupancyBeforeAFKKick": 0,
+  "TimeRequiredForAFKMinutes": 0,
   "UserPermission": {
     "WhiteList": {
       "UserIDAddedEvent": {},

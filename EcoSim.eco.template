@@ -3,31 +3,31 @@
   "ConfigVersion": 1,
   "ClimateSettings": {
     "$id": "2",
-    "InitialOxygenPercent": 0.0,
+    "InitialOxygenPercent": 0,
     "InitialNitrogenPercent": 0.04,
     "InitialCO2Percent": 0.96,
     "AirPressure": 0.006,
-    "AtmosphereVolume": 1000000.0,
+    "AtmosphereVolume": 1000000,
     "AtmosphereDisplayEnabled": false,
     "PPMPerTon": 1.2860082,
     "AtmospherePressureKgPerM2": 1.5,
-    "PollutionMultiplier": 1.0,
-    "MinCO2ppm": 325.0,
+    "PollutionMultiplier": 1,
+    "MinCO2ppm": 325,
     "SeaLevelSimEnabled": true,
     "TemperatureSimEnabled": true,
-    "SeaLevelsRiseAtCO2ppm": 420.0,
-    "CO2ppmPerSeaLevelMeterRise": 20.0,
-    "MaxSeaLevelRise": 20.0,
-    "MaxTemperatureRise": 30.0,
-    "MaxSeaLevelRiseRatePerDay": 1.0,
+    "SeaLevelsRiseAtCO2ppm": 420,
+    "CO2ppmPerSeaLevelMeterRise": 20,
+    "MaxSeaLevelRise": 20,
+    "MaxTemperatureRise": 30,
+    "MaxSeaLevelRiseRatePerDay": 1,
     "MaxTemperatureChangePerDay": 1.5,
-    "TemperaturesRiseAtCO2ppm": 340.0,
-    "CO2ppmPerDegreeTemperatureRise": 20.0,
-    "MaxCO2PerDayFromAnimals": 25.0,
-    "MinCO2PerDayFromPlants": -500.0,
+    "TemperaturesRiseAtCO2ppm": 340,
+    "CO2ppmPerDegreeTemperatureRise": 20,
+    "MaxCO2PerDayFromAnimals": 25,
+    "MinCO2PerDayFromPlants": -500,
     "PollutionPerTailingPerTick": 0.016,
-    "TailingsPollutionUndergroundHalvingDistance": 5.0,
-    "MaxDebrisBlocks": 1.0
+    "TailingsPollutionUndergroundHalvingDistance": 5,
+    "MaxDebrisBlocks": 1
   },
   "Interactions": {
     "$id": "3",
@@ -39,15 +39,15 @@
           "$type": "Eco.Simulation.WorldLayers.LayerInteractions.BiomeRater, Eco.Simulation",
           "BiomeLayerName": "DesertBiome",
           "MoistureRange": {
-            "min": 0.0,
+            "min": 0,
             "max": 0.35
           },
           "TemperatureRange": {
             "min": 0.7,
-            "max": 1.0
+            "max": 1
           },
           "WaterRange": {
-            "min": 0.0,
+            "min": 0,
             "max": 0.4
           }
         },
@@ -56,7 +56,7 @@
           "$type": "Eco.Simulation.WorldLayers.LayerInteractions.BiomeRater, Eco.Simulation",
           "BiomeLayerName": "TundraBiome",
           "MoistureRange": {
-            "min": 0.0,
+            "min": 0,
             "max": 0.65
           },
           "TemperatureRange": {
@@ -64,7 +64,7 @@
             "max": 0.2
           },
           "WaterRange": {
-            "min": 0.0,
+            "min": 0,
             "max": 0.4
           }
         },
@@ -81,7 +81,7 @@
             "max": 0.8
           },
           "WaterRange": {
-            "min": 0.0,
+            "min": 0,
             "max": 0.4
           }
         },
@@ -98,7 +98,7 @@
             "max": 0.6
           },
           "WaterRange": {
-            "min": 0.0,
+            "min": 0,
             "max": 0.4
           }
         },
@@ -115,7 +115,7 @@
             "max": 0.4
           },
           "WaterRange": {
-            "min": 0.0,
+            "min": 0,
             "max": 0.4
           }
         },
@@ -132,7 +132,7 @@
             "max": 0.8
           },
           "WaterRange": {
-            "min": 0.0,
+            "min": 0,
             "max": 0.4
           }
         },
@@ -149,7 +149,7 @@
             "max": 0.3
           },
           "WaterRange": {
-            "min": 0.0,
+            "min": 0,
             "max": 0.4
           }
         },
@@ -166,7 +166,7 @@
             "max": 0.8
           },
           "WaterRange": {
-            "min": 0.0,
+            "min": 0,
             "max": 0.4
           }
         },
@@ -175,15 +175,15 @@
           "$type": "Eco.Simulation.WorldLayers.LayerInteractions.BiomeRater, Eco.Simulation",
           "BiomeLayerName": "IceBiome",
           "MoistureRange": {
-            "min": 0.0,
+            "min": 0,
             "max": 0.65
           },
           "TemperatureRange": {
-            "min": 0.0,
+            "min": 0,
             "max": 0.1
           },
           "WaterRange": {
-            "min": 0.0,
+            "min": 0,
             "max": 0.4
           }
         },
@@ -192,16 +192,16 @@
           "$type": "Eco.Simulation.WorldLayers.LayerInteractions.BiomeRater, Eco.Simulation",
           "BiomeLayerName": "OceanBiome",
           "MoistureRange": {
-            "min": 0.0,
-            "max": 1.0
+            "min": 0,
+            "max": 1
           },
           "TemperatureRange": {
             "min": 0.4,
-            "max": 1.0
+            "max": 1
           },
           "WaterRange": {
             "min": 0.4,
-            "max": 1.0
+            "max": 1
           }
         },
         {
@@ -209,16 +209,16 @@
           "$type": "Eco.Simulation.WorldLayers.LayerInteractions.BiomeRater, Eco.Simulation",
           "BiomeLayerName": "DeepOceanBiome",
           "MoistureRange": {
-            "min": 0.0,
-            "max": 1.0
+            "min": 0,
+            "max": 1
           },
           "TemperatureRange": {
-            "min": 0.0,
+            "min": 0,
             "max": 0.4
           },
           "WaterRange": {
             "min": 0.4,
-            "max": 1.0
+            "max": 1
           }
         },
         {
@@ -226,7 +226,7 @@
           "$type": "Eco.Simulation.WorldLayers.LayerInteractions.SpreadInteraction, Eco.Simulation",
           "ModifiedLayerName": "SoilMoisture",
           "SpreadRatio": 0.6,
-          "HeightBias": 0.0,
+          "HeightBias": 0,
           "PostWorldgenTicks": 30,
           "IncreaseOnly": false
         },
@@ -260,7 +260,7 @@
           "$type": "Eco.Simulation.WorldLayers.LayerInteractions.SpreadInteraction, Eco.Simulation",
           "ModifiedLayerName": "AirPollutionSpread",
           "SpreadRatio": 0.97,
-          "HeightBias": 0.0,
+          "HeightBias": 0,
           "PostWorldgenTicks": 0,
           "IncreaseOnly": false
         },
@@ -277,7 +277,7 @@
           "ReactantOneLayerName": "AirPollutionSpread",
           "ReactantTwoLayerName": "Rainfall",
           "ProductLayerName": "GroundPollutionSpread",
-          "ReactionRate": 8.0,
+          "ReactionRate": 8,
           "ActivePostWorldgen": true
         },
         {
@@ -302,11 +302,11 @@
   "PushToWorld": true,
   "PullFromWorld": true,
   "AnimalBehaviorLodding": true,
-  "TimeMult": 1.0,
+  "TimeMult": 1,
   "MinTreeSpawnDistance": 4,
-  "BaseSkillGainRate": 12.0,
-  "SkillDamageMultiplier": 0.0,
+  "BaseSkillGainRate": 12,
+  "SkillDamageMultiplier": 0,
   "RecordLayerHistory": "Interval",
-  "LayerHistoryBackupsPerDay": 4.0,
-  "TimeOfDayScale": 48.0
+  "LayerHistoryBackupsPerDay": 4,
+  "TimeOfDayScale": 48
 }
