@@ -14,7 +14,7 @@
   "RconServerPort": 3002,
   "SteamServerPort": 3003,
   "RconIPAddress": "Any",
-  "RconPassword": "",
+  "RconPassword": "coilysirendotme",
   "Rate": 10,
   "DefaultSlots": -1,
   "ReservedSlots": 10,
