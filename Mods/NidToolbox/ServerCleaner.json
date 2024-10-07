@@ -1,10 +1,10 @@
 {
   "Info1": "NidToolbox Light: Server Cleaner Settings.",
   "Info2": "------------------------------------------",
-  "CleanPeriodically": false,
+  "CleanPeriodically": true,
   "CleanEveryMinutes": 1440.0,
   "CleanAtScheduledTime": true,
-  "ScheduledTime": ["3:00"],
+  "ScheduledTime": ["00:00"],
   "CleanMiningRubble": true,
   "CleanTreeDebris": true,
   "CleanFallenTrees": true,
