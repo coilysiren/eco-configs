@@ -4,7 +4,9 @@
   "CleanPeriodically": true,
   "CleanEveryMinutes": 1440.0,
   "CleanAtScheduledTime": true,
-  "ScheduledTime": ["00:00"],
+  "ScheduledTime": [
+    "00:00"
+  ],
   "CleanMiningRubble": true,
   "CleanTreeDebris": true,
   "CleanFallenTrees": true,
@@ -14,6 +16,5 @@
   "CleanWetTailingsNotContained": false,
   "CleanWetTailingsInStorages": false,
   "ReportInConsole": true,
-  "ReportInLog": true,
-  "BlackListed": false
+  "ReportInLog": true
 }

@@ -1,0 +1,6 @@
+{
+  "MaxTooltipCacheSize": 1000,
+  "CountOfLastReportsToSave": 100,
+  "MonitorStability": false,
+  "VerboseLogsOfInventoryChangeSets": false
+}

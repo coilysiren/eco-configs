@@ -1,0 +1,5 @@
+{
+  "MinutesBetweenUpdates": 30.0,
+  "CombineInitialSpawnPointsAtPercentOfWorldDistance": 0.1,
+  "DisplayOnlySettlements": false
+}

@@ -1,0 +1,15 @@
+{
+  "HolidaysEnabled": true,
+  "Holidays": [
+    {
+      "HolidayName": "Christmas",
+      "Enabled": true,
+      "StartDate": new Date(
+        1703113200000
+      ),
+      "EndDate": new Date(
+        1703977200000
+      )
+    }
+  ]
+}

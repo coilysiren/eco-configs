@@ -1,0 +1,12 @@
+{
+  "Info1": "NidToolbox Light: Update Notifier settings.",
+  "Info2": "--------------------------------------------",
+  "UpdateNotiferEnabled": true,
+  "CheckPeriodically": true,
+  "CheckEveryMinutes": 60.0,
+  "InformInConsole": true,
+  "InformInLog": true,
+  "InformInGame": true,
+  "InformSpecificUsers": [],
+  "DontSendTo": []
+}

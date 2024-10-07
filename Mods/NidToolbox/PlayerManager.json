@@ -4,7 +4,10 @@
   "ShowSteamIdinTooltip": true,
   "ShowSlgIdInTooltip": true,
   "ShowShopsInTooltip": true,
+  "HideTooltipInfoToUsers": [],
   "EnableUserVehicleRescueCommand": true,
   "UserVehicleCommandCooldownMinutes": 120.0,
-  "BlackListed": false
+  "UserVehicleCommandCaloricCost": 0.0,
+  "UserVehicleCommandDistanceLimit": 0.0,
+  "UserVehicleMustBeEmpty": false
 }

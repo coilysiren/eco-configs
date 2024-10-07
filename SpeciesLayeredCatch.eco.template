@@ -1,0 +1,44 @@
+{
+  "CatchersData": [
+    {
+      "CatcherType": "Eco.Mods.Organisms.SpeciesCatchers.BoatCatcher, Eco.Mods",
+      "TargetLayers": [
+        "Salmon",
+        "Trout",
+        "Tuna",
+        "PacificSardine",
+        "Cod",
+        "Bass"
+      ]
+    },
+    {
+      "CatcherType": "Eco.Mods.Organisms.SpeciesCatchers.FishingPoleCatcher, Eco.Mods",
+      "TargetLayers": [
+        "Salmon",
+        "Trout",
+        "Tuna",
+        "PacificSardine",
+        "Cod",
+        "Bass"
+      ]
+    },
+    {
+      "CatcherType": "Eco.Mods.Organisms.SpeciesCatchers.CrabCatcher, Eco.Mods",
+      "TargetLayers": [
+        "Crab"
+      ]
+    },
+    {
+      "CatcherType": "Eco.Mods.Organisms.SpeciesCatchers.FishCatcher, Eco.Mods",
+      "TargetLayers": [
+        "Salmon",
+        "Trout",
+        "Tuna",
+        "PacificSardine",
+        "Cod",
+        "Bass"
+      ]
+    }
+  ],
+  "DisplayLayeredCatchInfo": true
+}

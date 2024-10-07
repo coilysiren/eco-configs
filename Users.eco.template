@@ -9,9 +9,9 @@
   "NearbyFoodSpawnCount": 5,
   "UseExactSpawnLocation": false,
   "SpawnLocation": {
-    "x": 344,
-    "y": 66,
-    "z": 525
+    "x": 557,
+    "y": 0,
+    "z": 377
   },
   "SpawnSearchRange": 600,
   "MovementHackDetection": false,
@@ -54,12 +54,7 @@
       "Collection": {
         "System.String": {
           "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
-          "$values": [
-            "76561197991069474",
-            "76561198345874122",
-            "76561198291669243",
-            "1a993ac2-baab-43ee-71fb-08dc8d1bff58"
-          ]
+          "$values": []
         }
       }
     },
