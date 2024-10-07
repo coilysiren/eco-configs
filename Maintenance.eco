@@ -1,6 +1,7 @@
 {
   "AutoShutdownHour": 9,
-  "AutoShutdownReason": "Automatic Restart",
+  "AutoShutdownMessage": "Automatic Restart",
+  "ReasonForAutoShutdown": "Restart",
   "CountdownStart": 30,
   "CountdownIntervals": [
     60,
