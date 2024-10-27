@@ -1,14 +1,9 @@
 {
   "BotToken": "MTI5MDE4MTU1NDExMDIwMTk1MA.GgtxX3.dksgaUYPwM_XWbndajfgz7XFCbBpj6JxRmf6Yw",
   "DiscordServerId": "1038163042740998185",
-  "AdminRoles": [
-    "Admin",
-    "Administrator",
-    "Moderator",
-    "Eco Admins"
-  ],
-  "ServerName": "Eco Degenerates",
-  "ServerDescription": "=== Welcome ===\n\n Welcome to the Eco Degenerates. Hello and a warm welcome to all of our new members! We're thrilled to have you join our community \n Please, take some time to introduce yourself to the community share a bit about yourself, your interests, and what brings you here. \n Before you dive in, please take a moment to read through our server rules. We want everyone to have a great time here, and following the guidelines helps create a positive environment for everyone.",
+  "AdminRoles": [],
+  "ServerName": "Eco",
+  "ServerDescription": "TODO!",
   "ConnectionInfo": "<eco://connect/1038163042740998185>",
   "ChatSyncMode": "OptOut",
   "ChatChannelLinks": [
@@ -48,18 +43,13 @@
       "DiscordChannelId": "1290215651771678811"
     }
   ],
-  "ServerLogFeedChannels": [
-    {
-      "LogLevel": "Information",
-      "DiscordChannelId": "1290216151241986079"
-    }
-  ],
+  "ServerLogFeedChannels": [],
   "UseTradeWatcherFeeds": true,
   "ServerInfoDisplayChannels": [
     {
-      "UseName": true,
+      "UseName": false,
       "UseDescription": false,
-      "UseLogo": true,
+      "UseLogo": false,
       "UseConnectionInfo": true,
       "UsePlayerCount": true,
       "UsePlayerList": true,
@@ -90,20 +80,7 @@
   "SnippetInputChannels": [],
   "UseLinkedAccountRole": true,
   "UseDemographicRoles": true,
-  "DemographicReplacementRoles": [
-    {
-      "DemographicName": "admins",
-      "RoleName": "Moderator"
-    },
-    {
-      "DemographicName": "admins",
-      "RoleName": "Host"
-    },
-    {
-      "DemographicName": "everyone",
-      "RoleName": "Econian"
-    }
-  ],
+  "DemographicReplacementRoles": [],
   "UseSpecialtyRoles": true,
   "UseElectedTitleRoles": true,
   "MaxTradeWatcherDisplaysPerUser": 5,
