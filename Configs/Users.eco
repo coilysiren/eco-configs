@@ -3,7 +3,7 @@
   "ConfigVersion": 1,
   "AllowDebugCalls": false,
   "UnStuckDisableTime": 60,
-  "AdminCommandsLoggingLevel": "LogFileAndNotifyEveryone",
+  "AdminCommandsLoggingLevel": "LogFileAndNotifyAdmins",
   "DelayNearbyFoodCheckMinutes": 4,
   "NearbyFoodSpawnLocationRadius": 20,
   "NearbyFoodSpawnCount": 5,

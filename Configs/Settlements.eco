@@ -89,23 +89,23 @@
   ],
   "MinCitizensToFoundSettlement": [
     2,
-    10,
+    3,
     20
   ],
   "MinCitizensToMaintainSettlement": [
     1,
-    5,
+    4,
     10
   ],
   "MinCultureToFoundSettlement": [
     0,
-    40,
-    200
+    60,
+    400
   ],
   "MinCultureToMaintainSettlement": [
     0,
-    20,
-    100
+    30,
+    120
   ],
   "CultureToInfluenceMappingPerSettlementType": [
     {
