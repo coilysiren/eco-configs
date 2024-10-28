@@ -55,10 +55,7 @@
         "System.String": {
           "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
           "$values": [
-            "76561197991069474",
-            "76561198345874122",
-            "76561198291669243",
-            "1a993ac2-baab-43ee-71fb-08dc8d1bff58"
+            "66485add-5273-48fd-6bd8-08dc8d1bff58"
           ]
         }
       }
