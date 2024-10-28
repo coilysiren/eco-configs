@@ -1,7 +1,0 @@
-{
-  "SaveName": "Game",
-  "SaveFrequency": 60,
-  "CleanupFilesOnExceptions": false,
-  "StorageDirectory": "Storage",
-  "NewGameTemplate": ""
-}
