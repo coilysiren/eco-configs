@@ -1,0 +1,15 @@
+{
+  "TwitchIntegrationEnabled": true,
+  "AllowList": {
+    "UserIDAddedEvent": {},
+    "UserIDRemovedEvent": {},
+    "Collection": {
+      "System.String": {
+        "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+        "$values": []
+      }
+    }
+  },
+  "TwitchJoinEnabled": false,
+  "SubscriberOnlyServer": false
+}

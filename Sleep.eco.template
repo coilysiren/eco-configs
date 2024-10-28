@@ -1,0 +1,5 @@
+{
+  "AllowFastForward": false,
+  "SleepTimePassMultiplier": 500,
+  "TimeToReachMaximumTimeRate": 20
+}

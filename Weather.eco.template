@@ -1,0 +1,8 @@
+{
+  "ChancePerMinute": 0.1,
+  "MaximumWeatherSystemsWeightedByWorldSize": 10,
+  "MinWeatherSystemSize": 30,
+  "MaxWeatherSystemSize": 60,
+  "MinWeatherSystemLifespan": 5,
+  "MaxWeatherSystemLifespan": 10
+}
