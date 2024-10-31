@@ -17,8 +17,8 @@
   "RconPassword": "",
   "Rate": 10,
   "DefaultSlots": -1,
-  "ReservedSlots": 25,
-  "MaxUsersLoadingAtSameTime": 25,
+  "ReservedSlots": -1,
+  "MaxUsersLoadingAtSameTime": -1,
   "UPnPEnabled": true,
   "RelayServerAddress": ""
 }
