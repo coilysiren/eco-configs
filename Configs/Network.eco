@@ -6,7 +6,7 @@
   "Name": "Eco Sirens",
   "DetailedDescription": "TODO",
   "ServerCategory": "Beginner",
-  "IPAddress": "172.31.30.60",
+  "IPAddress": "Any",
   "RemoteAddress": "eco.coilysiren.me:3000",
   "WebServerUrl": "http://eco.coilysiren.me:3001",
   "GameServerPort": 3000,
