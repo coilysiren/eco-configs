@@ -17,10 +17,8 @@
   "RconPassword": "",
   "Rate": 10,
   "DefaultSlots": -1,
-  "ReservedSlots": 10,
-  "MaxUsersLoadingAtSameTime": 10,
-  "ID": "2f14e266-b58c-4fe5-b4a5-096c53068d2f",
-  "Passport": "f0de305b-db14-4f4e-911d-b1b4a8d25447",
+  "ReservedSlots": 25,
+  "MaxUsersLoadingAtSameTime": 25,
   "UPnPEnabled": true,
   "RelayServerAddress": ""
 }
