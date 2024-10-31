@@ -1,6 +1,6 @@
 {
   "GameSettings": {
-    "DesiredNumberOfPlayers": 100,
+    "DesiredNumberOfPlayers": 200,
     "HoursPlayedPerDay": 0,
     "CollaborationLevel": "HighCollaboration",
     "GameSpeed": "Normal",
