@@ -1,8 +1,0 @@
-{
-  "MaxAllowedTextureSizeInKB": 400,
-  "MaxDimensionOfUserTexture": 512,
-  "AutoApprovePrinterPictures": false,
-  "AutoApproveAvatarPictures": true,
-  "AutoApproveInGamePhoto": true,
-  "AllowTextureUpload": true
-}
