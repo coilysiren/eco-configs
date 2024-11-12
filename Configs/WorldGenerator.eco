@@ -18,7 +18,7 @@
       "Config": {
         "$id": "5",
         "Seed": 768469499,
-        "PointRadius": 10.0,
+        "PointRadius": 10,
         "LandPercentRange": {
           "min": 0.65,
           "max": 0.75
@@ -36,20 +36,20 @@
         "SteppeWeight": 0.1,
         "HighDesertWeight": 0.05,
         "NumContinentsRange": {
-          "min": 2.0,
-          "max": 4.0
+          "min": 2,
+          "max": 4
         },
         "ContinentAvoidRange": {
-          "min": 8.0,
-          "max": 16.0
+          "min": 8,
+          "max": 16
         },
         "NumSmallIslandsRange": {
-          "min": 2.0,
-          "max": 4.0
+          "min": 2,
+          "max": 4
         },
         "IslandAvoidRange": {
-          "min": 4.0,
-          "max": 8.0
+          "min": 4,
+          "max": 8
         },
         "IslandWeight": 0.04,
         "NumRainforests": 2,
@@ -67,24 +67,24 @@
           "max": 0.0035
         },
         "NumLakesRange": {
-          "min": 3.0,
-          "max": 5.0
+          "min": 3,
+          "max": 5
         },
         "NumRiversRange": {
-          "min": 2.0,
-          "max": 4.0
+          "min": 2,
+          "max": 4
         },
         "RiverCellAvoidance": 2,
-        "RiverCellWidth": 10.0,
-        "MaxElevationOceanDistance": 10.0,
-        "ElevationPower": 2.0,
+        "RiverCellWidth": 10,
+        "MaxElevationOceanDistance": 10,
+        "ElevationPower": 2,
         "AutoScale": true,
         "AutoScaleExponent": 0.25,
         "SaveTerrainImage": true
       },
       "OutputIndex": 0
     },
-    "Power": 4.0,
+    "Power": 4,
     "TerracePoints": 41
   },
   "WaterModule": {
@@ -98,7 +98,7 @@
       },
       "OutputIndex": 1
     },
-    "Power": 4.0,
+    "Power": 4,
     "TerracePoints": 61
   },
   "RainfallModule": {
@@ -119,10 +119,10 @@
   },
   "Crater": {
     "$id": "10",
-    "Frequency": 0.0,
+    "Frequency": 0,
     "RadiusRange": {
-      "min": 5.0,
-      "max": 50.0
+      "min": 5,
+      "max": 50
     },
     "DepthRange": {
       "min": 0.1,
@@ -143,7 +143,7 @@
           "BlockDepthRanges": [
             {
               "$id": "14",
-              "NoiseFrequency": 1.0,
+              "NoiseFrequency": 1,
               "Min": 0,
               "Max": 0,
               "BlockType": {
@@ -159,15 +159,15 @@
                     "Type": "Eco.World.Blocks.RockySoilBlock, Eco.World"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 0.0,
-                    "max": 200.0
+                    "min": 0,
+                    "max": 200
                   },
                   "PercentChance": 0.05,
-                  "NoiseFrequency": 99.0,
+                  "NoiseFrequency": 99,
                   "NoiseType": "RidgedMulti",
                   "NoiseDistributionType": "Bands"
                 }
@@ -175,7 +175,7 @@
             },
             {
               "$id": "18",
-              "NoiseFrequency": 60.0,
+              "NoiseFrequency": 60,
               "Min": 2,
               "Max": 6,
               "BlockType": {
@@ -190,15 +190,15 @@
                     "Type": "Eco.Mods.TechTree.ClayBlock, Eco.Mods"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 2.0,
-                    "max": 6.0
+                    "min": 2,
+                    "max": 6
                   },
-                  "PercentChance": 1.0,
-                  "NoiseFrequency": 99.0,
+                  "PercentChance": 1,
+                  "NoiseFrequency": 99,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Blobs"
                 }
@@ -206,7 +206,7 @@
             },
             {
               "$id": "21",
-              "NoiseFrequency": 40.0,
+              "NoiseFrequency": 40,
               "Min": 2,
               "Max": 6,
               "BlockType": {
@@ -222,15 +222,15 @@
                     "Type": "Eco.Mods.TechTree.CrushedLimestoneBlock, Eco.Mods"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 0.0,
-                    "max": 2.0
+                    "min": 0,
+                    "max": 2
                   },
                   "PercentChance": 0.4,
-                  "NoiseFrequency": 99.0,
+                  "NoiseFrequency": 99,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Bands"
                 }
@@ -238,7 +238,7 @@
             },
             {
               "$id": "25",
-              "NoiseFrequency": 40.0,
+              "NoiseFrequency": 40,
               "Min": 0,
               "Max": 15,
               "BlockType": {
@@ -254,15 +254,15 @@
                     "Type": "Eco.Mods.TechTree.CrushedSandstoneBlock, Eco.Mods"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 0.0,
-                    "max": 1.0
+                    "min": 0,
+                    "max": 1
                   },
                   "PercentChance": 0.5,
-                  "NoiseFrequency": 99.0,
+                  "NoiseFrequency": 99,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Bands"
                 },
@@ -274,15 +274,15 @@
                     "Type": "Eco.Mods.TechTree.CrushedIronOreBlock, Eco.Mods"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 0.0,
-                    "max": 5.0
+                    "min": 0,
+                    "max": 5
                   },
                   "PercentChance": 0.1,
-                  "NoiseFrequency": 70.0,
+                  "NoiseFrequency": 70,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Blobs"
                 },
@@ -294,15 +294,15 @@
                     "Type": "Eco.Mods.TechTree.CoalBlock, Eco.Mods"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 12.0,
-                    "max": 15.0
+                    "min": 12,
+                    "max": 15
                   },
-                  "PercentChance": 1.0,
-                  "NoiseFrequency": 35.0,
+                  "PercentChance": 1,
+                  "NoiseFrequency": 35,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Bands"
                 }
@@ -310,7 +310,7 @@
             },
             {
               "$id": "33",
-              "NoiseFrequency": 25.0,
+              "NoiseFrequency": 25,
               "Min": 55,
               "Max": 60,
               "BlockType": {
@@ -326,15 +326,15 @@
                     "Type": "Eco.Mods.TechTree.LimestoneBlock, Eco.Mods"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 10.0,
-                    "max": 13.0
+                    "min": 10,
+                    "max": 13
                   },
                   "PercentChance": 0.6,
-                  "NoiseFrequency": 3.0,
+                  "NoiseFrequency": 3,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Bands"
                 },
@@ -346,15 +346,15 @@
                     "Type": "Eco.Mods.TechTree.CoalBlock, Eco.Mods"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 12.0,
-                    "max": 15.0
+                    "min": 12,
+                    "max": 15
                   },
                   "PercentChance": 0.2,
-                  "NoiseFrequency": 5.0,
+                  "NoiseFrequency": 5,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Bands"
                 },
@@ -364,16 +364,16 @@
                   "SpawnAtLeastOne": false,
                   "SpawnPercentChance": 0.01,
                   "DepthRange": {
-                    "min": 53.0,
-                    "max": 60.0
+                    "min": 53,
+                    "max": 60
                   },
                   "DepositDepthRange": {
-                    "min": 15.0,
-                    "max": 60.0
+                    "min": 15,
+                    "max": 60
                   },
                   "BlocksCountRange": {
-                    "min": 15.0,
-                    "max": 75.0
+                    "min": 15,
+                    "max": 75
                   },
                   "BlockType": {
                     "$id": "40",
@@ -381,60 +381,60 @@
                   },
                   "DirectionWeights": [
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 3.0,
-                      "Y": 1.0,
-                      "Z": 3.0
+                      "X": 3,
+                      "Y": 1,
+                      "Z": 3
                     },
                     {
-                      "X": 2.0,
-                      "Y": 1.0,
-                      "Z": 2.0
+                      "X": 2,
+                      "Y": 1,
+                      "Z": 2
                     },
                     {
-                      "X": 4.0,
-                      "Y": 1.0,
-                      "Z": 4.0
+                      "X": 4,
+                      "Y": 1,
+                      "Z": 4
                     },
                     {
-                      "X": 5.0,
-                      "Y": 1.0,
-                      "Z": 5.0
+                      "X": 5,
+                      "Y": 1,
+                      "Z": 5
                     }
                   ],
                   "WeightVariance": {
-                    "X": 3.0,
-                    "Y": 1.0,
-                    "Z": 3.0
+                    "X": 3,
+                    "Y": 1,
+                    "Z": 3
                   }
                 },
                 {
@@ -445,15 +445,15 @@
                     "Type": "Eco.Mods.TechTree.CoalBlock, Eco.Mods"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 25.0,
-                    "max": 27.0
+                    "min": 25,
+                    "max": 27
                   },
                   "PercentChance": 0.2,
-                  "NoiseFrequency": 5.0,
+                  "NoiseFrequency": 5,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Bands"
                 },
@@ -465,15 +465,15 @@
                     "Type": "Eco.Mods.TechTree.LimestoneBlock, Eco.Mods"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 20.0,
-                    "max": 26.0
+                    "min": 20,
+                    "max": 26
                   },
                   "PercentChance": 0.6,
-                  "NoiseFrequency": 75.0,
+                  "NoiseFrequency": 75,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Bands"
                 },
@@ -484,15 +484,15 @@
                     "$ref": "42"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 45.0,
-                    "max": 48.0
+                    "min": 45,
+                    "max": 48
                   },
                   "PercentChance": 0.2,
-                  "NoiseFrequency": 5.0,
+                  "NoiseFrequency": 5,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Bands"
                 },
@@ -504,15 +504,15 @@
                     "Type": "Eco.Mods.TechTree.LimestoneBlock, Eco.Mods"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 30.0,
-                    "max": 36.0
+                    "min": 30,
+                    "max": 36
                   },
                   "PercentChance": 0.75,
-                  "NoiseFrequency": 3.0,
+                  "NoiseFrequency": 3,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Bands"
                 },
@@ -524,15 +524,15 @@
                     "Type": "Eco.World.Blocks.EmptyBlock, Eco.World"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 25.0,
-                    "max": 70.0
+                    "min": 25,
+                    "max": 70
                   },
                   "PercentChance": 0.05,
-                  "NoiseFrequency": 15.0,
+                  "NoiseFrequency": 15,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Blobs"
                 }
@@ -540,7 +540,7 @@
             },
             {
               "$id": "50",
-              "NoiseFrequency": 40.0,
+              "NoiseFrequency": 40,
               "Min": 60,
               "Max": 80,
               "BlockType": {
@@ -556,15 +556,15 @@
                     "Type": "Eco.Mods.TechTree.CrushedGraniteBlock, Eco.Mods"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 0.0,
-                    "max": 0.0
+                    "min": 0,
+                    "max": 0
                   },
                   "PercentChance": 0.4,
-                  "NoiseFrequency": 70.0,
+                  "NoiseFrequency": 70,
                   "NoiseType": "RidgedMulti",
                   "NoiseDistributionType": "Bands"
                 }
@@ -572,7 +572,7 @@
             },
             {
               "$id": "54",
-              "NoiseFrequency": 40.0,
+              "NoiseFrequency": 40,
               "Min": 70,
               "Max": 100,
               "BlockType": {
@@ -593,7 +593,7 @@
           "BlockDepthRanges": [
             {
               "$id": "58",
-              "NoiseFrequency": 1.0,
+              "NoiseFrequency": 1,
               "Min": 0,
               "Max": 0,
               "BlockType": {
@@ -607,15 +607,15 @@
                     "$ref": "17"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 0.0,
-                    "max": 200.0
+                    "min": 0,
+                    "max": 200
                   },
                   "PercentChance": 0.05,
-                  "NoiseFrequency": 75.0,
+                  "NoiseFrequency": 75,
                   "NoiseType": "RidgedMulti",
                   "NoiseDistributionType": "Bands"
                 }
@@ -623,7 +623,7 @@
             },
             {
               "$id": "60",
-              "NoiseFrequency": 40.0,
+              "NoiseFrequency": 40,
               "Min": 4,
               "Max": 6,
               "BlockType": {
@@ -639,15 +639,15 @@
                     "Type": "Eco.World.Blocks.RockySoilBlock, Eco.World"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 1.0,
-                    "max": 1.0
+                    "min": 1,
+                    "max": 1
                   },
                   "PercentChance": 0.3,
-                  "NoiseFrequency": 3.0,
+                  "NoiseFrequency": 3,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Blobs"
                 }
@@ -655,7 +655,7 @@
             },
             {
               "$id": "64",
-              "NoiseFrequency": 25.0,
+              "NoiseFrequency": 25,
               "Min": 1,
               "Max": 30,
               "BlockType": {
@@ -669,16 +669,16 @@
                   "SpawnAtLeastOne": false,
                   "SpawnPercentChance": 0.001,
                   "DepthRange": {
-                    "min": -1.0,
-                    "max": 3.0
+                    "min": -1,
+                    "max": 3
                   },
                   "DepositDepthRange": {
-                    "min": -1.0,
-                    "max": 3.0
+                    "min": -1,
+                    "max": 3
                   },
                   "BlocksCountRange": {
-                    "min": 3.0,
-                    "max": 8.0
+                    "min": 3,
+                    "max": 8
                   },
                   "BlockType": {
                     "$id": "67",
@@ -686,42 +686,42 @@
                   },
                   "DirectionWeights": [
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 2.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 2,
+                      "Z": 1
                     },
                     {
-                      "X": 3.0,
-                      "Y": 2.0,
-                      "Z": 1.0
+                      "X": 3,
+                      "Y": 2,
+                      "Z": 1
                     },
                     {
-                      "X": 4.0,
-                      "Y": 3.0,
-                      "Z": 2.0
+                      "X": 4,
+                      "Y": 3,
+                      "Z": 2
                     }
                   ],
                   "WeightVariance": {
-                    "X": 1.0,
-                    "Y": 2.0,
-                    "Z": 1.0
+                    "X": 1,
+                    "Y": 2,
+                    "Z": 1
                   }
                 }
               ]
             },
             {
               "$id": "68",
-              "NoiseFrequency": 40.0,
+              "NoiseFrequency": 40,
               "Min": 0,
               "Max": 30,
               "BlockType": {
@@ -737,15 +737,15 @@
                     "Type": "Eco.Mods.TechTree.CrushedShaleBlock, Eco.Mods"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 0.0,
-                    "max": 1.0
+                    "min": 0,
+                    "max": 1
                   },
                   "PercentChance": 0.6,
-                  "NoiseFrequency": 99.0,
+                  "NoiseFrequency": 99,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Bands"
                 },
@@ -755,16 +755,16 @@
                   "SpawnAtLeastOne": false,
                   "SpawnPercentChance": 0.002,
                   "DepthRange": {
-                    "min": 1.0,
-                    "max": 20.0
+                    "min": 1,
+                    "max": 20
                   },
                   "DepositDepthRange": {
-                    "min": -2.0,
-                    "max": 20.0
+                    "min": -2,
+                    "max": 20
                   },
                   "BlocksCountRange": {
-                    "min": 6.0,
-                    "max": 14.0
+                    "min": 6,
+                    "max": 14
                   },
                   "BlockType": {
                     "$id": "73",
@@ -772,45 +772,45 @@
                   },
                   "DirectionWeights": [
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 0.0,
-                      "Y": 1.0,
-                      "Z": 0.0
+                      "X": 0,
+                      "Y": 1,
+                      "Z": 0
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 2.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 2,
+                      "Z": 1
                     },
                     {
-                      "X": 2.0,
-                      "Y": 2.0,
-                      "Z": 2.0
+                      "X": 2,
+                      "Y": 2,
+                      "Z": 2
                     },
                     {
-                      "X": 1.0,
-                      "Y": 2.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 2,
+                      "Z": 1
                     }
                   ],
                   "WeightVariance": {
-                    "X": 0.0,
-                    "Y": 0.0,
-                    "Z": 0.0
+                    "X": 0,
+                    "Y": 0,
+                    "Z": 0
                   }
                 },
                 {
@@ -819,16 +819,16 @@
                   "SpawnAtLeastOne": true,
                   "SpawnPercentChance": 0.0002,
                   "DepthRange": {
-                    "min": -1.0,
-                    "max": 0.0
+                    "min": -1,
+                    "max": 0
                   },
                   "DepositDepthRange": {
-                    "min": -1.0,
-                    "max": 2.0
+                    "min": -1,
+                    "max": 2
                   },
                   "BlocksCountRange": {
-                    "min": 3.0,
-                    "max": 8.0
+                    "min": 3,
+                    "max": 8
                   },
                   "BlockType": {
                     "$id": "75",
@@ -836,25 +836,25 @@
                   },
                   "DirectionWeights": [
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 0.0,
-                      "Y": 0.0,
-                      "Z": 0.0
+                      "X": 0,
+                      "Y": 0,
+                      "Z": 0
                     }
                   ],
                   "WeightVariance": {
-                    "X": 0.0,
-                    "Y": 0.0,
-                    "Z": 0.0
+                    "X": 0,
+                    "Y": 0,
+                    "Z": 0
                   }
                 },
                 {
@@ -865,15 +865,15 @@
                     "Type": "Eco.Mods.TechTree.CrushedGoldOreBlock, Eco.Mods"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 0.0,
-                    "max": 1.0
+                    "min": 0,
+                    "max": 1
                   },
                   "PercentChance": 0.2,
-                  "NoiseFrequency": 3.0,
+                  "NoiseFrequency": 3,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Bands"
                 },
@@ -885,15 +885,15 @@
                     "Type": "Eco.Mods.TechTree.CoalBlock, Eco.Mods"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 8.0
+                    "min": -1,
+                    "max": 8
                   },
                   "DepthRange": {
-                    "min": 25.0,
-                    "max": 30.0
+                    "min": 25,
+                    "max": 30
                   },
                   "PercentChance": 0.15,
-                  "NoiseFrequency": 15.0,
+                  "NoiseFrequency": 15,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Bands"
                 }
@@ -901,7 +901,7 @@
             },
             {
               "$id": "80",
-              "NoiseFrequency": 25.0,
+              "NoiseFrequency": 25,
               "Min": 40,
               "Max": 45,
               "BlockType": {
@@ -917,15 +917,15 @@
                     "Type": "Eco.Mods.TechTree.CoalBlock, Eco.Mods"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 8.0
+                    "min": -1,
+                    "max": 8
                   },
                   "DepthRange": {
-                    "min": 40.0,
-                    "max": 45.0
+                    "min": 40,
+                    "max": 45
                   },
                   "PercentChance": 0.15,
-                  "NoiseFrequency": 15.0,
+                  "NoiseFrequency": 15,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Bands"
                 },
@@ -935,16 +935,16 @@
                   "SpawnAtLeastOne": false,
                   "SpawnPercentChance": 0.001,
                   "DepthRange": {
-                    "min": 40.0,
-                    "max": 41.0
+                    "min": 40,
+                    "max": 41
                   },
                   "DepositDepthRange": {
-                    "min": 5.0,
-                    "max": 41.0
+                    "min": 5,
+                    "max": 41
                   },
                   "BlocksCountRange": {
-                    "min": 15.0,
-                    "max": 100.0
+                    "min": 15,
+                    "max": 100
                   },
                   "BlockType": {
                     "$id": "85",
@@ -952,47 +952,47 @@
                   },
                   "DirectionWeights": [
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 3.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 3,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 2.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 2,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 4.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 4,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 2.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 2,
+                      "Z": 1
                     }
                   ],
                   "WeightVariance": {
-                    "X": 1.0,
-                    "Y": 3.0,
-                    "Z": 2.0
+                    "X": 1,
+                    "Y": 3,
+                    "Z": 2
                   }
                 }
               ]
             },
             {
               "$id": "86",
-              "NoiseFrequency": 40.0,
+              "NoiseFrequency": 40,
               "Min": 45,
               "Max": 50,
               "BlockType": {
@@ -1006,16 +1006,16 @@
                   "SpawnAtLeastOne": false,
                   "SpawnPercentChance": 0.0005,
                   "DepthRange": {
-                    "min": 50.0,
-                    "max": 55.0
+                    "min": 50,
+                    "max": 55
                   },
                   "DepositDepthRange": {
-                    "min": 0.0,
-                    "max": 55.0
+                    "min": 0,
+                    "max": 55
                   },
                   "BlocksCountRange": {
-                    "min": 15.0,
-                    "max": 55.0
+                    "min": 15,
+                    "max": 55
                   },
                   "BlockType": {
                     "$id": "89",
@@ -1023,30 +1023,30 @@
                   },
                   "DirectionWeights": [
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 3.0,
-                      "Y": 2.0,
-                      "Z": 1.0
+                      "X": 3,
+                      "Y": 2,
+                      "Z": 1
                     },
                     {
-                      "X": 2.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 2,
+                      "Y": 1,
+                      "Z": 1
                     }
                   ],
                   "WeightVariance": {
-                    "X": 3.0,
-                    "Y": 1.0,
-                    "Z": 1.0
+                    "X": 3,
+                    "Y": 1,
+                    "Z": 1
                   }
                 },
                 {
@@ -1055,56 +1055,56 @@
                   "SpawnAtLeastOne": false,
                   "SpawnPercentChance": 0.0005,
                   "DepthRange": {
-                    "min": 51.0,
-                    "max": 60.0
+                    "min": 51,
+                    "max": 60
                   },
                   "DepositDepthRange": {
-                    "min": 0.0,
-                    "max": 60.0
+                    "min": 0,
+                    "max": 60
                   },
                   "BlocksCountRange": {
-                    "min": 25.0,
-                    "max": 45.0
+                    "min": 25,
+                    "max": 45
                   },
                   "BlockType": {
                     "$ref": "89"
                   },
                   "DirectionWeights": [
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 3.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 3,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 4.0,
-                      "Z": 2.0
+                      "X": 1,
+                      "Y": 4,
+                      "Z": 2
                     },
                     {
-                      "X": 1.0,
-                      "Y": 5.0,
-                      "Z": 2.0
+                      "X": 1,
+                      "Y": 5,
+                      "Z": 2
                     },
                     {
-                      "X": 1.0,
-                      "Y": 3.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 3,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 2.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 2,
+                      "Z": 1
                     }
                   ],
                   "WeightVariance": {
-                    "X": 1.0,
-                    "Y": 3.0,
-                    "Z": 1.0
+                    "X": 1,
+                    "Y": 3,
+                    "Z": 1
                   }
                 },
                 {
@@ -1115,15 +1115,15 @@
                     "Type": "Eco.Mods.TechTree.GoldOreBlock, Eco.Mods"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 42.0,
-                    "max": 45.0
+                    "min": 42,
+                    "max": 45
                   },
                   "PercentChance": 0.15,
-                  "NoiseFrequency": 3.0,
+                  "NoiseFrequency": 3,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Bands"
                 }
@@ -1131,7 +1131,7 @@
             },
             {
               "$id": "93",
-              "NoiseFrequency": 15.0,
+              "NoiseFrequency": 15,
               "Min": 60,
               "Max": 70,
               "BlockType": {
@@ -1144,68 +1144,68 @@
                   "SpawnAtLeastOne": true,
                   "SpawnPercentChance": 0.005,
                   "DepthRange": {
-                    "min": 60.0,
-                    "max": 80.0
+                    "min": 60,
+                    "max": 80
                   },
                   "DepositDepthRange": {
-                    "min": 0.0,
-                    "max": 80.0
+                    "min": 0,
+                    "max": 80
                   },
                   "BlocksCountRange": {
-                    "min": 5.0,
-                    "max": 25.0
+                    "min": 5,
+                    "max": 25
                   },
                   "BlockType": {
                     "$ref": "67"
                   },
                   "DirectionWeights": [
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 2.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 2,
+                      "Z": 1
                     },
                     {
-                      "X": 2.0,
-                      "Y": 2.0,
-                      "Z": 2.0
+                      "X": 2,
+                      "Y": 2,
+                      "Z": 2
                     },
                     {
-                      "X": 2.0,
-                      "Y": 3.0,
-                      "Z": 2.0
+                      "X": 2,
+                      "Y": 3,
+                      "Z": 2
                     },
                     {
-                      "X": 4.0,
-                      "Y": 2.0,
-                      "Z": 1.0
+                      "X": 4,
+                      "Y": 2,
+                      "Z": 1
                     },
                     {
-                      "X": 6.0,
-                      "Y": 3.0,
-                      "Z": 2.0
+                      "X": 6,
+                      "Y": 3,
+                      "Z": 2
                     },
                     {
-                      "X": 2.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 2,
+                      "Y": 1,
+                      "Z": 1
                     }
                   ],
                   "WeightVariance": {
-                    "X": 1.0,
-                    "Y": 1.0,
-                    "Z": 1.0
+                    "X": 1,
+                    "Y": 1,
+                    "Z": 1
                   }
                 }
               ]
             },
             {
               "$id": "95",
-              "NoiseFrequency": 40.0,
+              "NoiseFrequency": 40,
               "Min": 65,
               "Max": 100,
               "BlockType": {
@@ -1225,7 +1225,7 @@
           "BlockDepthRanges": [
             {
               "$id": "98",
-              "NoiseFrequency": 40.0,
+              "NoiseFrequency": 40,
               "Min": 0,
               "Max": 0,
               "BlockType": {
@@ -1239,15 +1239,15 @@
                     "$ref": "17"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 0.0,
-                    "max": 200.0
+                    "min": 0,
+                    "max": 200
                   },
                   "PercentChance": 0.05,
-                  "NoiseFrequency": 75.0,
+                  "NoiseFrequency": 75,
                   "NoiseType": "RidgedMulti",
                   "NoiseDistributionType": "Blobs"
                 }
@@ -1255,7 +1255,7 @@
             },
             {
               "$id": "100",
-              "NoiseFrequency": 40.0,
+              "NoiseFrequency": 40,
               "Min": 6,
               "Max": 15,
               "BlockType": {
@@ -1269,15 +1269,15 @@
                     "$ref": "20"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 2.0,
-                    "max": 15.0
+                    "min": 2,
+                    "max": 15
                   },
-                  "PercentChance": 1.0,
-                  "NoiseFrequency": 5.0,
+                  "PercentChance": 1,
+                  "NoiseFrequency": 5,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Blobs"
                 }
@@ -1285,7 +1285,7 @@
             },
             {
               "$id": "102",
-              "NoiseFrequency": 15.0,
+              "NoiseFrequency": 15,
               "Min": 0,
               "Max": 20,
               "BlockType": {
@@ -1301,15 +1301,15 @@
                     "Type": "Eco.Mods.TechTree.CrushedBasaltBlock, Eco.Mods"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 0.0,
-                    "max": 1.0
+                    "min": 0,
+                    "max": 1
                   },
                   "PercentChance": 0.5,
-                  "NoiseFrequency": 99.0,
+                  "NoiseFrequency": 99,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Bands"
                 }
@@ -1317,7 +1317,7 @@
             },
             {
               "$id": "106",
-              "NoiseFrequency": 25.0,
+              "NoiseFrequency": 25,
               "Min": 0,
               "Max": 20,
               "BlockType": {
@@ -1333,15 +1333,15 @@
                     "Type": "Eco.Mods.TechTree.CrushedGraniteBlock, Eco.Mods"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 0.0,
-                    "max": 1.0
+                    "min": 0,
+                    "max": 1
                   },
                   "PercentChance": 0.5,
-                  "NoiseFrequency": 3.0,
+                  "NoiseFrequency": 3,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Blobs"
                 },
@@ -1351,16 +1351,16 @@
                   "SpawnAtLeastOne": true,
                   "SpawnPercentChance": 0.03,
                   "DepthRange": {
-                    "min": 15.0,
-                    "max": 30.0
+                    "min": 15,
+                    "max": 30
                   },
                   "DepositDepthRange": {
-                    "min": 0.0,
-                    "max": 30.0
+                    "min": 0,
+                    "max": 30
                   },
                   "BlocksCountRange": {
-                    "min": 3.0,
-                    "max": 17.0
+                    "min": 3,
+                    "max": 17
                   },
                   "BlockType": {
                     "$id": "111",
@@ -1368,45 +1368,45 @@
                   },
                   "DirectionWeights": [
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 2.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 2,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 3.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 3,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     }
                   ],
                   "WeightVariance": {
-                    "X": 1.0,
-                    "Y": 1.0,
-                    "Z": 1.0
+                    "X": 1,
+                    "Y": 1,
+                    "Z": 1
                   }
                 },
                 {
@@ -1415,16 +1415,16 @@
                   "SpawnAtLeastOne": false,
                   "SpawnPercentChance": 0.03,
                   "DepthRange": {
-                    "min": 25.0,
-                    "max": 55.0
+                    "min": 25,
+                    "max": 55
                   },
                   "DepositDepthRange": {
-                    "min": 0.0,
-                    "max": 55.0
+                    "min": 0,
+                    "max": 55
                   },
                   "BlocksCountRange": {
-                    "min": 6.0,
-                    "max": 25.0
+                    "min": 6,
+                    "max": 25
                   },
                   "BlockType": {
                     "$id": "113",
@@ -1432,42 +1432,42 @@
                   },
                   "DirectionWeights": [
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 3.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 3,
+                      "Z": 1
                     }
                   ],
                   "WeightVariance": {
-                    "X": 1.0,
-                    "Y": 2.0,
-                    "Z": 1.0
+                    "X": 1,
+                    "Y": 2,
+                    "Z": 1
                   }
                 }
               ]
             },
             {
               "$id": "114",
-              "NoiseFrequency": 40.0,
+              "NoiseFrequency": 40,
               "Min": 55,
               "Max": 65,
               "BlockType": {
@@ -1477,7 +1477,7 @@
             },
             {
               "$id": "115",
-              "NoiseFrequency": 40.0,
+              "NoiseFrequency": 40,
               "Min": 70,
               "Max": 100,
               "BlockType": {
@@ -1497,7 +1497,7 @@
           "BlockDepthRanges": [
             {
               "$id": "118",
-              "NoiseFrequency": 1.0,
+              "NoiseFrequency": 1,
               "Min": 0,
               "Max": 0,
               "BlockType": {
@@ -1511,15 +1511,15 @@
                     "$ref": "17"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 0.0,
-                    "max": 200.0
+                    "min": 0,
+                    "max": 200
                   },
                   "PercentChance": 0.05,
-                  "NoiseFrequency": 99.0,
+                  "NoiseFrequency": 99,
                   "NoiseType": "RidgedMulti",
                   "NoiseDistributionType": "Blobs"
                 }
@@ -1527,7 +1527,7 @@
             },
             {
               "$id": "120",
-              "NoiseFrequency": 40.0,
+              "NoiseFrequency": 40,
               "Min": 1,
               "Max": 3,
               "BlockType": {
@@ -1537,7 +1537,7 @@
             },
             {
               "$id": "121",
-              "NoiseFrequency": 40.0,
+              "NoiseFrequency": 40,
               "Min": 5,
               "Max": 15,
               "BlockType": {
@@ -1552,15 +1552,15 @@
                     "Type": "Eco.Mods.TechTree.CrushedBasaltBlock, Eco.Mods"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 2.0,
-                    "max": 2.0
+                    "min": 2,
+                    "max": 2
                   },
                   "PercentChance": 0.7,
-                  "NoiseFrequency": 3.0,
+                  "NoiseFrequency": 3,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Blobs"
                 }
@@ -1568,7 +1568,7 @@
             },
             {
               "$id": "124",
-              "NoiseFrequency": 25.0,
+              "NoiseFrequency": 25,
               "Min": 0,
               "Max": 15,
               "BlockType": {
@@ -1582,15 +1582,15 @@
                     "$ref": "109"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 0.0,
-                    "max": 1.0
+                    "min": 0,
+                    "max": 1
                   },
                   "PercentChance": 0.5,
-                  "NoiseFrequency": 3.0,
+                  "NoiseFrequency": 3,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Blobs"
                 },
@@ -1600,16 +1600,16 @@
                   "SpawnAtLeastOne": false,
                   "SpawnPercentChance": 0.0175,
                   "DepthRange": {
-                    "min": 1.0,
-                    "max": 20.0
+                    "min": 1,
+                    "max": 20
                   },
                   "DepositDepthRange": {
-                    "min": -2.0,
-                    "max": 20.0
+                    "min": -2,
+                    "max": 20
                   },
                   "BlocksCountRange": {
-                    "min": 6.0,
-                    "max": 14.0
+                    "min": 6,
+                    "max": 14
                   },
                   "BlockType": {
                     "$id": "127",
@@ -1617,52 +1617,52 @@
                   },
                   "DirectionWeights": [
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 0.0,
-                      "Y": 1.0,
-                      "Z": 0.0
+                      "X": 0,
+                      "Y": 1,
+                      "Z": 0
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 2.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 2,
+                      "Z": 1
                     },
                     {
-                      "X": 2.0,
-                      "Y": 2.0,
-                      "Z": 2.0
+                      "X": 2,
+                      "Y": 2,
+                      "Z": 2
                     },
                     {
-                      "X": 1.0,
-                      "Y": 2.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 2,
+                      "Z": 1
                     }
                   ],
                   "WeightVariance": {
-                    "X": 0.0,
-                    "Y": 0.0,
-                    "Z": 0.0
+                    "X": 0,
+                    "Y": 0,
+                    "Z": 0
                   }
                 }
               ]
             },
             {
               "$id": "128",
-              "NoiseFrequency": 40.0,
+              "NoiseFrequency": 40,
               "Min": 55,
               "Max": 65,
               "BlockType": {
@@ -1675,16 +1675,16 @@
                   "SpawnAtLeastOne": false,
                   "SpawnPercentChance": 0.001,
                   "DepthRange": {
-                    "min": 35.0,
-                    "max": 45.0
+                    "min": 35,
+                    "max": 45
                   },
                   "DepositDepthRange": {
-                    "min": 0.0,
-                    "max": 45.0
+                    "min": 0,
+                    "max": 45
                   },
                   "BlocksCountRange": {
-                    "min": 5.0,
-                    "max": 50.0
+                    "min": 5,
+                    "max": 50
                   },
                   "BlockType": {
                     "$id": "130",
@@ -1692,47 +1692,47 @@
                   },
                   "DirectionWeights": [
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 2.0,
-                      "Y": 3.0,
-                      "Z": 2.0
+                      "X": 2,
+                      "Y": 3,
+                      "Z": 2
                     },
                     {
-                      "X": 5.0,
-                      "Y": 3.0,
-                      "Z": 5.0
+                      "X": 5,
+                      "Y": 3,
+                      "Z": 5
                     },
                     {
-                      "X": 4.0,
-                      "Y": 2.0,
-                      "Z": 4.0
+                      "X": 4,
+                      "Y": 2,
+                      "Z": 4
                     },
                     {
-                      "X": 2.0,
-                      "Y": 4.0,
-                      "Z": 2.0
+                      "X": 2,
+                      "Y": 4,
+                      "Z": 2
                     }
                   ],
                   "WeightVariance": {
-                    "X": 2.0,
-                    "Y": 1.0,
-                    "Z": 2.0
+                    "X": 2,
+                    "Y": 1,
+                    "Z": 2
                   }
                 }
               ]
             },
             {
               "$id": "131",
-              "NoiseFrequency": 40.0,
+              "NoiseFrequency": 40,
               "Min": 70,
               "Max": 100,
               "BlockType": {
@@ -1752,7 +1752,7 @@
           "BlockDepthRanges": [
             {
               "$id": "134",
-              "NoiseFrequency": 40.0,
+              "NoiseFrequency": 40,
               "Min": 0,
               "Max": 0,
               "BlockType": {
@@ -1767,15 +1767,15 @@
                     "Type": "Eco.World.Blocks.FrozenSoilBlock, Eco.World"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 0.0,
-                    "max": 200.0
+                    "min": 0,
+                    "max": 200
                   },
                   "PercentChance": 0.05,
-                  "NoiseFrequency": 75.0,
+                  "NoiseFrequency": 75,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Blobs"
                 },
@@ -1786,15 +1786,15 @@
                     "$ref": "17"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 0.0,
-                    "max": 200.0
+                    "min": 0,
+                    "max": 200
                   },
                   "PercentChance": 0.1,
-                  "NoiseFrequency": 75.0,
+                  "NoiseFrequency": 75,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Blobs"
                 }
@@ -1802,7 +1802,7 @@
             },
             {
               "$id": "138",
-              "NoiseFrequency": 40.0,
+              "NoiseFrequency": 40,
               "Min": 1,
               "Max": 3,
               "BlockType": {
@@ -1813,7 +1813,7 @@
             },
             {
               "$id": "140",
-              "NoiseFrequency": 40.0,
+              "NoiseFrequency": 40,
               "Min": 0,
               "Max": 20,
               "BlockType": {
@@ -1827,15 +1827,15 @@
                     "$ref": "105"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 0.0,
-                    "max": 1.0
+                    "min": 0,
+                    "max": 1
                   },
                   "PercentChance": 0.5,
-                  "NoiseFrequency": 99.0,
+                  "NoiseFrequency": 99,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Bands"
                 }
@@ -1843,7 +1843,7 @@
             },
             {
               "$id": "142",
-              "NoiseFrequency": 25.0,
+              "NoiseFrequency": 25,
               "Min": 0,
               "Max": 20,
               "BlockType": {
@@ -1859,15 +1859,15 @@
                     "Type": "Eco.Mods.TechTree.CrushedGraniteBlock, Eco.Mods"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 0.0,
-                    "max": 0.0
+                    "min": 0,
+                    "max": 0
                   },
                   "PercentChance": 0.4,
-                  "NoiseFrequency": 3.0,
+                  "NoiseFrequency": 3,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Blobs"
                 },
@@ -1879,15 +1879,15 @@
                     "Type": "Eco.Mods.TechTree.CrushedCopperOreBlock, Eco.Mods"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 0.0,
-                    "max": 0.0
+                    "min": 0,
+                    "max": 0
                   },
                   "PercentChance": 0.05,
-                  "NoiseFrequency": 3.0,
+                  "NoiseFrequency": 3,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Blobs"
                 }
@@ -1895,7 +1895,7 @@
             },
             {
               "$id": "148",
-              "NoiseFrequency": 40.0,
+              "NoiseFrequency": 40,
               "Min": 65,
               "Max": 70,
               "BlockType": {
@@ -1908,16 +1908,16 @@
                   "SpawnAtLeastOne": false,
                   "SpawnPercentChance": 0.0015,
                   "DepthRange": {
-                    "min": 25.0,
-                    "max": 40.0
+                    "min": 25,
+                    "max": 40
                   },
                   "DepositDepthRange": {
-                    "min": 0.0,
-                    "max": 40.0
+                    "min": 0,
+                    "max": 40
                   },
                   "BlocksCountRange": {
-                    "min": 25.0,
-                    "max": 100.0
+                    "min": 25,
+                    "max": 100
                   },
                   "BlockType": {
                     "$id": "150",
@@ -1925,50 +1925,50 @@
                   },
                   "DirectionWeights": [
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 2.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 2,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 2.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 2,
+                      "Z": 1
                     },
                     {
-                      "X": 2.0,
-                      "Y": 3.0,
-                      "Z": 1.0
+                      "X": 2,
+                      "Y": 3,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     }
                   ],
                   "WeightVariance": {
-                    "X": 1.0,
-                    "Y": 2.0,
-                    "Z": 1.0
+                    "X": 1,
+                    "Y": 2,
+                    "Z": 1
                   }
                 },
                 {
@@ -1977,16 +1977,16 @@
                   "SpawnAtLeastOne": false,
                   "SpawnPercentChance": 0.002,
                   "DepthRange": {
-                    "min": 40.0,
-                    "max": 60.0
+                    "min": 40,
+                    "max": 60
                   },
                   "DepositDepthRange": {
-                    "min": 0.0,
-                    "max": 60.0
+                    "min": 0,
+                    "max": 60
                   },
                   "BlocksCountRange": {
-                    "min": 5.0,
-                    "max": 35.0
+                    "min": 5,
+                    "max": 35
                   },
                   "BlockType": {
                     "$id": "152",
@@ -1994,45 +1994,45 @@
                   },
                   "DirectionWeights": [
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 2.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 2,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 3.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 3,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     }
                   ],
                   "WeightVariance": {
-                    "X": 1.0,
-                    "Y": 3.0,
-                    "Z": 2.0
+                    "X": 1,
+                    "Y": 3,
+                    "Z": 2
                   }
                 },
                 {
@@ -2041,16 +2041,16 @@
                   "SpawnAtLeastOne": true,
                   "SpawnPercentChance": 0.01,
                   "DepthRange": {
-                    "min": 50.0,
-                    "max": 60.0
+                    "min": 50,
+                    "max": 60
                   },
                   "DepositDepthRange": {
-                    "min": 0.0,
-                    "max": 60.0
+                    "min": 0,
+                    "max": 60
                   },
                   "BlocksCountRange": {
-                    "min": 3.0,
-                    "max": 15.0
+                    "min": 3,
+                    "max": 15
                   },
                   "BlockType": {
                     "$id": "154",
@@ -2058,30 +2058,30 @@
                   },
                   "DirectionWeights": [
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 2.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 2,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 3.0,
-                      "Z": 2.0
+                      "X": 1,
+                      "Y": 3,
+                      "Z": 2
                     },
                     {
-                      "X": 2.0,
-                      "Y": 1.0,
-                      "Z": 3.0
+                      "X": 2,
+                      "Y": 1,
+                      "Z": 3
                     }
                   ],
                   "WeightVariance": {
-                    "X": 1.0,
-                    "Y": 1.0,
-                    "Z": 3.0
+                    "X": 1,
+                    "Y": 1,
+                    "Z": 3
                   }
                 },
                 {
@@ -2090,58 +2090,58 @@
                   "SpawnAtLeastOne": true,
                   "SpawnPercentChance": 0.002,
                   "DepthRange": {
-                    "min": 65.0,
-                    "max": 75.0
+                    "min": 65,
+                    "max": 75
                   },
                   "DepositDepthRange": {
-                    "min": 0.0,
-                    "max": 75.0
+                    "min": 0,
+                    "max": 75
                   },
                   "BlocksCountRange": {
-                    "min": 3.0,
-                    "max": 15.0
+                    "min": 3,
+                    "max": 15
                   },
                   "BlockType": {
                     "$ref": "154"
                   },
                   "DirectionWeights": [
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 2.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 2,
+                      "Z": 1
                     },
                     {
-                      "X": 2.0,
-                      "Y": 2.0,
-                      "Z": 3.0
+                      "X": 2,
+                      "Y": 2,
+                      "Z": 3
                     },
                     {
-                      "X": 3.0,
-                      "Y": 2.0,
-                      "Z": 2.0
+                      "X": 3,
+                      "Y": 2,
+                      "Z": 2
                     },
                     {
-                      "X": 1.0,
-                      "Y": 3.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 3,
+                      "Z": 1
                     }
                   ],
                   "WeightVariance": {
-                    "X": 1.0,
-                    "Y": 2.0,
-                    "Z": 1.0
+                    "X": 1,
+                    "Y": 2,
+                    "Z": 1
                   }
                 }
               ]
             },
             {
               "$id": "156",
-              "NoiseFrequency": 40.0,
+              "NoiseFrequency": 40,
               "Min": 70,
               "Max": 120,
               "BlockType": {
@@ -2161,7 +2161,7 @@
           "BlockDepthRanges": [
             {
               "$id": "159",
-              "NoiseFrequency": 40.0,
+              "NoiseFrequency": 40,
               "Min": 0,
               "Max": 0,
               "BlockType": {
@@ -2175,15 +2175,15 @@
                     "$ref": "136"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 0.0,
-                    "max": 200.0
+                    "min": 0,
+                    "max": 200
                   },
                   "PercentChance": 0.15,
-                  "NoiseFrequency": 75.0,
+                  "NoiseFrequency": 75,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Blobs"
                 },
@@ -2195,15 +2195,15 @@
                     "Type": "Eco.World.Blocks.SnowBlock, Eco.World"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 0.0,
-                    "max": 200.0
+                    "min": 0,
+                    "max": 200
                   },
                   "PercentChance": 0.2,
-                  "NoiseFrequency": 75.0,
+                  "NoiseFrequency": 75,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Blobs"
                 }
@@ -2211,7 +2211,7 @@
             },
             {
               "$id": "163",
-              "NoiseFrequency": 40.0,
+              "NoiseFrequency": 40,
               "Min": 1,
               "Max": 3,
               "BlockType": {
@@ -2226,15 +2226,15 @@
                     "Type": "Eco.World.Blocks.FrozenSoilBlock, Eco.World"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 0.0,
-                    "max": 200.0
+                    "min": 0,
+                    "max": 200
                   },
                   "PercentChance": 0.1,
-                  "NoiseFrequency": 99.0,
+                  "NoiseFrequency": 99,
                   "NoiseType": "RidgedMulti",
                   "NoiseDistributionType": "Bands"
                 }
@@ -2242,7 +2242,7 @@
             },
             {
               "$id": "166",
-              "NoiseFrequency": 40.0,
+              "NoiseFrequency": 40,
               "Min": 0,
               "Max": 30,
               "BlockType": {
@@ -2256,15 +2256,15 @@
                     "$ref": "105"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 0.0,
-                    "max": 1.0
+                    "min": 0,
+                    "max": 1
                   },
                   "PercentChance": 0.4,
-                  "NoiseFrequency": 99.0,
+                  "NoiseFrequency": 99,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Bands"
                 }
@@ -2272,7 +2272,7 @@
             },
             {
               "$id": "168",
-              "NoiseFrequency": 25.0,
+              "NoiseFrequency": 25,
               "Min": 0,
               "Max": 30,
               "BlockType": {
@@ -2286,15 +2286,15 @@
                     "$ref": "145"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 0.0,
-                    "max": 0.0
+                    "min": 0,
+                    "max": 0
                   },
                   "PercentChance": 0.5,
-                  "NoiseFrequency": 3.0,
+                  "NoiseFrequency": 3,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Blobs"
                 },
@@ -2306,15 +2306,15 @@
                     "Type": "Eco.Mods.TechTree.CrushedGoldOreBlock, Eco.Mods"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 0.0,
-                    "max": 0.0
+                    "min": 0,
+                    "max": 0
                   },
                   "PercentChance": 0.05,
-                  "NoiseFrequency": 3.0,
+                  "NoiseFrequency": 3,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Blobs"
                 },
@@ -2325,15 +2325,15 @@
                     "$ref": "147"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 0.0,
-                    "max": 0.0
+                    "min": 0,
+                    "max": 0
                   },
                   "PercentChance": 0.05,
-                  "NoiseFrequency": 3.0,
+                  "NoiseFrequency": 3,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Blobs"
                 }
@@ -2341,7 +2341,7 @@
             },
             {
               "$id": "173",
-              "NoiseFrequency": 40.0,
+              "NoiseFrequency": 40,
               "Min": 65,
               "Max": 75,
               "BlockType": {
@@ -2356,15 +2356,15 @@
                     "Type": "Eco.Mods.TechTree.BasaltBlock, Eco.Mods"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 30.0,
-                    "max": 35.0
+                    "min": 30,
+                    "max": 35
                   },
                   "PercentChance": 0.95,
-                  "NoiseFrequency": 3.0,
+                  "NoiseFrequency": 3,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Blobs"
                 },
@@ -2374,16 +2374,16 @@
                   "SpawnAtLeastOne": true,
                   "SpawnPercentChance": 0.002,
                   "DepthRange": {
-                    "min": 60.0,
-                    "max": 100.0
+                    "min": 60,
+                    "max": 100
                   },
                   "DepositDepthRange": {
-                    "min": 0.0,
-                    "max": 100.0
+                    "min": 0,
+                    "max": 100
                   },
                   "BlocksCountRange": {
-                    "min": 15.0,
-                    "max": 68.0
+                    "min": 15,
+                    "max": 68
                   },
                   "BlockType": {
                     "$id": "177",
@@ -2391,52 +2391,52 @@
                   },
                   "DirectionWeights": [
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 2.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 2,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 4.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 4,
+                      "Z": 1
                     },
                     {
-                      "X": 2.0,
-                      "Y": 1.0,
-                      "Z": 2.0
+                      "X": 2,
+                      "Y": 1,
+                      "Z": 2
                     },
                     {
-                      "X": 2.0,
-                      "Y": 1.0,
-                      "Z": 2.0
+                      "X": 2,
+                      "Y": 1,
+                      "Z": 2
                     }
                   ],
                   "WeightVariance": {
-                    "X": 1.0,
-                    "Y": 1.0,
-                    "Z": 1.0
+                    "X": 1,
+                    "Y": 1,
+                    "Z": 1
                   }
                 }
               ]
             },
             {
               "$id": "178",
-              "NoiseFrequency": 25.0,
+              "NoiseFrequency": 25,
               "Min": 70,
               "Max": 85,
               "BlockType": {
@@ -2457,7 +2457,7 @@
           "BlockDepthRanges": [
             {
               "$id": "182",
-              "NoiseFrequency": 40.0,
+              "NoiseFrequency": 40,
               "Min": 0,
               "Max": 8,
               "BlockType": {
@@ -2468,7 +2468,7 @@
             },
             {
               "$id": "184",
-              "NoiseFrequency": 40.0,
+              "NoiseFrequency": 40,
               "Min": 10,
               "Max": 30,
               "BlockType": {
@@ -2482,15 +2482,15 @@
                     "$ref": "105"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 0.0,
-                    "max": 1.0
+                    "min": 0,
+                    "max": 1
                   },
                   "PercentChance": 0.8,
-                  "NoiseFrequency": 60.0,
+                  "NoiseFrequency": 60,
                   "NoiseType": "RidgedMulti",
                   "NoiseDistributionType": "Bands"
                 }
@@ -2498,7 +2498,7 @@
             },
             {
               "$id": "186",
-              "NoiseFrequency": 25.0,
+              "NoiseFrequency": 25,
               "Min": 0,
               "Max": 30,
               "BlockType": {
@@ -2512,15 +2512,15 @@
                     "$ref": "145"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 0.0,
-                    "max": 0.0
+                    "min": 0,
+                    "max": 0
                   },
                   "PercentChance": 0.9,
-                  "NoiseFrequency": 3.0,
+                  "NoiseFrequency": 3,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Blobs"
                 },
@@ -2530,16 +2530,16 @@
                   "SpawnAtLeastOne": true,
                   "SpawnPercentChance": 0.005,
                   "DepthRange": {
-                    "min": 10.0,
-                    "max": 60.0
+                    "min": 10,
+                    "max": 60
                   },
                   "DepositDepthRange": {
-                    "min": 0.0,
-                    "max": 60.0
+                    "min": 0,
+                    "max": 60
                   },
                   "BlocksCountRange": {
-                    "min": 20.0,
-                    "max": 60.0
+                    "min": 20,
+                    "max": 60
                   },
                   "BlockType": {
                     "$id": "189",
@@ -2547,45 +2547,45 @@
                   },
                   "DirectionWeights": [
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 2.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 2,
+                      "Z": 1
                     },
                     {
-                      "X": 2.0,
-                      "Y": 3.0,
-                      "Z": 2.0
+                      "X": 2,
+                      "Y": 3,
+                      "Z": 2
                     },
                     {
-                      "X": 1.0,
-                      "Y": 2.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 2,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     }
                   ],
                   "WeightVariance": {
-                    "X": 1.0,
-                    "Y": 2.0,
-                    "Z": 1.0
+                    "X": 1,
+                    "Y": 2,
+                    "Z": 1
                   }
                 },
                 {
@@ -2594,16 +2594,16 @@
                   "SpawnAtLeastOne": true,
                   "SpawnPercentChance": 0.002,
                   "DepthRange": {
-                    "min": -1.0,
-                    "max": 15.0
+                    "min": -1,
+                    "max": 15
                   },
                   "DepositDepthRange": {
-                    "min": -1.0,
-                    "max": 15.0
+                    "min": -1,
+                    "max": 15
                   },
                   "BlocksCountRange": {
-                    "min": 4.0,
-                    "max": 12.0
+                    "min": 4,
+                    "max": 12
                   },
                   "BlockType": {
                     "$id": "191",
@@ -2611,47 +2611,47 @@
                   },
                   "DirectionWeights": [
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 2.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 2,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     }
                   ],
                   "WeightVariance": {
-                    "X": 1.0,
-                    "Y": 2.0,
-                    "Z": 1.0
+                    "X": 1,
+                    "Y": 2,
+                    "Z": 1
                   }
                 }
               ]
             },
             {
               "$id": "192",
-              "NoiseFrequency": 40.0,
+              "NoiseFrequency": 40,
               "Min": 60,
               "Max": 75,
               "BlockType": {
@@ -2664,73 +2664,73 @@
                   "SpawnAtLeastOne": true,
                   "SpawnPercentChance": 0.001,
                   "DepthRange": {
-                    "min": 50.0,
-                    "max": 60.0
+                    "min": 50,
+                    "max": 60
                   },
                   "DepositDepthRange": {
-                    "min": 0.0,
-                    "max": 60.0
+                    "min": 0,
+                    "max": 60
                   },
                   "BlocksCountRange": {
-                    "min": 60.0,
-                    "max": 200.0
+                    "min": 60,
+                    "max": 200
                   },
                   "BlockType": {
                     "$ref": "189"
                   },
                   "DirectionWeights": [
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 2.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 2,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 2.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 2,
+                      "Z": 1
                     },
                     {
-                      "X": 2.0,
-                      "Y": 4.0,
-                      "Z": 2.0
+                      "X": 2,
+                      "Y": 4,
+                      "Z": 2
                     },
                     {
-                      "X": 3.0,
-                      "Y": 4.0,
-                      "Z": 1.0
+                      "X": 3,
+                      "Y": 4,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     }
                   ],
                   "WeightVariance": {
-                    "X": 1.0,
-                    "Y": 2.0,
-                    "Z": 1.0
+                    "X": 1,
+                    "Y": 2,
+                    "Z": 1
                   }
                 }
               ]
             },
             {
               "$id": "194",
-              "NoiseFrequency": 40.0,
+              "NoiseFrequency": 40,
               "Min": 70,
               "Max": 100,
               "BlockType": {
@@ -2750,7 +2750,7 @@
           "BlockDepthRanges": [
             {
               "$id": "197",
-              "NoiseFrequency": 40.0,
+              "NoiseFrequency": 40,
               "Min": 0,
               "Max": 0,
               "BlockType": {
@@ -2761,7 +2761,7 @@
             },
             {
               "$id": "199",
-              "NoiseFrequency": 25.0,
+              "NoiseFrequency": 25,
               "Min": 4,
               "Max": 6,
               "BlockType": {
@@ -2777,15 +2777,15 @@
                     "Type": "Eco.World.Blocks.DesertSandBlock, Eco.World"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 0.0,
-                    "max": 3.0
+                    "min": 0,
+                    "max": 3
                   },
-                  "PercentChance": 1.0,
-                  "NoiseFrequency": 3.0,
+                  "PercentChance": 1,
+                  "NoiseFrequency": 3,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Blobs"
                 }
@@ -2793,7 +2793,7 @@
             },
             {
               "$id": "203",
-              "NoiseFrequency": 15.0,
+              "NoiseFrequency": 15,
               "Min": 1,
               "Max": 20,
               "BlockType": {
@@ -2808,15 +2808,15 @@
                     "Type": "Eco.World.Blocks.DesertSandBlock, Eco.World"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 0.0,
-                    "max": 3.0
+                    "min": 0,
+                    "max": 3
                   },
-                  "PercentChance": 1.0,
-                  "NoiseFrequency": 3.0,
+                  "PercentChance": 1,
+                  "NoiseFrequency": 3,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Blobs"
                 },
@@ -2828,15 +2828,15 @@
                     "Type": "Eco.Mods.TechTree.CrushedSandstoneBlock, Eco.Mods"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 18.0,
-                    "max": 20.0
+                    "min": 18,
+                    "max": 20
                   },
                   "PercentChance": 0.4,
-                  "NoiseFrequency": 3.0,
+                  "NoiseFrequency": 3,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Blobs"
                 },
@@ -2848,15 +2848,15 @@
                     "Type": "Eco.Mods.TechTree.CrushedIronOreBlock, Eco.Mods"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 19.0,
-                    "max": 20.0
+                    "min": 19,
+                    "max": 20
                   },
                   "PercentChance": 0.3,
-                  "NoiseFrequency": 3.0,
+                  "NoiseFrequency": 3,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Blobs"
                 }
@@ -2864,7 +2864,7 @@
             },
             {
               "$id": "210",
-              "NoiseFrequency": 25.0,
+              "NoiseFrequency": 25,
               "Min": 0,
               "Max": 20,
               "BlockType": {
@@ -2880,15 +2880,15 @@
                     "Type": "Eco.Mods.TechTree.CrushedSandstoneBlock, Eco.Mods"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 0.0,
-                    "max": 0.0
+                    "min": 0,
+                    "max": 0
                   },
                   "PercentChance": 0.4,
-                  "NoiseFrequency": 3.0,
+                  "NoiseFrequency": 3,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Blobs"
                 },
@@ -2900,15 +2900,15 @@
                     "Type": "Eco.Mods.TechTree.CrushedIronOreBlock, Eco.Mods"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 0.0,
-                    "max": 0.0
+                    "min": 0,
+                    "max": 0
                   },
                   "PercentChance": 0.05,
-                  "NoiseFrequency": 3.0,
+                  "NoiseFrequency": 3,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Blobs"
                 },
@@ -2920,15 +2920,15 @@
                     "Type": "Eco.Mods.TechTree.IronOreBlock, Eco.Mods"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 8.0,
-                    "max": 11.0
+                    "min": 8,
+                    "max": 11
                   },
                   "PercentChance": 0.075,
-                  "NoiseFrequency": 25.0,
+                  "NoiseFrequency": 25,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Bands"
                 },
@@ -2938,16 +2938,16 @@
                   "SpawnAtLeastOne": false,
                   "SpawnPercentChance": 0.0025,
                   "DepthRange": {
-                    "min": 8.0,
-                    "max": 20.0
+                    "min": 8,
+                    "max": 20
                   },
                   "DepositDepthRange": {
-                    "min": 0.0,
-                    "max": 20.0
+                    "min": 0,
+                    "max": 20
                   },
                   "BlocksCountRange": {
-                    "min": 15.0,
-                    "max": 50.0
+                    "min": 15,
+                    "max": 50
                   },
                   "BlockType": {
                     "$id": "219",
@@ -2955,40 +2955,40 @@
                   },
                   "DirectionWeights": [
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 5.0,
-                      "Y": 2.0,
-                      "Z": 5.0
+                      "X": 5,
+                      "Y": 2,
+                      "Z": 5
                     },
                     {
-                      "X": 3.0,
-                      "Y": 4.0,
-                      "Z": 3.0
+                      "X": 3,
+                      "Y": 4,
+                      "Z": 3
                     },
                     {
-                      "X": 2.0,
-                      "Y": 3.0,
-                      "Z": 2.0
+                      "X": 2,
+                      "Y": 3,
+                      "Z": 2
                     },
                     {
-                      "X": 3.0,
-                      "Y": 4.0,
-                      "Z": 3.0
+                      "X": 3,
+                      "Y": 4,
+                      "Z": 3
                     },
                     {
-                      "X": 5.0,
-                      "Y": 2.0,
-                      "Z": 5.0
+                      "X": 5,
+                      "Y": 2,
+                      "Z": 5
                     }
                   ],
                   "WeightVariance": {
-                    "X": 1.0,
-                    "Y": 5.0,
-                    "Z": 1.0
+                    "X": 1,
+                    "Y": 5,
+                    "Z": 1
                   }
                 },
                 {
@@ -2997,16 +2997,16 @@
                   "SpawnAtLeastOne": false,
                   "SpawnPercentChance": 0.0025,
                   "DepthRange": {
-                    "min": 8.0,
-                    "max": 20.0
+                    "min": 8,
+                    "max": 20
                   },
                   "DepositDepthRange": {
-                    "min": 8.0,
-                    "max": 20.0
+                    "min": 8,
+                    "max": 20
                   },
                   "BlocksCountRange": {
-                    "min": 40.0,
-                    "max": 250.0
+                    "min": 40,
+                    "max": 250
                   },
                   "BlockType": {
                     "$id": "221",
@@ -3014,40 +3014,40 @@
                   },
                   "DirectionWeights": [
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 3.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 3
                     },
                     {
-                      "X": 1.0,
-                      "Y": 4.0,
-                      "Z": 3.0
+                      "X": 1,
+                      "Y": 4,
+                      "Z": 3
                     },
                     {
-                      "X": 2.0,
-                      "Y": 3.0,
-                      "Z": 2.0
+                      "X": 2,
+                      "Y": 3,
+                      "Z": 2
                     },
                     {
-                      "X": 1.0,
-                      "Y": 4.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 4,
+                      "Z": 1
                     },
                     {
-                      "X": 3.0,
-                      "Y": 2.0,
-                      "Z": 1.0
+                      "X": 3,
+                      "Y": 2,
+                      "Z": 1
                     }
                   ],
                   "WeightVariance": {
-                    "X": 2.0,
-                    "Y": 1.0,
-                    "Z": 1.0
+                    "X": 2,
+                    "Y": 1,
+                    "Z": 1
                   }
                 },
                 {
@@ -3056,16 +3056,16 @@
                   "SpawnAtLeastOne": false,
                   "SpawnPercentChance": 0.0025,
                   "DepthRange": {
-                    "min": 14.0,
-                    "max": 20.0
+                    "min": 14,
+                    "max": 20
                   },
                   "DepositDepthRange": {
-                    "min": 0.0,
-                    "max": 20.0
+                    "min": 0,
+                    "max": 20
                   },
                   "BlocksCountRange": {
-                    "min": 35.0,
-                    "max": 140.0
+                    "min": 35,
+                    "max": 140
                   },
                   "BlockType": {
                     "$id": "223",
@@ -3073,40 +3073,40 @@
                   },
                   "DirectionWeights": [
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 2.0,
-                      "Z": 5.0
+                      "X": 1,
+                      "Y": 2,
+                      "Z": 5
                     },
                     {
-                      "X": 3.0,
-                      "Y": 4.0,
-                      "Z": 3.0
+                      "X": 3,
+                      "Y": 4,
+                      "Z": 3
                     },
                     {
-                      "X": 4.0,
-                      "Y": 3.0,
-                      "Z": 4.0
+                      "X": 4,
+                      "Y": 3,
+                      "Z": 4
                     },
                     {
-                      "X": 1.0,
-                      "Y": 4.0,
-                      "Z": 3.0
+                      "X": 1,
+                      "Y": 4,
+                      "Z": 3
                     },
                     {
-                      "X": 1.0,
-                      "Y": 3.0,
-                      "Z": 2.0
+                      "X": 1,
+                      "Y": 3,
+                      "Z": 2
                     }
                   ],
                   "WeightVariance": {
-                    "X": 3.0,
-                    "Y": 2.0,
-                    "Z": 2.0
+                    "X": 3,
+                    "Y": 2,
+                    "Z": 2
                   }
                 },
                 {
@@ -3115,16 +3115,16 @@
                   "SpawnAtLeastOne": false,
                   "SpawnPercentChance": 0.0025,
                   "DepthRange": {
-                    "min": 18.0,
-                    "max": 20.0
+                    "min": 18,
+                    "max": 20
                   },
                   "DepositDepthRange": {
-                    "min": 0.0,
-                    "max": 20.0
+                    "min": 0,
+                    "max": 20
                   },
                   "BlocksCountRange": {
-                    "min": 15.0,
-                    "max": 150.0
+                    "min": 15,
+                    "max": 150
                   },
                   "BlockType": {
                     "$id": "225",
@@ -3132,40 +3132,40 @@
                   },
                   "DirectionWeights": [
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 2.0,
-                      "Z": 5.0
+                      "X": 1,
+                      "Y": 2,
+                      "Z": 5
                     },
                     {
-                      "X": 3.0,
-                      "Y": 4.0,
-                      "Z": 5.0
+                      "X": 3,
+                      "Y": 4,
+                      "Z": 5
                     },
                     {
-                      "X": 2.0,
-                      "Y": 3.0,
-                      "Z": 4.0
+                      "X": 2,
+                      "Y": 3,
+                      "Z": 4
                     },
                     {
-                      "X": 1.0,
-                      "Y": 4.0,
-                      "Z": 3.0
+                      "X": 1,
+                      "Y": 4,
+                      "Z": 3
                     },
                     {
-                      "X": 5.0,
-                      "Y": 2.0,
-                      "Z": 2.0
+                      "X": 5,
+                      "Y": 2,
+                      "Z": 2
                     }
                   ],
                   "WeightVariance": {
-                    "X": 3.0,
-                    "Y": 4.0,
-                    "Z": 2.0
+                    "X": 3,
+                    "Y": 4,
+                    "Z": 2
                   }
                 },
                 {
@@ -3174,16 +3174,16 @@
                   "SpawnAtLeastOne": false,
                   "SpawnPercentChance": 0.02,
                   "DepthRange": {
-                    "min": 0.0,
-                    "max": 1.0
+                    "min": 0,
+                    "max": 1
                   },
                   "DepositDepthRange": {
-                    "min": -2.0,
-                    "max": 1.0
+                    "min": -2,
+                    "max": 1
                   },
                   "BlocksCountRange": {
-                    "min": 8.0,
-                    "max": 15.0
+                    "min": 8,
+                    "max": 15
                   },
                   "BlockType": {
                     "$id": "227",
@@ -3191,37 +3191,37 @@
                   },
                   "DirectionWeights": [
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 3.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 3,
+                      "Z": 1
                     },
                     {
-                      "X": 3.0,
-                      "Y": 2.0,
-                      "Z": 3.0
+                      "X": 3,
+                      "Y": 2,
+                      "Z": 3
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     }
                   ],
                   "WeightVariance": {
-                    "X": 1.0,
-                    "Y": 1.0,
-                    "Z": 1.0
+                    "X": 1,
+                    "Y": 1,
+                    "Z": 1
                   }
                 }
               ]
             },
             {
               "$id": "228",
-              "NoiseFrequency": 40.0,
+              "NoiseFrequency": 40,
               "Min": 55,
               "Max": 60,
               "BlockType": {
@@ -3237,15 +3237,15 @@
                     "Type": "Eco.Mods.TechTree.IronOreBlock, Eco.Mods"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 21.0,
-                    "max": 23.0
+                    "min": 21,
+                    "max": 23
                   },
                   "PercentChance": 0.15,
-                  "NoiseFrequency": 25.0,
+                  "NoiseFrequency": 25,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Bands"
                 },
@@ -3255,16 +3255,16 @@
                   "SpawnAtLeastOne": false,
                   "SpawnPercentChance": 0.001,
                   "DepthRange": {
-                    "min": 20.0,
-                    "max": 24.0
+                    "min": 20,
+                    "max": 24
                   },
                   "DepositDepthRange": {
-                    "min": 5.0,
-                    "max": 30.0
+                    "min": 5,
+                    "max": 30
                   },
                   "BlocksCountRange": {
-                    "min": 15.0,
-                    "max": 300.0
+                    "min": 15,
+                    "max": 300
                   },
                   "BlockType": {
                     "$id": "233",
@@ -3272,50 +3272,50 @@
                   },
                   "DirectionWeights": [
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 3.0,
-                      "Y": 1.0,
-                      "Z": 3.0
+                      "X": 3,
+                      "Y": 1,
+                      "Z": 3
                     },
                     {
-                      "X": 4.0,
-                      "Y": 1.0,
-                      "Z": 4.0
+                      "X": 4,
+                      "Y": 1,
+                      "Z": 4
                     }
                   ],
                   "WeightVariance": {
-                    "X": 3.0,
-                    "Y": 1.0,
-                    "Z": 3.0
+                    "X": 3,
+                    "Y": 1,
+                    "Z": 3
                   }
                 },
                 {
@@ -3324,16 +3324,16 @@
                   "SpawnAtLeastOne": false,
                   "SpawnPercentChance": 0.0001,
                   "DepthRange": {
-                    "min": 30.0,
-                    "max": 35.0
+                    "min": 30,
+                    "max": 35
                   },
                   "DepositDepthRange": {
-                    "min": 30.0,
-                    "max": 35.0
+                    "min": 30,
+                    "max": 35
                   },
                   "BlocksCountRange": {
-                    "min": 1000.0,
-                    "max": 8000.0
+                    "min": 1000,
+                    "max": 8000
                   },
                   "BlockType": {
                     "$id": "235",
@@ -3341,70 +3341,70 @@
                   },
                   "DirectionWeights": [
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 5.0,
-                      "Y": 1.0,
-                      "Z": 5.0
+                      "X": 5,
+                      "Y": 1,
+                      "Z": 5
                     },
                     {
-                      "X": 5.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 5,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 5.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 5
                     },
                     {
-                      "X": 6.0,
-                      "Y": 1.0,
-                      "Z": 6.0
+                      "X": 6,
+                      "Y": 1,
+                      "Z": 6
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 6.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 6
                     },
                     {
-                      "X": 6.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 6,
+                      "Y": 1,
+                      "Z": 1
                     }
                   ],
                   "WeightVariance": {
-                    "X": 3.0,
-                    "Y": 0.0,
-                    "Z": 3.0
+                    "X": 3,
+                    "Y": 0,
+                    "Z": 3
                   }
                 },
                 {
@@ -3415,15 +3415,15 @@
                     "Type": "Eco.Mods.TechTree.IronOreBlock, Eco.Mods"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 50.0,
-                    "max": 53.0
+                    "min": 50,
+                    "max": 53
                   },
                   "PercentChance": 0.2,
-                  "NoiseFrequency": 25.0,
+                  "NoiseFrequency": 25,
                   "NoiseType": "RidgedMulti",
                   "NoiseDistributionType": "Bands"
                 },
@@ -3433,71 +3433,71 @@
                   "SpawnAtLeastOne": false,
                   "SpawnPercentChance": 0.001,
                   "DepthRange": {
-                    "min": 48.0,
-                    "max": 55.0
+                    "min": 48,
+                    "max": 55
                   },
                   "DepositDepthRange": {
-                    "min": 35.0,
-                    "max": 55.0
+                    "min": 35,
+                    "max": 55
                   },
                   "BlocksCountRange": {
-                    "min": 50.0,
-                    "max": 150.0
+                    "min": 50,
+                    "max": 150
                   },
                   "BlockType": {
                     "$ref": "233"
                   },
                   "DirectionWeights": [
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 2.0,
-                      "Y": 1.0,
-                      "Z": 2.0
+                      "X": 2,
+                      "Y": 1,
+                      "Z": 2
                     },
                     {
-                      "X": 3.0,
-                      "Y": 1.0,
-                      "Z": 3.0
+                      "X": 3,
+                      "Y": 1,
+                      "Z": 3
                     },
                     {
-                      "X": 4.0,
-                      "Y": 1.0,
-                      "Z": 4.0
+                      "X": 4,
+                      "Y": 1,
+                      "Z": 4
                     }
                   ],
                   "WeightVariance": {
-                    "X": 3.0,
-                    "Y": 1.0,
-                    "Z": 3.0
+                    "X": 3,
+                    "Y": 1,
+                    "Z": 3
                   }
                 },
                 {
@@ -3508,15 +3508,15 @@
                     "Type": "Eco.Mods.TechTree.IronOreBlock, Eco.Mods"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 0.0,
-                    "max": 200.0
+                    "min": 0,
+                    "max": 200
                   },
                   "PercentChance": 0.01,
-                  "NoiseFrequency": 3.0,
+                  "NoiseFrequency": 3,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Bands"
                 }
@@ -3524,7 +3524,7 @@
             },
             {
               "$id": "241",
-              "NoiseFrequency": 25.0,
+              "NoiseFrequency": 25,
               "Min": 58,
               "Max": 65,
               "BlockType": {
@@ -3545,7 +3545,7 @@
           "BlockDepthRanges": [
             {
               "$id": "245",
-              "NoiseFrequency": 40.0,
+              "NoiseFrequency": 40,
               "Min": 0,
               "Max": 0,
               "BlockType": {
@@ -3556,7 +3556,7 @@
             },
             {
               "$id": "247",
-              "NoiseFrequency": 40.0,
+              "NoiseFrequency": 40,
               "Min": 4,
               "Max": 15,
               "BlockType": {
@@ -3567,7 +3567,7 @@
             },
             {
               "$id": "249",
-              "NoiseFrequency": 40.0,
+              "NoiseFrequency": 40,
               "Min": 0,
               "Max": 15,
               "BlockType": {
@@ -3583,15 +3583,15 @@
                     "Type": "Eco.Mods.TechTree.CrushedLimestoneBlock, Eco.Mods"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 0.0,
-                    "max": 0.0
+                    "min": 0,
+                    "max": 0
                   },
                   "PercentChance": 0.3,
-                  "NoiseFrequency": 99.0,
+                  "NoiseFrequency": 99,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Bands"
                 }
@@ -3599,7 +3599,7 @@
             },
             {
               "$id": "253",
-              "NoiseFrequency": 40.0,
+              "NoiseFrequency": 40,
               "Min": 0,
               "Max": 100,
               "BlockType": {
@@ -3615,15 +3615,15 @@
                     "Type": "Eco.Mods.TechTree.CrushedBasaltBlock, Eco.Mods"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 0.0,
-                    "max": 1.0
+                    "min": 0,
+                    "max": 1
                   },
                   "PercentChance": 0.3,
-                  "NoiseFrequency": 99.0,
+                  "NoiseFrequency": 99,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Bands"
                 }
@@ -3641,7 +3641,7 @@
           "BlockDepthRanges": [
             {
               "$id": "259",
-              "NoiseFrequency": 40.0,
+              "NoiseFrequency": 40,
               "Min": 0,
               "Max": 0,
               "BlockType": {
@@ -3651,7 +3651,7 @@
             },
             {
               "$id": "260",
-              "NoiseFrequency": 25.0,
+              "NoiseFrequency": 25,
               "Min": 2,
               "Max": 10,
               "BlockType": {
@@ -3662,7 +3662,7 @@
             },
             {
               "$id": "262",
-              "NoiseFrequency": 1.0,
+              "NoiseFrequency": 1,
               "Min": 0,
               "Max": 100,
               "BlockType": {
@@ -3677,15 +3677,15 @@
                     "Type": "Eco.Mods.TechTree.CrushedBasaltBlock, Eco.Mods"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 0.0,
-                    "max": 1.0
+                    "min": 0,
+                    "max": 1
                   },
                   "PercentChance": 0.1,
-                  "NoiseFrequency": 99.0,
+                  "NoiseFrequency": 99,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Bands"
                 }
@@ -3703,7 +3703,7 @@
           "BlockDepthRanges": [
             {
               "$id": "267",
-              "NoiseFrequency": 40.0,
+              "NoiseFrequency": 40,
               "Min": 0,
               "Max": 0,
               "BlockType": {
@@ -3713,7 +3713,7 @@
             },
             {
               "$id": "268",
-              "NoiseFrequency": 25.0,
+              "NoiseFrequency": 25,
               "Min": 5,
               "Max": 15,
               "BlockType": {
@@ -3723,7 +3723,7 @@
             },
             {
               "$id": "269",
-              "NoiseFrequency": 100.0,
+              "NoiseFrequency": 100,
               "Min": 8,
               "Max": 14,
               "BlockType": {
@@ -3738,15 +3738,15 @@
                     "Type": "Eco.Mods.TechTree.CrushedLimestoneBlock, Eco.Mods"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 6.0,
-                    "max": 6.0
+                    "min": 6,
+                    "max": 6
                   },
                   "PercentChance": 0.8,
-                  "NoiseFrequency": 3.0,
+                  "NoiseFrequency": 3,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Blobs"
                 }
@@ -3754,7 +3754,7 @@
             },
             {
               "$id": "272",
-              "NoiseFrequency": 40.0,
+              "NoiseFrequency": 40,
               "Min": 12,
               "Max": 16,
               "BlockType": {
@@ -3770,15 +3770,15 @@
                     "Type": "Eco.Mods.TechTree.CrushedSandstoneBlock, Eco.Mods"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 0.0,
-                    "max": 11.0
+                    "min": 0,
+                    "max": 11
                   },
                   "PercentChance": 0.5,
-                  "NoiseFrequency": 60.0,
+                  "NoiseFrequency": 60,
                   "NoiseType": "RidgedMulti",
                   "NoiseDistributionType": "Bands"
                 }
@@ -3786,7 +3786,7 @@
             },
             {
               "$id": "276",
-              "NoiseFrequency": 40.0,
+              "NoiseFrequency": 40,
               "Min": 18,
               "Max": 30,
               "BlockType": {
@@ -3796,7 +3796,7 @@
             },
             {
               "$id": "277",
-              "NoiseFrequency": 40.0,
+              "NoiseFrequency": 40,
               "Min": 28,
               "Max": 40,
               "BlockType": {
@@ -3811,15 +3811,15 @@
                     "Type": "Eco.Mods.TechTree.IronOreBlock, Eco.Mods"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 34.0,
-                    "max": 37.0
+                    "min": 34,
+                    "max": 37
                   },
                   "PercentChance": 0.4,
-                  "NoiseFrequency": 15.0,
+                  "NoiseFrequency": 15,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Blobs"
                 },
@@ -3829,88 +3829,88 @@
                   "SpawnAtLeastOne": false,
                   "SpawnPercentChance": 0.0003,
                   "DepthRange": {
-                    "min": 34.0,
-                    "max": 37.0
+                    "min": 34,
+                    "max": 37
                   },
                   "DepositDepthRange": {
-                    "min": 28.0,
-                    "max": 40.0
+                    "min": 28,
+                    "max": 40
                   },
                   "BlocksCountRange": {
-                    "min": 25.0,
-                    "max": 150.0
+                    "min": 25,
+                    "max": 150
                   },
                   "BlockType": {
                     "$ref": "279"
                   },
                   "DirectionWeights": [
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 2.0,
-                      "Y": 1.0,
-                      "Z": 2.0
+                      "X": 2,
+                      "Y": 1,
+                      "Z": 2
                     },
                     {
-                      "X": 3.0,
-                      "Y": 1.0,
-                      "Z": 3.0
+                      "X": 3,
+                      "Y": 1,
+                      "Z": 3
                     },
                     {
-                      "X": 4.0,
-                      "Y": 1.0,
-                      "Z": 4.0
+                      "X": 4,
+                      "Y": 1,
+                      "Z": 4
                     },
                     {
-                      "X": 5.0,
-                      "Y": 1.0,
-                      "Z": 5.0
+                      "X": 5,
+                      "Y": 1,
+                      "Z": 5
                     }
                   ],
                   "WeightVariance": {
-                    "X": 3.0,
-                    "Y": 1.0,
-                    "Z": 3.0
+                    "X": 3,
+                    "Y": 1,
+                    "Z": 3
                   }
                 }
               ]
             },
             {
               "$id": "281",
-              "NoiseFrequency": 40.0,
+              "NoiseFrequency": 40,
               "Min": 55,
               "Max": 75,
               "BlockType": {
@@ -3920,7 +3920,7 @@
             },
             {
               "$id": "282",
-              "NoiseFrequency": 40.0,
+              "NoiseFrequency": 40,
               "Min": 70,
               "Max": 100,
               "BlockType": {
@@ -3941,7 +3941,7 @@
           "BlockDepthRanges": [
             {
               "$id": "286",
-              "NoiseFrequency": 40.0,
+              "NoiseFrequency": 40,
               "Min": 0,
               "Max": 0,
               "BlockType": {
@@ -3951,7 +3951,7 @@
             },
             {
               "$id": "287",
-              "NoiseFrequency": 25.0,
+              "NoiseFrequency": 25,
               "Min": 4,
               "Max": 15,
               "BlockType": {
@@ -3961,7 +3961,7 @@
             },
             {
               "$id": "288",
-              "NoiseFrequency": 100.0,
+              "NoiseFrequency": 100,
               "Min": 10,
               "Max": 15,
               "BlockType": {
@@ -3976,15 +3976,15 @@
                     "Type": "Eco.Mods.TechTree.CrushedLimestoneBlock, Eco.Mods"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 0.0,
-                    "max": 1.0
+                    "min": 0,
+                    "max": 1
                   },
                   "PercentChance": 0.4,
-                  "NoiseFrequency": 75.0,
+                  "NoiseFrequency": 75,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Bands"
                 }
@@ -3992,7 +3992,7 @@
             },
             {
               "$id": "291",
-              "NoiseFrequency": 40.0,
+              "NoiseFrequency": 40,
               "Min": 18,
               "Max": 25,
               "BlockType": {
@@ -4007,15 +4007,15 @@
                     "Type": "Eco.Mods.TechTree.IronOreBlock, Eco.Mods"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 16.0,
-                    "max": 18.0
+                    "min": 16,
+                    "max": 18
                   },
                   "PercentChance": 0.6,
-                  "NoiseFrequency": 75.0,
+                  "NoiseFrequency": 75,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Blobs"
                 }
@@ -4023,7 +4023,7 @@
             },
             {
               "$id": "294",
-              "NoiseFrequency": 40.0,
+              "NoiseFrequency": 40,
               "Min": 18,
               "Max": 30,
               "BlockType": {
@@ -4033,7 +4033,7 @@
             },
             {
               "$id": "295",
-              "NoiseFrequency": 40.0,
+              "NoiseFrequency": 40,
               "Min": 37,
               "Max": 50,
               "BlockType": {
@@ -4047,15 +4047,15 @@
                     "$ref": "279"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 33.0,
-                    "max": 34.0
+                    "min": 33,
+                    "max": 34
                   },
                   "PercentChance": 0.7,
-                  "NoiseFrequency": 75.0,
+                  "NoiseFrequency": 75,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Bands"
                 },
@@ -4065,78 +4065,78 @@
                   "SpawnAtLeastOne": true,
                   "SpawnPercentChance": 0.0001,
                   "DepthRange": {
-                    "min": 31.0,
-                    "max": 36.0
+                    "min": 31,
+                    "max": 36
                   },
                   "DepositDepthRange": {
-                    "min": 28.0,
-                    "max": 40.0
+                    "min": 28,
+                    "max": 40
                   },
                   "BlocksCountRange": {
-                    "min": 20.0,
-                    "max": 500.0
+                    "min": 20,
+                    "max": 500
                   },
                   "BlockType": {
                     "$ref": "279"
                   },
                   "DirectionWeights": [
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 2.0,
-                      "Y": 1.0,
-                      "Z": 2.0
+                      "X": 2,
+                      "Y": 1,
+                      "Z": 2
                     },
                     {
-                      "X": 3.0,
-                      "Y": 1.0,
-                      "Z": 3.0
+                      "X": 3,
+                      "Y": 1,
+                      "Z": 3
                     }
                   ],
                   "WeightVariance": {
-                    "X": 10.0,
-                    "Y": 1.0,
-                    "Z": 10.0
+                    "X": 10,
+                    "Y": 1,
+                    "Z": 10
                   }
                 }
               ]
             },
             {
               "$id": "298",
-              "NoiseFrequency": 40.0,
+              "NoiseFrequency": 40,
               "Min": 50,
               "Max": 55,
               "BlockType": {
@@ -4146,7 +4146,7 @@
             },
             {
               "$id": "299",
-              "NoiseFrequency": 40.0,
+              "NoiseFrequency": 40,
               "Min": 55,
               "Max": 60,
               "BlockType": {
@@ -4166,7 +4166,7 @@
           "BlockDepthRanges": [
             {
               "$id": "302",
-              "NoiseFrequency": 40.0,
+              "NoiseFrequency": 40,
               "Min": 0,
               "Max": 0,
               "BlockType": {
@@ -4177,7 +4177,7 @@
             },
             {
               "$id": "304",
-              "NoiseFrequency": 25.0,
+              "NoiseFrequency": 25,
               "Min": 4,
               "Max": 6,
               "BlockType": {
@@ -4193,15 +4193,15 @@
                     "Type": "Eco.World.Blocks.DirtBlock, Eco.World"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 0.0,
-                    "max": 3.0
+                    "min": 0,
+                    "max": 3
                   },
-                  "PercentChance": 1.0,
-                  "NoiseFrequency": 3.0,
+                  "PercentChance": 1,
+                  "NoiseFrequency": 3,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Blobs"
                 }
@@ -4209,7 +4209,7 @@
             },
             {
               "$id": "308",
-              "NoiseFrequency": 15.0,
+              "NoiseFrequency": 15,
               "Min": 1,
               "Max": 12,
               "BlockType": {
@@ -4225,15 +4225,15 @@
                     "Type": "Eco.Mods.TechTree.ClayBlock, Eco.Mods"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 0.0,
-                    "max": 3.0
+                    "min": 0,
+                    "max": 3
                   },
-                  "PercentChance": 1.0,
-                  "NoiseFrequency": 3.0,
+                  "PercentChance": 1,
+                  "NoiseFrequency": 3,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Blobs"
                 },
@@ -4245,15 +4245,15 @@
                     "Type": "Eco.Mods.TechTree.CrushedShaleBlock, Eco.Mods"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 18.0,
-                    "max": 20.0
+                    "min": 18,
+                    "max": 20
                   },
                   "PercentChance": 0.4,
-                  "NoiseFrequency": 3.0,
+                  "NoiseFrequency": 3,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Blobs"
                 },
@@ -4265,15 +4265,15 @@
                     "Type": "Eco.Mods.TechTree.CrushedCoalBlock, Eco.Mods"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 19.0,
-                    "max": 20.0
+                    "min": 19,
+                    "max": 20
                   },
                   "PercentChance": 0.3,
-                  "NoiseFrequency": 3.0,
+                  "NoiseFrequency": 3,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Blobs"
                 }
@@ -4281,7 +4281,7 @@
             },
             {
               "$id": "316",
-              "NoiseFrequency": 25.0,
+              "NoiseFrequency": 25,
               "Min": 0,
               "Max": 20,
               "BlockType": {
@@ -4296,15 +4296,15 @@
                     "$ref": "313"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 0.0,
-                    "max": 0.0
+                    "min": 0,
+                    "max": 0
                   },
                   "PercentChance": 0.4,
-                  "NoiseFrequency": 3.0,
+                  "NoiseFrequency": 3,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Blobs"
                 },
@@ -4315,15 +4315,15 @@
                     "$ref": "315"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 0.0,
-                    "max": 1.0
+                    "min": 0,
+                    "max": 1
                   },
                   "PercentChance": 0.4,
-                  "NoiseFrequency": 3.0,
+                  "NoiseFrequency": 3,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Blobs"
                 },
@@ -4334,15 +4334,15 @@
                     "$ref": "305"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 8.0,
-                    "max": 11.0
+                    "min": 8,
+                    "max": 11
                   },
                   "PercentChance": 0.075,
-                  "NoiseFrequency": 25.0,
+                  "NoiseFrequency": 25,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Bands"
                 },
@@ -4352,56 +4352,56 @@
                   "SpawnAtLeastOne": false,
                   "SpawnPercentChance": 0.0025,
                   "DepthRange": {
-                    "min": 8.0,
-                    "max": 20.0
+                    "min": 8,
+                    "max": 20
                   },
                   "DepositDepthRange": {
-                    "min": 0.0,
-                    "max": 20.0
+                    "min": 0,
+                    "max": 20
                   },
                   "BlocksCountRange": {
-                    "min": 15.0,
-                    "max": 50.0
+                    "min": 15,
+                    "max": 50
                   },
                   "BlockType": {
                     "$ref": "305"
                   },
                   "DirectionWeights": [
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 5.0,
-                      "Y": 2.0,
-                      "Z": 5.0
+                      "X": 5,
+                      "Y": 2,
+                      "Z": 5
                     },
                     {
-                      "X": 3.0,
-                      "Y": 4.0,
-                      "Z": 3.0
+                      "X": 3,
+                      "Y": 4,
+                      "Z": 3
                     },
                     {
-                      "X": 2.0,
-                      "Y": 3.0,
-                      "Z": 2.0
+                      "X": 2,
+                      "Y": 3,
+                      "Z": 2
                     },
                     {
-                      "X": 3.0,
-                      "Y": 4.0,
-                      "Z": 3.0
+                      "X": 3,
+                      "Y": 4,
+                      "Z": 3
                     },
                     {
-                      "X": 5.0,
-                      "Y": 2.0,
-                      "Z": 5.0
+                      "X": 5,
+                      "Y": 2,
+                      "Z": 5
                     }
                   ],
                   "WeightVariance": {
-                    "X": 1.0,
-                    "Y": 5.0,
-                    "Z": 1.0
+                    "X": 1,
+                    "Y": 5,
+                    "Z": 1
                   }
                 },
                 {
@@ -4410,56 +4410,56 @@
                   "SpawnAtLeastOne": false,
                   "SpawnPercentChance": 0.0025,
                   "DepthRange": {
-                    "min": 8.0,
-                    "max": 20.0
+                    "min": 8,
+                    "max": 20
                   },
                   "DepositDepthRange": {
-                    "min": 8.0,
-                    "max": 20.0
+                    "min": 8,
+                    "max": 20
                   },
                   "BlocksCountRange": {
-                    "min": 40.0,
-                    "max": 250.0
+                    "min": 40,
+                    "max": 250
                   },
                   "BlockType": {
                     "$ref": "305"
                   },
                   "DirectionWeights": [
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 3.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 3
                     },
                     {
-                      "X": 1.0,
-                      "Y": 4.0,
-                      "Z": 3.0
+                      "X": 1,
+                      "Y": 4,
+                      "Z": 3
                     },
                     {
-                      "X": 2.0,
-                      "Y": 3.0,
-                      "Z": 2.0
+                      "X": 2,
+                      "Y": 3,
+                      "Z": 2
                     },
                     {
-                      "X": 1.0,
-                      "Y": 4.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 4,
+                      "Z": 1
                     },
                     {
-                      "X": 3.0,
-                      "Y": 2.0,
-                      "Z": 1.0
+                      "X": 3,
+                      "Y": 2,
+                      "Z": 1
                     }
                   ],
                   "WeightVariance": {
-                    "X": 2.0,
-                    "Y": 1.0,
-                    "Z": 1.0
+                    "X": 2,
+                    "Y": 1,
+                    "Z": 1
                   }
                 },
                 {
@@ -4468,56 +4468,56 @@
                   "SpawnAtLeastOne": false,
                   "SpawnPercentChance": 0.0025,
                   "DepthRange": {
-                    "min": 14.0,
-                    "max": 20.0
+                    "min": 14,
+                    "max": 20
                   },
                   "DepositDepthRange": {
-                    "min": 0.0,
-                    "max": 20.0
+                    "min": 0,
+                    "max": 20
                   },
                   "BlocksCountRange": {
-                    "min": 35.0,
-                    "max": 140.0
+                    "min": 35,
+                    "max": 140
                   },
                   "BlockType": {
                     "$ref": "305"
                   },
                   "DirectionWeights": [
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 2.0,
-                      "Z": 5.0
+                      "X": 1,
+                      "Y": 2,
+                      "Z": 5
                     },
                     {
-                      "X": 3.0,
-                      "Y": 4.0,
-                      "Z": 3.0
+                      "X": 3,
+                      "Y": 4,
+                      "Z": 3
                     },
                     {
-                      "X": 4.0,
-                      "Y": 3.0,
-                      "Z": 4.0
+                      "X": 4,
+                      "Y": 3,
+                      "Z": 4
                     },
                     {
-                      "X": 1.0,
-                      "Y": 4.0,
-                      "Z": 3.0
+                      "X": 1,
+                      "Y": 4,
+                      "Z": 3
                     },
                     {
-                      "X": 1.0,
-                      "Y": 3.0,
-                      "Z": 2.0
+                      "X": 1,
+                      "Y": 3,
+                      "Z": 2
                     }
                   ],
                   "WeightVariance": {
-                    "X": 3.0,
-                    "Y": 2.0,
-                    "Z": 2.0
+                    "X": 3,
+                    "Y": 2,
+                    "Z": 2
                   }
                 },
                 {
@@ -4526,56 +4526,56 @@
                   "SpawnAtLeastOne": false,
                   "SpawnPercentChance": 0.0025,
                   "DepthRange": {
-                    "min": 18.0,
-                    "max": 20.0
+                    "min": 18,
+                    "max": 20
                   },
                   "DepositDepthRange": {
-                    "min": 0.0,
-                    "max": 20.0
+                    "min": 0,
+                    "max": 20
                   },
                   "BlocksCountRange": {
-                    "min": 15.0,
-                    "max": 150.0
+                    "min": 15,
+                    "max": 150
                   },
                   "BlockType": {
                     "$ref": "305"
                   },
                   "DirectionWeights": [
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 2.0,
-                      "Z": 5.0
+                      "X": 1,
+                      "Y": 2,
+                      "Z": 5
                     },
                     {
-                      "X": 3.0,
-                      "Y": 4.0,
-                      "Z": 5.0
+                      "X": 3,
+                      "Y": 4,
+                      "Z": 5
                     },
                     {
-                      "X": 2.0,
-                      "Y": 3.0,
-                      "Z": 4.0
+                      "X": 2,
+                      "Y": 3,
+                      "Z": 4
                     },
                     {
-                      "X": 1.0,
-                      "Y": 4.0,
-                      "Z": 3.0
+                      "X": 1,
+                      "Y": 4,
+                      "Z": 3
                     },
                     {
-                      "X": 5.0,
-                      "Y": 2.0,
-                      "Z": 2.0
+                      "X": 5,
+                      "Y": 2,
+                      "Z": 2
                     }
                   ],
                   "WeightVariance": {
-                    "X": 3.0,
-                    "Y": 4.0,
-                    "Z": 2.0
+                    "X": 3,
+                    "Y": 4,
+                    "Z": 2
                   }
                 },
                 {
@@ -4584,53 +4584,53 @@
                   "SpawnAtLeastOne": false,
                   "SpawnPercentChance": 0.02,
                   "DepthRange": {
-                    "min": 0.0,
-                    "max": 1.0
+                    "min": 0,
+                    "max": 1
                   },
                   "DepositDepthRange": {
-                    "min": -2.0,
-                    "max": 1.0
+                    "min": -2,
+                    "max": 1
                   },
                   "BlocksCountRange": {
-                    "min": 8.0,
-                    "max": 15.0
+                    "min": 8,
+                    "max": 15
                   },
                   "BlockType": {
                     "$ref": "305"
                   },
                   "DirectionWeights": [
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 3.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 3,
+                      "Z": 1
                     },
                     {
-                      "X": 3.0,
-                      "Y": 2.0,
-                      "Z": 3.0
+                      "X": 3,
+                      "Y": 2,
+                      "Z": 3
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     }
                   ],
                   "WeightVariance": {
-                    "X": 1.0,
-                    "Y": 1.0,
-                    "Z": 1.0
+                    "X": 1,
+                    "Y": 1,
+                    "Z": 1
                   }
                 }
               ]
             },
             {
               "$id": "326",
-              "NoiseFrequency": 40.0,
+              "NoiseFrequency": 40,
               "Min": 55,
               "Max": 60,
               "BlockType": {
@@ -4646,15 +4646,15 @@
                     "Type": "Eco.Mods.TechTree.CoalBlock, Eco.Mods"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 20.0,
-                    "max": 21.0
+                    "min": 20,
+                    "max": 21
                   },
-                  "PercentChance": 1.0,
-                  "NoiseFrequency": 3.0,
+                  "PercentChance": 1,
+                  "NoiseFrequency": 3,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Bands"
                 },
@@ -4665,15 +4665,15 @@
                     "$ref": "305"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 21.0,
-                    "max": 23.0
+                    "min": 21,
+                    "max": 23
                   },
                   "PercentChance": 0.15,
-                  "NoiseFrequency": 25.0,
+                  "NoiseFrequency": 25,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Bands"
                 },
@@ -4683,66 +4683,66 @@
                   "SpawnAtLeastOne": false,
                   "SpawnPercentChance": 0.001,
                   "DepthRange": {
-                    "min": 20.0,
-                    "max": 24.0
+                    "min": 20,
+                    "max": 24
                   },
                   "DepositDepthRange": {
-                    "min": 5.0,
-                    "max": 30.0
+                    "min": 5,
+                    "max": 30
                   },
                   "BlocksCountRange": {
-                    "min": 15.0,
-                    "max": 300.0
+                    "min": 15,
+                    "max": 300
                   },
                   "BlockType": {
                     "$ref": "305"
                   },
                   "DirectionWeights": [
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 3.0,
-                      "Y": 1.0,
-                      "Z": 3.0
+                      "X": 3,
+                      "Y": 1,
+                      "Z": 3
                     },
                     {
-                      "X": 4.0,
-                      "Y": 1.0,
-                      "Z": 4.0
+                      "X": 4,
+                      "Y": 1,
+                      "Z": 4
                     }
                   ],
                   "WeightVariance": {
-                    "X": 3.0,
-                    "Y": 1.0,
-                    "Z": 3.0
+                    "X": 3,
+                    "Y": 1,
+                    "Z": 3
                   }
                 },
                 {
@@ -4752,15 +4752,15 @@
                     "$ref": "305"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 38.0,
-                    "max": 44.0
+                    "min": 38,
+                    "max": 44
                   },
                   "PercentChance": 0.2,
-                  "NoiseFrequency": 25.0,
+                  "NoiseFrequency": 25,
                   "NoiseType": "RidgedMulti",
                   "NoiseDistributionType": "Bands"
                 },
@@ -4770,16 +4770,16 @@
                   "SpawnAtLeastOne": false,
                   "SpawnPercentChance": 0.001,
                   "DepthRange": {
-                    "min": 48.0,
-                    "max": 55.0
+                    "min": 48,
+                    "max": 55
                   },
                   "DepositDepthRange": {
-                    "min": 25.0,
-                    "max": 55.0
+                    "min": 25,
+                    "max": 55
                   },
                   "BlocksCountRange": {
-                    "min": 75.0,
-                    "max": 200.0
+                    "min": 75,
+                    "max": 200
                   },
                   "BlockType": {
                     "$id": "334",
@@ -4787,55 +4787,55 @@
                   },
                   "DirectionWeights": [
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 1.0,
-                      "Y": 1.0,
-                      "Z": 1.0
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
                     },
                     {
-                      "X": 2.0,
-                      "Y": 1.0,
-                      "Z": 2.0
+                      "X": 2,
+                      "Y": 1,
+                      "Z": 2
                     },
                     {
-                      "X": 3.0,
-                      "Y": 1.0,
-                      "Z": 3.0
+                      "X": 3,
+                      "Y": 1,
+                      "Z": 3
                     },
                     {
-                      "X": 4.0,
-                      "Y": 1.0,
-                      "Z": 4.0
+                      "X": 4,
+                      "Y": 1,
+                      "Z": 4
                     }
                   ],
                   "WeightVariance": {
-                    "X": 3.0,
-                    "Y": 1.0,
-                    "Z": 3.0
+                    "X": 3,
+                    "Y": 1,
+                    "Z": 3
                   }
                 },
                 {
@@ -4846,15 +4846,15 @@
                     "Type": "Eco.Mods.TechTree.GraniteBlock, Eco.Mods"
                   },
                   "HeightRange": {
-                    "min": -1.0,
-                    "max": 1.0
+                    "min": -1,
+                    "max": 1
                   },
                   "DepthRange": {
-                    "min": 45.0,
-                    "max": 60.0
+                    "min": 45,
+                    "max": 60
                   },
                   "PercentChance": 0.8,
-                  "NoiseFrequency": 15.0,
+                  "NoiseFrequency": 15,
                   "NoiseType": "Perlin",
                   "NoiseDistributionType": "Bands"
                 }
@@ -4862,7 +4862,7 @@
             },
             {
               "$id": "337",
-              "NoiseFrequency": 25.0,
+              "NoiseFrequency": 25,
               "Min": 58,
               "Max": 65,
               "BlockType": {
