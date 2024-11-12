@@ -92,8 +92,8 @@ def show_diffs(_: invoke.Context):
         if match := re.match(pattern, path):
             config = match.group(1)
 
-            # skip the WorldGenerator diff, it's not useful
-            if "WorldGenerator" in config:
+            # skip diffs that aren't useful
+            if ("WorldGenerator" in config) or ("Network" in config) or ("Maintenance" in config):
                 return new_data
 
             print(f"\tDiffing {config}")
