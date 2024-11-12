@@ -107,10 +107,9 @@ def show_diffs(_: invoke.Context):
             with open(os.path.join("Configs", config + ".original.json"), "w", encoding="utf-8") as file:
                 file.write(json.dumps(original_data, indent=2, sort_keys=True))
 
-            # diff the two, write the diff to a file
+            # diff the two then dump..
+            # ..load, and dump again to get a pretty print
             diff_json = jsondiff.diff(original_data, new_data, marshal=True, dump=True)
-
-            # json dump, load, and dump again to get a pretty print
             diff_str = json.dumps(json.loads(diff_json), indent=2, sort_keys=True)
 
             # write the diff to a file
