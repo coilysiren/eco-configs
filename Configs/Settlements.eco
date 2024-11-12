@@ -66,14 +66,14 @@
   "AllowOptionToPreventSettlementsFromSeceding": false,
   "CultureDeedLinkPercentRequirement": 30,
   "SettlementFoundationBaseInfluence": [
-    45,
-    150,
+    50,
+    200,
     400
   ],
   "SettlementInfluenceMultiplier": [
-    1,
-    1,
-    1
+    2,
+    2,
+    2
   ],
   "ScaleInfluenceBasedOnWorldSize": true,
   "BaseInfluenceRadiusFoundationMovementAllowedAfterFounding": 50,
@@ -89,23 +89,23 @@
   ],
   "MinCitizensToFoundSettlement": [
     2,
-    3,
-    20
+    6,
+    12
   ],
   "MinCitizensToMaintainSettlement": [
     1,
-    4,
-    10
+    3,
+    6
   ],
   "MinCultureToFoundSettlement": [
     0,
-    60,
-    400
+    20,
+    200
   ],
   "MinCultureToMaintainSettlement": [
     0,
-    30,
-    120
+    10,
+    100
   ],
   "CultureToInfluenceMappingPerSettlementType": [
     {
@@ -228,10 +228,10 @@
     1.2
   ],
   "PercentOfAnnexationResourcesWasted": [
-    0.5,
-    0.5,
-    0.5,
-    0.5
+    0.25,
+    0.25,
+    0.25,
+    0.25
   ],
   "AnnexationResourceRequirementPerCitizen": [
     [
