@@ -1,44 +1,44 @@
 {
-  "GameSettings": {
-    "DesiredNumberOfPlayers": 200,
-    "HoursPlayedPerDay": 0,
-    "CollaborationLevel": "HighCollaboration",
-    "GameSpeed": "Normal",
-    "SimulationLevel": "Normal",
-    "ExhaustionEnabled": false,
-    "HasMeteor": true,
-    "AllowFriendsToJoin": true,
-    "GenerateRandomWorld": false,
-    "AdvancedGameSettings": {
-      "MeteorImpactInDays": 30,
-      "MaxProfessionsPerCitizen": 10,
-      "MaxSpecialtiesPerCitizen": 33,
-      "SkillCostMultiplier": 1,
-      "CraftResourceMultiplier": 1,
-      "CraftTimeMultiplier": 1,
-      "ClaimStakesGrantedUponSkillscrollConsumed": 0,
-      "ClaimPapersGrantedUponSkillscrollConsumed": 0,
-      "CanAbandonSpecialties": true,
-      "SpecialtyRefundPercentage": 0,
-      "GainCharacterExperienceWithSpecialtyExperience": 0,
-      "StackSizeMultiplier": 1,
-      "WeightMultiplier": 1,
-      "FuelMultiplier": 1,
-      "GrowthRateMultiplier": 1,
-      "ConnectionRangeMultiplier": 2,
-      "ShelfLifeMultiplier": 1,
-      "AllowDeepOceanBuilding": false
-    }
+  "CalorieConsumptionRate": {
+    "DeepOcean": 30,
+    "Ocean": 2
   },
   "EndgameCraftCost": "Normal",
+  "GameSettings": {
+    "AdvancedGameSettings": {
+      "AllowDeepOceanBuilding": false,
+      "CanAbandonSpecialties": true,
+      "ClaimPapersGrantedUponSkillscrollConsumed": 0,
+      "ClaimStakesGrantedUponSkillscrollConsumed": 0,
+      "ConnectionRangeMultiplier": 2,
+      "CraftResourceMultiplier": 1,
+      "CraftTimeMultiplier": 1,
+      "FuelMultiplier": 1,
+      "GainCharacterExperienceWithSpecialtyExperience": 0,
+      "GrowthRateMultiplier": 1,
+      "MaxProfessionsPerCitizen": 10,
+      "MaxSpecialtiesPerCitizen": 33,
+      "MeteorImpactInDays": 30,
+      "ShelfLifeMultiplier": 1,
+      "SkillCostMultiplier": 1,
+      "SpecialtyRefundPercentage": 0,
+      "StackSizeMultiplier": 1,
+      "WeightMultiplier": 1
+    },
+    "AllowFriendsToJoin": true,
+    "CollaborationLevel": "HighCollaboration",
+    "DesiredNumberOfPlayers": 200,
+    "ExhaustionEnabled": false,
+    "GameSpeed": "Normal",
+    "GenerateRandomWorld": false,
+    "HasMeteor": true,
+    "HoursPlayedPerDay": 0,
+    "SimulationLevel": "Normal"
+  },
+  "PlayerCanDrownWhenSwimming": true,
   "SkillbookCraftCost": "Normal",
   "SwimSpeed": {
-    "Ocean": 0.75,
-    "DeepOcean": 0.25
-  },
-  "CalorieConsumptionRate": {
-    "Ocean": 2,
-    "DeepOcean": 30
-  },
-  "PlayerCanDrownWhenSwimming": true
+    "DeepOcean": 0.25,
+    "Ocean": 0.75
+  }
 }

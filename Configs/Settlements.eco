@@ -1,52 +1,75 @@
 {
-  "PlayerReputationToCultureFormula": {
-    "InputMin": 0,
-    "InputHalflife": 5000,
-    "OutputAtMin": 0,
-    "OutputLimit": 13334
-  },
+  "ActiveCitizensRequiredtoAnnexRelative": [
+    1.2,
+    1.2,
+    1.2,
+    1.2
+  ],
+  "AllowOptionToPreventSettlementsFromSeceding": false,
+  "AnnexTargetBoostPerAdditionalChildSettlementInUnfoundedSettlementParent": 0.5,
+  "AnnexTargetBoostPerAdditionalCitizenInUnfoundedSettlementParent": 0.2,
+  "AnnexTargetBoostWhenHasUnfoundedSettlementParent": 0.1,
+  "AnnexationResourceRequirementPerCitizen": [
+    [
+      {
+        "Required": 2,
+        "TagName": "BasicUpgrade"
+      },
+      {
+        "Required": 100,
+        "TagName": "Wood"
+      }
+    ],
+    [
+      {
+        "Required": 2,
+        "TagName": "AdvancedUpgrade"
+      },
+      {
+        "Required": 200,
+        "TagName": "Wood"
+      },
+      {
+        "Required": 200,
+        "TagName": "Metal"
+      }
+    ],
+    [
+      {
+        "Required": 2,
+        "TagName": "ModernUpgrade"
+      },
+      {
+        "Required": 200,
+        "TagName": "Wood"
+      },
+      {
+        "Required": 100,
+        "TagName": "Metal"
+      }
+    ],
+    [
+      {
+        "Required": 2,
+        "TagName": "ModernUpgrade"
+      },
+      {
+        "Required": 200,
+        "TagName": "Wood"
+      },
+      {
+        "Required": 200,
+        "TagName": "Metal"
+      }
+    ]
+  ],
   "ArtworkReputationToCultureFormula": {
-    "InputMin": 0,
     "InputHalflife": 5000,
+    "InputMin": 0,
     "OutputAtMin": 0,
     "OutputLimit": 13334
   },
-  "CultureValueOnResidentialPropertyToHousingValueMultiplierFormula": {
-    "InputMin": 0,
-    "InputHalflife": 500,
-    "OutputAtMin": 1,
-    "OutputLimit": 2
-  },
-  "SettlementClaimsPerCitizen": [
-    10,
-    20,
-    40
-  ],
-  "SettlementClaimsPerAbandonedCitizen": [
-    5,
-    5,
-    5
-  ],
-  "HomesteadSupportClaimsPerCitizen": [
-    5,
-    5,
-    5
-  ],
-  "HomesteadSupportClaimsPerAbandonedCitizen": [
-    3,
-    3,
-    3
-  ],
-  "ClaimStakesPerCitizen": [
-    1.5,
-    1.5,
-    1.5
-  ],
-  "ClaimStakesPerAbandonedCitizen": [
-    0.5,
-    0.5,
-    0.5
-  ],
+  "BaseInfluenceRadiusFoundationMovementAllowedAfterFounding": 50,
   "BasePlotsOnClaimStake": [
     5,
     5,
@@ -58,74 +81,90 @@
     25
   ],
   "BasePlotsOnHomesteadClaimStake": 16,
-  "HoursToResolvePropertyCrisis": [
-    24,
-    24,
-    24
+  "ClaimStakesPerAbandonedCitizen": [
+    0.5,
+    0.5,
+    0.5
   ],
-  "AllowOptionToPreventSettlementsFromSeceding": false,
-  "CultureDeedLinkPercentRequirement": 30,
-  "SettlementFoundationBaseInfluence": [
-    50,
-    200,
-    400
+  "ClaimStakesPerCitizen": [
+    1.5,
+    1.5,
+    1.5
   ],
-  "SettlementInfluenceMultiplier": [
-    2,
-    2,
-    2
+  "ConfigVersion": 1,
+  "CultureAdvantageAbsoluteRequiredToAnnexChildSettlement": [
+    40,
+    180,
+    750,
+    1000
   ],
-  "ScaleInfluenceBasedOnWorldSize": true,
-  "BaseInfluenceRadiusFoundationMovementAllowedAfterFounding": 50,
-  "SettlementMinRequiredPlotCoveragePercentage": 0.2,
-  "HomesteadMinRequiredPlotCoveragePercentage": 0.5,
-  "MinSubSettlementsToFoundSettlement": [
-    2,
-    2
-  ],
-  "MinSubSettlementsToMaintainSettlement": [
-    2,
-    2
-  ],
-  "MinCitizensToFoundSettlement": [
-    2,
-    4,
-    12
-  ],
-  "MinCitizensToMaintainSettlement": [
-    1,
-    2,
-    6
-  ],
-  "MinCultureToFoundSettlement": [
-    0,
+  "CultureAdvantageAbsoluteRequiredToAnnexSiblingSettlement": [
     20,
+    50,
+    100,
     200
   ],
-  "MinCultureToMaintainSettlement": [
-    0,
-    10,
-    100
+  "CultureAdvantagePercentRequiredToAnnexChildSettlement": [
+    0.25,
+    0.3,
+    0.35,
+    0.4
   ],
+  "CultureAdvantagePercentRequiredToAnnexSiblingSettlement": [
+    1.5,
+    2,
+    2.5,
+    3
+  ],
+  "CultureDeedLinkPercentRequirement": 30,
   "CultureToInfluenceMappingPerSettlementType": [
     {
-      "InputMin": 0,
       "InputHalflife": 100,
+      "InputMin": 0,
       "OutputAtMin": 0,
       "OutputLimit": 150
     },
     {
-      "InputMin": 0,
       "InputHalflife": 140,
+      "InputMin": 0,
       "OutputAtMin": 0,
       "OutputLimit": 350
     },
     {
-      "InputMin": 0,
       "InputHalflife": 420,
+      "InputMin": 0,
       "OutputAtMin": 0,
       "OutputLimit": 1000
     }
+  ],
+  "CultureValueOnResidentialPropertyToHousingValueMultiplierFormula": {
+    "InputHalflife": 500,
+    "InputMin": 0,
+    "OutputAtMin": 1,
+    "OutputLimit": 2
+  },
+  "ExtraSettlementPapersToAnnexPerCitizen": [
+    4,
+    3,
+    2,
+    1
+  ],
+  "HomesteadMinRequiredPlotCoveragePercentage": 0.5,
+  "HomesteadSupportClaimsPerAbandonedCitizen": [
+    3,
+    3,
+    3
+  ],
+  "HomesteadSupportClaimsPerCitizen": [
+    5,
+    5,
+    5
+  ],
+  "HoursBeforeInvalidatingCultureDeed": 2,
+  "HoursToResolvePropertyCrisis": [
+    24,
+    24,
+    24
   ],
   "MaxGivableReputationThroughLaws": [
     10,
@@ -142,90 +181,50 @@
     40,
     100
   ],
-  "MinGivableToSinglePartyTotal": [
-    -10,
-    -60,
-    -100
+  "MaxNumberOfCulturalProperties": [
+    3,
+    10,
+    25
+  ],
+  "MayAnnexSameLevel": false,
+  "MayAnnexSubSettlements": true,
+  "MinCitizensToFoundSettlement": [
+    2,
+    4,
+    12
+  ],
+  "MinCitizensToMaintainSettlement": [
+    1,
+    2,
+    6
   ],
   "MinCultureOfFoundationSettlements": [
     0,
     0,
     0
   ],
-  "MaxNumberOfCulturalProperties": [
-    3,
-    10,
-    25
-  ],
-  "HoursBeforeInvalidatingCultureDeed": 2,
-  "MayAnnexSameLevel": false,
-  "MayAnnexSubSettlements": true,
-  "CultureAdvantagePercentRequiredToAnnexChildSettlement": [
-    0.25,
-    0.3,
-    0.35,
-    0.4
-  ],
-  "CultureAdvantageAbsoluteRequiredToAnnexChildSettlement": [
-    40,
-    180,
-    750,
-    1000
-  ],
-  "CultureAdvantagePercentRequiredToAnnexSiblingSettlement": [
-    1.5,
-    2,
-    2.5,
-    3
-  ],
-  "CultureAdvantageAbsoluteRequiredToAnnexSiblingSettlement": [
+  "MinCultureToFoundSettlement": [
+    0,
     20,
-    50,
-    100,
     200
   ],
-  "ReductionPercentageWhenHomesteadIsAbandoned": 0.9,
-  "WeightCultureByPercentOfNeighboringPlotsChildSettlement": [
-    {
-      "min": 0.05,
-      "max": 0.2
-    },
-    {
-      "min": 0.1,
-      "max": 0.4
-    },
-    {
-      "min": 0.2,
-      "max": 0.6
-    },
-    {
-      "min": 0.3,
-      "max": 1
-    }
+  "MinCultureToMaintainSettlement": [
+    0,
+    10,
+    100
   ],
-  "WeightCultureByPercentOfNeighboringPlotsSiblingSettlement": [
-    {
-      "min": 0.05,
-      "max": 0.2
-    },
-    {
-      "min": 0.1,
-      "max": 0.4
-    },
-    {
-      "min": 0.2,
-      "max": 0.6
-    },
-    {
-      "min": 0.3,
-      "max": 1
-    }
+  "MinGivableToSinglePartyTotal": [
+    -10,
+    -60,
+    -100
   ],
-  "ActiveCitizensRequiredtoAnnexRelative": [
-    1.2,
-    1.2,
-    1.2,
-    1.2
+  "MinSubSettlementsToFoundSettlement": [
+    2,
+    2
+  ],
+  "MinSubSettlementsToMaintainSettlement": [
+    2,
+    2
   ],
   "PercentOfAnnexationResourcesWasted": [
     0.25,
@@ -233,72 +232,73 @@
     0.25,
     0.25
   ],
-  "AnnexationResourceRequirementPerCitizen": [
-    [
-      {
-        "TagName": "BasicUpgrade",
-        "Required": 2
-      },
-      {
-        "TagName": "Wood",
-        "Required": 100
-      }
-    ],
-    [
-      {
-        "TagName": "AdvancedUpgrade",
-        "Required": 2
-      },
-      {
-        "TagName": "Wood",
-        "Required": 200
-      },
-      {
-        "TagName": "Metal",
-        "Required": 200
-      }
-    ],
-    [
-      {
-        "TagName": "ModernUpgrade",
-        "Required": 2
-      },
-      {
-        "TagName": "Wood",
-        "Required": 200
-      },
-      {
-        "TagName": "Metal",
-        "Required": 100
-      }
-    ],
-    [
-      {
-        "TagName": "ModernUpgrade",
-        "Required": 2
-      },
-      {
-        "TagName": "Wood",
-        "Required": 200
-      },
-      {
-        "TagName": "Metal",
-        "Required": 200
-      }
-    ]
-  ],
-  "ExtraSettlementPapersToAnnexPerCitizen": [
-    4,
-    3,
-    2,
-    1
-  ],
+  "PlayerReputationToCultureFormula": {
+    "InputHalflife": 5000,
+    "InputMin": 0,
+    "OutputAtMin": 0,
+    "OutputLimit": 13334
+  },
   "PostAnnexationSecessionLockDays": [
     3,
     5
   ],
-  "AnnexTargetBoostWhenHasUnfoundedSettlementParent": 0.1,
-  "AnnexTargetBoostPerAdditionalCitizenInUnfoundedSettlementParent": 0.2,
-  "AnnexTargetBoostPerAdditionalChildSettlementInUnfoundedSettlementParent": 0.5,
-  "ConfigVersion": 1
+  "ReductionPercentageWhenHomesteadIsAbandoned": 0.9,
+  "ScaleInfluenceBasedOnWorldSize": true,
+  "SettlementClaimsPerAbandonedCitizen": [
+    5,
+    5,
+    5
+  ],
+  "SettlementClaimsPerCitizen": [
+    10,
+    20,
+    40
+  ],
+  "SettlementFoundationBaseInfluence": [
+    50,
+    200,
+    400
+  ],
+  "SettlementInfluenceMultiplier": [
+    2,
+    2,
+    2
+  ],
+  "SettlementMinRequiredPlotCoveragePercentage": 0.2,
+  "WeightCultureByPercentOfNeighboringPlotsChildSettlement": [
+    {
+      "max": 0.2,
+      "min": 0.05
+    },
+    {
+      "max": 0.4,
+      "min": 0.1
+    },
+    {
+      "max": 0.6,
+      "min": 0.2
+    },
+    {
+      "max": 1,
+      "min": 0.3
+    }
+  ],
+  "WeightCultureByPercentOfNeighboringPlotsSiblingSettlement": [
+    {
+      "max": 0.2,
+      "min": 0.05
+    },
+    {
+      "max": 0.4,
+      "min": 0.1
+    },
+    {
+      "max": 0.6,
+      "min": 0.2
+    },
+    {
+      "max": 1,
+      "min": 0.3
+    }
+  ]
 }

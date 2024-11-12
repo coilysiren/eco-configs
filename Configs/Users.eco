@@ -1,56 +1,24 @@
 {
-  "UseWaste": false,
-  "ConfigVersion": 1,
-  "AllowDebugCalls": false,
-  "UnStuckDisableTime": 60,
   "AdminCommandsLoggingLevel": "LogFileAndNotifyAdmins",
+  "AllowDebugCalls": false,
+  "ConfigVersion": 1,
   "DelayNearbyFoodCheckMinutes": 4,
-  "NearbyFoodSpawnLocationRadius": 20,
+  "MovementHackDetection": false,
   "NearbyFoodSpawnCount": 5,
-  "UseExactSpawnLocation": false,
+  "NearbyFoodSpawnLocationRadius": 20,
+  "RequiredOccupancyBeforeAFKKick": 0,
   "SpawnLocation": {
     "x": 344,
     "y": 66,
     "z": 525
   },
   "SpawnSearchRange": 600,
-  "MovementHackDetection": false,
-  "RequiredOccupancyBeforeAFKKick": 0,
   "TimeRequiredForAFKMinutes": 0,
+  "UnStuckDisableTime": 60,
+  "UseExactSpawnLocation": false,
+  "UseWaste": false,
   "UserPermission": {
-    "WhiteList": {
-      "UserIDAddedEvent": {},
-      "UserIDRemovedEvent": {},
-      "Collection": {
-        "System.String": {
-          "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
-          "$values": []
-        }
-      }
-    },
-    "BlackList": {
-      "UserIDAddedEvent": {},
-      "UserIDRemovedEvent": {},
-      "Collection": {
-        "Eco.Gameplay.Players.TimeUser": {
-          "$type": "System.Collections.Generic.List`1[[Eco.Gameplay.Players.TimeUser, Eco.Gameplay]], System.Private.CoreLib",
-          "$values": []
-        }
-      }
-    },
-    "MuteList": {
-      "UserIDAddedEvent": {},
-      "UserIDRemovedEvent": {},
-      "Collection": {
-        "Eco.Gameplay.Players.TimeUser": {
-          "$type": "System.Collections.Generic.List`1[[Eco.Gameplay.Players.TimeUser, Eco.Gameplay]], System.Private.CoreLib",
-          "$values": []
-        }
-      }
-    },
     "Admins": {
-      "UserIDAddedEvent": {},
-      "UserIDRemovedEvent": {},
       "Collection": {
         "System.String": {
           "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
@@ -58,7 +26,29 @@
             "66485add-5273-48fd-6bd8-08dc8d1bff58"
           ]
         }
-      }
+      },
+      "UserIDAddedEvent": {},
+      "UserIDRemovedEvent": {}
+    },
+    "BlackList": {
+      "Collection": {
+        "Eco.Gameplay.Players.TimeUser": {
+          "$type": "System.Collections.Generic.List`1[[Eco.Gameplay.Players.TimeUser, Eco.Gameplay]], System.Private.CoreLib",
+          "$values": []
+        }
+      },
+      "UserIDAddedEvent": {},
+      "UserIDRemovedEvent": {}
+    },
+    "MuteList": {
+      "Collection": {
+        "Eco.Gameplay.Players.TimeUser": {
+          "$type": "System.Collections.Generic.List`1[[Eco.Gameplay.Players.TimeUser, Eco.Gameplay]], System.Private.CoreLib",
+          "$values": []
+        }
+      },
+      "UserIDAddedEvent": {},
+      "UserIDRemovedEvent": {}
     },
     "QueuePriorities": {
       "Eco.Gameplay.Players.QueuePriority": {
@@ -83,14 +73,24 @@
       }
     },
     "UsersWithReservedSlotsAtQueue": {
-      "UserIDAddedEvent": {},
-      "UserIDRemovedEvent": {},
       "Collection": {
         "System.String": {
           "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
           "$values": []
         }
-      }
+      },
+      "UserIDAddedEvent": {},
+      "UserIDRemovedEvent": {}
+    },
+    "WhiteList": {
+      "Collection": {
+        "System.String": {
+          "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+          "$values": []
+        }
+      },
+      "UserIDAddedEvent": {},
+      "UserIDRemovedEvent": {}
     }
   }
 }

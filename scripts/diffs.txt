@@ -1,4 +1,0 @@
-Balance.eco
-Difficulty.eco
-Settlements.eco
-StrangeWorlds.eco
