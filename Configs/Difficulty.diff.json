@@ -1,0 +1,15 @@
+{
+  "GameSettings": {
+    "AdvancedGameSettings": {
+      "$delete": [
+        "BrokenPartsWillDisableVehicles",
+        "RequireSkillsToReplaceParts"
+      ],
+      "ConnectionRangeMultiplier": 2
+    },
+    "CollaborationLevel": "HighCollaboration",
+    "DesiredNumberOfPlayers": 200,
+    "ExhaustionEnabled": false,
+    "HoursPlayedPerDay": 0
+  }
+}

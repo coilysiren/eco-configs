@@ -1,0 +1,7 @@
+{
+  "$delete": [
+    "ShowOilLayer",
+    "VehicleMaintenanceDecayPercentage"
+  ],
+  "ToolRepairPenalty": 0.1
+}

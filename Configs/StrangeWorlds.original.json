@@ -1,0 +1,10 @@
+{
+  "AcceptAchievementsFromAnyWorld": true,
+  "AcceptAchievementsFromTheseWorlds": [],
+  "AcceptItemsBoughtInAnyWorld": true,
+  "AcceptItemsBoughtInTheseWorlds": [],
+  "AllowPaidItemsInPlayerStores": false,
+  "AllowUsingPaidItemsWithoutBlueprint": false,
+  "BlockUsingAnyPaidItem": false,
+  "ShowPurchaseNotification": true
+}

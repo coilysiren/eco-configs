@@ -1,0 +1,12 @@
+{
+  "CalorieMultiplierOnMove": 5,
+  "CraftingQueueQuantity": 5,
+  "MaintenanceDecayMultiplier": 1,
+  "MaintenanceDecayPercentage": 5,
+  "RetroactiveExperienceRate": 0,
+  "ShowOilLayer": false,
+  "SkillGainMultiplier": 1.0,
+  "SpecialtyExperiencePerLevelSquared": 25.0,
+  "ToolRepairPenalty": 0.2,
+  "VehicleMaintenanceDecayPercentage": 10
+}

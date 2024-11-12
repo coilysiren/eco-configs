@@ -1,0 +1,88 @@
+{
+  "MinCitizensToFoundSettlement": {
+    "$delete": [
+      2,
+      0
+    ],
+    "$insert": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        4
+      ]
+    ]
+  },
+  "MinCitizensToMaintainSettlement": {
+    "$delete": [
+      2
+    ],
+    "$insert": [
+      [
+        0,
+        1
+      ]
+    ]
+  },
+  "MinCultureToFoundSettlement": {
+    "$delete": [
+      2,
+      1
+    ],
+    "$insert": [
+      [
+        1,
+        20
+      ],
+      [
+        2,
+        200
+      ]
+    ]
+  },
+  "MinCultureToMaintainSettlement": {
+    "$delete": [
+      2,
+      1
+    ],
+    "$insert": [
+      [
+        1,
+        10
+      ],
+      [
+        2,
+        100
+      ]
+    ]
+  },
+  "PercentOfAnnexationResourcesWasted": [
+    0.25,
+    0.25,
+    0.25,
+    0.25
+  ],
+  "SettlementFoundationBaseInfluence": {
+    "$delete": [
+      1,
+      0
+    ],
+    "$insert": [
+      [
+        0,
+        50
+      ],
+      [
+        1,
+        200
+      ]
+    ]
+  },
+  "SettlementInfluenceMultiplier": [
+    2,
+    2,
+    2
+  ]
+}

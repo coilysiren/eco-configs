@@ -1,0 +1,19 @@
+{
+  "AdminCommandsLoggingLevel": "LogFileAndNotifyAdmins",
+  "SpawnLocation": {
+    "x": 344,
+    "y": 66,
+    "z": 525
+  },
+  "UserPermission": {
+    "Admins": {
+      "Collection": {
+        "System.String": {
+          "$$values": [
+            "66485add-5273-48fd-6bd8-08dc8d1bff58"
+          ]
+        }
+      }
+    }
+  }
+}

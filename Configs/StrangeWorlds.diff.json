@@ -1,0 +1,7 @@
+{
+  "$delete": [
+    "ShowPurchaseNotification"
+  ],
+  "AllowPaidItemsInPlayerStores": true,
+  "AllowUsingPaidItemsWithoutBlueprint": true
+}

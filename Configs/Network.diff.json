@@ -1,0 +1,13 @@
+{
+  "DetailedDescription": "TODO",
+  "DiscordAddress": "xbREEcRTyT",
+  "MaxUsersLoadingAtSameTime": -1,
+  "Name": "Eco Sirens",
+  "Playtime": "222222000000000000000000001111000000000000000000001111000000000000000000002222000000000000000000002222000000000000000000001111000000000000002222222222000000000000002222",
+  "PublicServer": true,
+  "Rate": 10,
+  "RemoteAddress": "eco.coilysiren.me:3000",
+  "ReservedSlots": -1,
+  "ServerCategory": "Beginner",
+  "WebServerUrl": "http://eco.coilysiren.me:3001"
+}

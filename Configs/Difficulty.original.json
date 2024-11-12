@@ -1,0 +1,46 @@
+{
+  "CalorieConsumptionRate": {
+    "DeepOcean": 30.0,
+    "Ocean": 2.0
+  },
+  "EndgameCraftCost": "Normal",
+  "GameSettings": {
+    "AdvancedGameSettings": {
+      "AllowDeepOceanBuilding": false,
+      "BrokenPartsWillDisableVehicles": true,
+      "CanAbandonSpecialties": true,
+      "ClaimPapersGrantedUponSkillscrollConsumed": 0.0,
+      "ClaimStakesGrantedUponSkillscrollConsumed": 0.0,
+      "ConnectionRangeMultiplier": 1.0,
+      "CraftResourceMultiplier": 1.0,
+      "CraftTimeMultiplier": 1.0,
+      "FuelMultiplier": 1.0,
+      "GainCharacterExperienceWithSpecialtyExperience": 0.0,
+      "GrowthRateMultiplier": 1.0,
+      "MaxProfessionsPerCitizen": 10.0,
+      "MaxSpecialtiesPerCitizen": 33.0,
+      "MeteorImpactInDays": 30.0,
+      "RequireSkillsToReplaceParts": true,
+      "ShelfLifeMultiplier": 1.0,
+      "SkillCostMultiplier": 1.0,
+      "SpecialtyRefundPercentage": 0.0,
+      "StackSizeMultiplier": 1.0,
+      "WeightMultiplier": 1.0
+    },
+    "AllowFriendsToJoin": true,
+    "CollaborationLevel": "MediumCollaboration",
+    "DesiredNumberOfPlayers": 4,
+    "ExhaustionEnabled": true,
+    "GameSpeed": "Normal",
+    "GenerateRandomWorld": false,
+    "HasMeteor": true,
+    "HoursPlayedPerDay": 3.0,
+    "SimulationLevel": "Normal"
+  },
+  "PlayerCanDrownWhenSwimming": true,
+  "SkillbookCraftCost": "Normal",
+  "SwimSpeed": {
+    "DeepOcean": 0.25,
+    "Ocean": 0.75
+  }
+}
