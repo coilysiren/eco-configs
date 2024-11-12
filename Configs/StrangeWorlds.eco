@@ -5,5 +5,6 @@
   "AcceptItemsBoughtInTheseWorlds": [],
   "AllowPaidItemsInPlayerStores": true,
   "AllowUsingPaidItemsWithoutBlueprint": true,
-  "BlockUsingAnyPaidItem": false
+  "BlockUsingAnyPaidItem": false,
+  "ShowPurchaseNotification": true
 }

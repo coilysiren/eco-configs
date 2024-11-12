@@ -205,13 +205,13 @@
   ],
   "MinCultureToFoundSettlement": [
     0,
-    20,
-    200
+    60,
+    400
   ],
   "MinCultureToMaintainSettlement": [
     0,
-    10,
-    100
+    30,
+    120
   ],
   "MinGivableToSinglePartyTotal": [
     -10,
@@ -227,10 +227,10 @@
     2
   ],
   "PercentOfAnnexationResourcesWasted": [
-    0.25,
-    0.25,
-    0.25,
-    0.25
+    0.5,
+    0.5,
+    0.5,
+    0.5
   ],
   "PlayerReputationToCultureFormula": {
     "InputHalflife": 5000,

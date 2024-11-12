@@ -26,44 +26,6 @@
       ]
     ]
   },
-  "MinCultureToFoundSettlement": {
-    "$delete": [
-      2,
-      1
-    ],
-    "$insert": [
-      [
-        1,
-        20
-      ],
-      [
-        2,
-        200
-      ]
-    ]
-  },
-  "MinCultureToMaintainSettlement": {
-    "$delete": [
-      2,
-      1
-    ],
-    "$insert": [
-      [
-        1,
-        10
-      ],
-      [
-        2,
-        100
-      ]
-    ]
-  },
-  "PercentOfAnnexationResourcesWasted": [
-    0.25,
-    0.25,
-    0.25,
-    0.25
-  ],
   "SettlementFoundationBaseInfluence": {
     "$delete": [
       1,
