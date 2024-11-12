@@ -7,6 +7,7 @@
   "GameSettings": {
     "AdvancedGameSettings": {
       "AllowDeepOceanBuilding": false,
+      "BrokenPartsWillDisableVehicles": true,
       "CanAbandonSpecialties": true,
       "ClaimPapersGrantedUponSkillscrollConsumed": 0,
       "ClaimStakesGrantedUponSkillscrollConsumed": 0,
@@ -19,6 +20,7 @@
       "MaxProfessionsPerCitizen": 10,
       "MaxSpecialtiesPerCitizen": 33,
       "MeteorImpactInDays": 30,
+      "RequireSkillsToReplaceParts": true,
       "ShelfLifeMultiplier": 1,
       "SkillCostMultiplier": 1,
       "SpecialtyRefundPercentage": 0,

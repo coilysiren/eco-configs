@@ -1,10 +1,6 @@
 {
   "GameSettings": {
     "AdvancedGameSettings": {
-      "$delete": [
-        "BrokenPartsWillDisableVehicles",
-        "RequireSkillsToReplaceParts"
-      ],
       "ConnectionRangeMultiplier": 2
     },
     "CollaborationLevel": "HighCollaboration",
