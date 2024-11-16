@@ -16,7 +16,7 @@
       "CraftTimeMultiplier": 1,
       "FuelMultiplier": 1,
       "GainCharacterExperienceWithSpecialtyExperience": 0,
-      "GrowthRateMultiplier": 1,
+      "GrowthRateMultiplier": 2,
       "MaxProfessionsPerCitizen": 10,
       "MaxSpecialtiesPerCitizen": 33,
       "MeteorImpactInDays": 30,
@@ -28,7 +28,7 @@
       "WeightMultiplier": 1
     },
     "AllowFriendsToJoin": true,
-    "CollaborationLevel": "HighCollaboration",
+    "CollaborationLevel": "MediumCollaboration",
     "DesiredNumberOfPlayers": 200,
     "ExhaustionEnabled": false,
     "GameSpeed": "Normal",
