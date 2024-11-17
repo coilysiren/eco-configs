@@ -28,9 +28,9 @@
       "$type": "Eco.WorldGenerator.VoronoiModule, Eco.WorldGenerator",
       "Config": {
         "$id": "5",
-        "AutoScale": false,
+        "AutoScale": true,
         "AutoScaleExponent": 0.25,
-        "CoastlineSize": 1.5,
+        "CoastlineSize": 1,
         "ContinentAvoidRange": {
           "max": 16,
           "min": 8
@@ -50,8 +50,8 @@
           "min": 0.003
         },
         "LandPercentRange": {
-          "max": 0.8,
-          "min": 0.6
+          "max": 0.75,
+          "min": 0.65
         },
         "MaxElevationOceanDistance": 5,
         "NumContinentsRange": {

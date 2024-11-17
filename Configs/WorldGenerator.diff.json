@@ -6,16 +6,10 @@
   "HeightmapModule": {
     "Source": {
       "Config": {
-        "AutoScale": false,
-        "CoastlineSize": 1.5,
         "ElevationPower": 1,
         "LakeSizeRange": {
           "max": 0.006,
           "min": 0.003
-        },
-        "LandPercentRange": {
-          "max": 0.8,
-          "min": 0.6
         },
         "MaxElevationOceanDistance": 5,
         "NumContinentsRange": {
