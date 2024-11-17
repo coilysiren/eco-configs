@@ -46,8 +46,8 @@
         },
         "IslandWeight": 0.05,
         "LakeSizeRange": {
-          "max": 0.0018,
-          "min": 0.0008
+          "max": 0.006,
+          "min": 0.003
         },
         "LandPercentRange": {
           "max": 0.8,
