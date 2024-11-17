@@ -1,9 +1,9 @@
 {
   "GameSettings": {
     "AdvancedGameSettings": {
-      "ConnectionRangeMultiplier": 2
+      "ConnectionRangeMultiplier": 2,
+      "GrowthRateMultiplier": 2
     },
-    "CollaborationLevel": "HighCollaboration",
     "DesiredNumberOfPlayers": 200,
     "ExhaustionEnabled": false,
     "HoursPlayedPerDay": 0
