@@ -85,7 +85,7 @@
         "RiverCellAvoidance": 2,
         "RiverCellWidth": 20,
         "SaveTerrainImage": true,
-        "Seed": 0,
+        "Seed": 89988395,
         "ShallowOceanSize": 2,
         "SteppeWeight": 0.1,
         "TaigaWeight": 0.08,
