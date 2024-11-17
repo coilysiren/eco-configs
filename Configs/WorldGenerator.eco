@@ -28,7 +28,7 @@
       "$type": "Eco.WorldGenerator.VoronoiModule, Eco.WorldGenerator",
       "Config": {
         "$id": "5",
-        "AutoScale": true,
+        "AutoScale": false,
         "AutoScaleExponent": 0.25,
         "CoastlineSize": 1.5,
         "ContinentAvoidRange": {
@@ -37,7 +37,7 @@
         },
         "CoolForestWeight": 0.22,
         "DesertWeight": 0.15,
-        "ElevationPower": 2,
+        "ElevationPower": 1,
         "HighDesertWeight": 0.05,
         "IceWeight": 0.01,
         "IslandAvoidRange": {
@@ -53,14 +53,14 @@
           "max": 0.8,
           "min": 0.6
         },
-        "MaxElevationOceanDistance": 10,
+        "MaxElevationOceanDistance": 5,
         "NumContinentsRange": {
           "max": 1,
           "min": 1
         },
         "NumCoolForests": 1,
         "NumDeserts": 1,
-        "NumHighDeserts": 1,
+        "NumHighDeserts": 0,
         "NumIces": 1,
         "NumLakesRange": {
           "max": 10,
@@ -75,7 +75,7 @@
           "max": 10,
           "min": 5
         },
-        "NumSteppes": 1,
+        "NumSteppes": 0,
         "NumTaigas": 1,
         "NumTundras": 1,
         "NumWarmForests": 1,
