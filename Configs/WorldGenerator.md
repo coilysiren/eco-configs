@@ -4,8 +4,8 @@ Changes to make each season relative to the vanilla world generation
 
 ## World Size
 
-- WorldLength
-- WorldWidth
+- WorldLength 100
+- WorldWidth 100
 
 ## Flatter map
 
