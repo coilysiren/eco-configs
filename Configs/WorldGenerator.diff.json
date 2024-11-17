@@ -8,8 +8,8 @@
       "Config": {
         "ElevationPower": 1,
         "LakeSizeRange": {
-          "max": 0.006,
-          "min": 0.003
+          "max": 0.004,
+          "min": 0.002
         },
         "MaxElevationOceanDistance": 5,
         "NumContinentsRange": {
@@ -21,12 +21,12 @@
           "min": 5
         },
         "NumRiversRange": {
-          "max": 10,
-          "min": 5
+          "max": 8,
+          "min": 4
         },
         "NumSmallIslandsRange": {
-          "max": 10,
-          "min": 5
+          "max": 9,
+          "min": 3
         },
         "NumSteppes": 0,
         "RiverCellWidth": 20

@@ -17,11 +17,11 @@ Changes to make each season relative to the vanilla world generation
 ## More Fresh Water
 
 - LakeSizeRange (increase)
-- NumRiversRange (increase)
 - NumLakesRange (increase)
-- LakeSizeRange (increase)
+- NumRiversRange (increase)
+- RiverCellWidth (increase)
 
 ## One Continent, More Islands
 
 - NumContinentsRange [1, 1]
-- NumSmallIslandsRange (double)
+- NumSmallIslandsRange (triple)
