@@ -6,17 +6,27 @@
   "HeightmapModule": {
     "Source": {
       "Config": {
+        "CoastlineSize": 1.5,
+        "LandPercentRange": {
+          "max": 0.8,
+          "min": 0.6
+        },
         "NumContinentsRange": {
           "max": 1
         },
+        "NumLakesRange": {
+          "max": 10,
+          "min": 5
+        },
         "NumRiversRange": {
-          "max": 6,
-          "min": 3
+          "max": 10,
+          "min": 5
         },
         "NumSmallIslandsRange": {
-          "max": 6,
-          "min": 3
-        }
+          "max": 10,
+          "min": 5
+        },
+        "RiverCellWidth": 20
       }
     }
   }

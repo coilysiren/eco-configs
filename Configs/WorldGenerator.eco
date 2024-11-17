@@ -30,7 +30,7 @@
         "$id": "5",
         "AutoScale": true,
         "AutoScaleExponent": 0.25,
-        "CoastlineSize": 1,
+        "CoastlineSize": 1.5,
         "ContinentAvoidRange": {
           "max": 16,
           "min": 8
@@ -50,8 +50,8 @@
           "min": 0.0008
         },
         "LandPercentRange": {
-          "max": 0.75,
-          "min": 0.65
+          "max": 0.8,
+          "min": 0.6
         },
         "MaxElevationOceanDistance": 10,
         "NumContinentsRange": {
@@ -63,17 +63,17 @@
         "NumHighDeserts": 1,
         "NumIces": 1,
         "NumLakesRange": {
-          "max": 8,
-          "min": 4
+          "max": 10,
+          "min": 5
         },
         "NumRainforests": 1,
         "NumRiversRange": {
-          "max": 6,
-          "min": 3
+          "max": 10,
+          "min": 5
         },
         "NumSmallIslandsRange": {
-          "max": 6,
-          "min": 3
+          "max": 10,
+          "min": 5
         },
         "NumSteppes": 1,
         "NumTaigas": 1,
@@ -83,7 +83,7 @@
         "PointRadius": 10,
         "RainforestWeight": 0.15,
         "RiverCellAvoidance": 2,
-        "RiverCellWidth": 10,
+        "RiverCellWidth": 20,
         "SaveTerrainImage": true,
         "Seed": 0,
         "ShallowOceanSize": 2,
