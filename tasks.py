@@ -186,7 +186,7 @@ def expand_deposits(_: invoke.Context):
             if module["$type"] == "Eco.WorldGenerator.BiomeTerrainModule, Eco.WorldGenerator":
                 for block_depth_range in module["Module"]["BlockDepthRanges"]:
                     for sub_module in block_depth_range["SubModules"]:
-                        is_deposit = sub_module["$type"] == "DepositTerrainModule"
+                        is_deposit = "DepositTerrainModule" in sub_module["$type"]
                         is_ore = "OreBlock" in sub_module["BlockType"].get("Type", "")
                         if is_deposit and is_ore:
                             sub_module = _expand_deposits(sub_module)

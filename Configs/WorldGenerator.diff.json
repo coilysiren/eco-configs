@@ -43,12 +43,12 @@
               "SubModules": {
                 "2": {
                   "DepositDepthRange": {
-                    "max": 100,
-                    "min": 33
+                    "max": 120,
+                    "min": 18
                   },
                   "DepthRange": {
-                    "max": 80,
-                    "min": 38
+                    "max": 100,
+                    "min": 23
                   }
                 }
               }
@@ -72,10 +72,10 @@
               "SubModules": {
                 "1": {
                   "DepositDepthRange": {
-                    "max": 60
+                    "max": 80
                   },
                   "DepthRange": {
-                    "max": 40
+                    "max": 60
                   }
                 },
                 "2": {
@@ -85,162 +85,15 @@
                 }
               }
             },
-            "4": {
-              "SubModules": {
-                "1": {
-                  "DepositDepthRange": {
-                    "max": 81,
-                    "min": 20
-                  },
-                  "DepthRange": {
-                    "max": 61,
-                    "min": 25
-                  }
-                }
-              }
-            },
             "5": {
               "SubModules": {
                 "0": {
                   "DepositDepthRange": {
-                    "max": 95
+                    "max": 115
                   },
                   "DepthRange": {
-                    "max": 75,
-                    "min": 35
-                  }
-                },
-                "1": {
-                  "DepositDepthRange": {
-                    "max": 100
-                  },
-                  "DepthRange": {
-                    "max": 80,
-                    "min": 36
-                  }
-                }
-              }
-            },
-            "6": {
-              "SubModules": {
-                "0": {
-                  "DepositDepthRange": {
-                    "max": 120
-                  },
-                  "DepthRange": {
-                    "max": 100,
-                    "min": 45
-                  }
-                }
-              }
-            }
-          }
-        }
-      },
-      "10": {
-        "Module": {
-          "BlockDepthRanges": {
-            "5": {
-              "SubModules": {
-                "1": {
-                  "DepositDepthRange": {
-                    "max": 77,
-                    "min": 14
-                  },
-                  "DepthRange": {
-                    "max": 57,
-                    "min": 19
-                  }
-                }
-              }
-            }
-          }
-        }
-      },
-      "11": {
-        "Module": {
-          "BlockDepthRanges": {
-            "5": {
-              "SubModules": {
-                "1": {
-                  "DepositDepthRange": {
-                    "max": 76,
-                    "min": 11
-                  },
-                  "DepthRange": {
-                    "max": 56,
-                    "min": 16
-                  }
-                }
-              }
-            }
-          }
-        }
-      },
-      "12": {
-        "Module": {
-          "BlockDepthRanges": {
-            "3": {
-              "SubModules": {
-                "3": {
-                  "DepositDepthRange": {
-                    "max": 60
-                  },
-                  "DepthRange": {
-                    "max": 40
-                  }
-                },
-                "4": {
-                  "DepositDepthRange": {
-                    "max": 60,
-                    "min": 5
-                  },
-                  "DepthRange": {
-                    "max": 40
-                  }
-                },
-                "5": {
-                  "DepositDepthRange": {
-                    "max": 60
-                  },
-                  "DepthRange": {
-                    "max": 40
-                  }
-                },
-                "6": {
-                  "DepositDepthRange": {
-                    "max": 60
-                  },
-                  "DepthRange": {
-                    "max": 40
-                  }
-                },
-                "7": {
-                  "DepositDepthRange": {
-                    "max": 21
-                  }
-                }
-              }
-            },
-            "4": {
-              "SubModules": {
-                "2": {
-                  "DepositDepthRange": {
-                    "max": 64
-                  },
-                  "DepthRange": {
-                    "max": 44,
-                    "min": 5
-                  }
-                },
-                "4": {
-                  "DepositDepthRange": {
                     "max": 95,
-                    "min": 28
-                  },
-                  "DepthRange": {
-                    "max": 75,
-                    "min": 33
+                    "min": 20
                   }
                 }
               }
@@ -255,18 +108,18 @@
               "SubModules": {
                 "1": {
                   "DepositDepthRange": {
-                    "max": 70
+                    "max": 90
                   },
                   "DepthRange": {
-                    "max": 50
+                    "max": 70
                   }
                 },
                 "2": {
                   "DepositDepthRange": {
-                    "max": 95
+                    "max": 115
                   },
                   "DepthRange": {
-                    "max": 75,
+                    "max": 95,
                     "min": 10
                   }
                 }
@@ -282,10 +135,10 @@
               "SubModules": {
                 "1": {
                   "DepositDepthRange": {
-                    "max": 60
+                    "max": 80
                   },
                   "DepthRange": {
-                    "max": 40
+                    "max": 60
                   }
                 }
               }
@@ -294,11 +147,11 @@
               "SubModules": {
                 "0": {
                   "DepositDepthRange": {
-                    "max": 85
+                    "max": 105
                   },
                   "DepthRange": {
-                    "max": 65,
-                    "min": 20
+                    "max": 85,
+                    "min": 5
                   }
                 }
               }
@@ -313,38 +166,29 @@
               "SubModules": {
                 "0": {
                   "DepositDepthRange": {
-                    "max": 80
+                    "max": 100
                   },
                   "DepthRange": {
-                    "max": 60,
+                    "max": 80,
                     "min": 10
                   }
                 },
                 "1": {
                   "DepositDepthRange": {
-                    "max": 100
+                    "max": 120
                   },
                   "DepthRange": {
-                    "max": 80,
-                    "min": 25
+                    "max": 100,
+                    "min": 10
                   }
                 },
                 "2": {
                   "DepositDepthRange": {
-                    "max": 100
+                    "max": 120
                   },
                   "DepthRange": {
-                    "max": 80,
-                    "min": 35
-                  }
-                },
-                "3": {
-                  "DepositDepthRange": {
-                    "max": 115
-                  },
-                  "DepthRange": {
-                    "max": 95,
-                    "min": 50
+                    "max": 100,
+                    "min": 20
                   }
                 }
               }
@@ -359,20 +203,11 @@
               "SubModules": {
                 "1": {
                   "DepositDepthRange": {
-                    "max": 140
+                    "max": 160
                   },
                   "DepthRange": {
-                    "max": 120,
-                    "min": 45
-                  }
-                },
-                "2": {
-                  "DepositDepthRange": {
-                    "max": 140
-                  },
-                  "DepthRange": {
-                    "max": 120,
-                    "min": 15
+                    "max": 140,
+                    "min": 30
                   }
                 }
               }
@@ -387,28 +222,15 @@
               "SubModules": {
                 "1": {
                   "DepositDepthRange": {
-                    "max": 100
+                    "max": 120
                   },
                   "DepthRange": {
-                    "max": 80
+                    "max": 100
                   }
                 },
                 "2": {
                   "DepositDepthRange": {
                     "max": 35
-                  }
-                }
-              }
-            },
-            "3": {
-              "SubModules": {
-                "0": {
-                  "DepositDepthRange": {
-                    "max": 100
-                  },
-                  "DepthRange": {
-                    "max": 80,
-                    "min": 35
                   }
                 }
               }
@@ -423,35 +245,35 @@
               "SubModules": {
                 "3": {
                   "DepositDepthRange": {
-                    "max": 60
+                    "max": 80
                   },
                   "DepthRange": {
-                    "max": 40
+                    "max": 60
                   }
                 },
                 "4": {
                   "DepositDepthRange": {
-                    "max": 60,
+                    "max": 80,
                     "min": 5
                   },
                   "DepthRange": {
-                    "max": 40
+                    "max": 60
                   }
                 },
                 "5": {
                   "DepositDepthRange": {
-                    "max": 60
+                    "max": 80
                   },
                   "DepthRange": {
-                    "max": 40
+                    "max": 60
                   }
                 },
                 "6": {
                   "DepositDepthRange": {
-                    "max": 60
+                    "max": 80
                   },
                   "DepthRange": {
-                    "max": 40
+                    "max": 60
                   }
                 },
                 "7": {
@@ -465,31 +287,11 @@
               "SubModules": {
                 "1": {
                   "DepositDepthRange": {
-                    "max": 64
+                    "max": 84
                   },
                   "DepthRange": {
-                    "max": 44,
+                    "max": 64,
                     "min": 5
-                  }
-                },
-                "2": {
-                  "DepositDepthRange": {
-                    "max": 75,
-                    "min": 10
-                  },
-                  "DepthRange": {
-                    "max": 55,
-                    "min": 15
-                  }
-                },
-                "4": {
-                  "DepositDepthRange": {
-                    "max": 95,
-                    "min": 28
-                  },
-                  "DepthRange": {
-                    "max": 75,
-                    "min": 33
                   }
                 }
               }

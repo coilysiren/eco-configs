@@ -434,12 +434,12 @@
                     "min": 15
                   },
                   "DepositDepthRange": {
-                    "max": 60,
-                    "min": 15
+                    "max": 120,
+                    "min": 18
                   },
                   "DepthRange": {
-                    "max": 60,
-                    "min": 53
+                    "max": 100,
+                    "min": 23
                   },
                   "DirectionWeights": [
                     {
@@ -739,7 +739,7 @@
                     "min": 3
                   },
                   "DepositDepthRange": {
-                    "max": 3,
+                    "max": 23,
                     "min": -1
                   },
                   "DepthRange": {
@@ -825,11 +825,11 @@
                     "min": 6
                   },
                   "DepositDepthRange": {
-                    "max": 20,
+                    "max": 80,
                     "min": -2
                   },
                   "DepthRange": {
-                    "max": 20,
+                    "max": 60,
                     "min": 1
                   },
                   "DirectionWeights": [
@@ -889,7 +889,7 @@
                     "min": 3
                   },
                   "DepositDepthRange": {
-                    "max": 2,
+                    "max": 20,
                     "min": -1
                   },
                   "DepthRange": {
@@ -1076,12 +1076,12 @@
                     "min": 15
                   },
                   "DepositDepthRange": {
-                    "max": 55,
+                    "max": 115,
                     "min": 0
                   },
                   "DepthRange": {
-                    "max": 55,
-                    "min": 50
+                    "max": 95,
+                    "min": 20
                   },
                   "DirectionWeights": [
                     {
@@ -1421,11 +1421,11 @@
                     "min": 3
                   },
                   "DepositDepthRange": {
-                    "max": 30,
+                    "max": 90,
                     "min": 0
                   },
                   "DepthRange": {
-                    "max": 30,
+                    "max": 70,
                     "min": 15
                   },
                   "DirectionWeights": [
@@ -1485,12 +1485,12 @@
                     "min": 6
                   },
                   "DepositDepthRange": {
-                    "max": 55,
+                    "max": 115,
                     "min": 0
                   },
                   "DepthRange": {
-                    "max": 55,
-                    "min": 25
+                    "max": 95,
+                    "min": 10
                   },
                   "DirectionWeights": [
                     {
@@ -1691,11 +1691,11 @@
                     "min": 6
                   },
                   "DepositDepthRange": {
-                    "max": 20,
+                    "max": 80,
                     "min": -2
                   },
                   "DepthRange": {
-                    "max": 20,
+                    "max": 60,
                     "min": 1
                   },
                   "DirectionWeights": [
@@ -1766,12 +1766,12 @@
                     "min": 5
                   },
                   "DepositDepthRange": {
-                    "max": 45,
+                    "max": 105,
                     "min": 0
                   },
                   "DepthRange": {
-                    "max": 45,
-                    "min": 35
+                    "max": 85,
+                    "min": 5
                   },
                   "DirectionWeights": [
                     {
@@ -1999,12 +1999,12 @@
                     "min": 25
                   },
                   "DepositDepthRange": {
-                    "max": 40,
+                    "max": 100,
                     "min": 0
                   },
                   "DepthRange": {
-                    "max": 40,
-                    "min": 25
+                    "max": 80,
+                    "min": 10
                   },
                   "DirectionWeights": [
                     {
@@ -2068,12 +2068,12 @@
                     "min": 5
                   },
                   "DepositDepthRange": {
-                    "max": 60,
+                    "max": 120,
                     "min": 0
                   },
                   "DepthRange": {
-                    "max": 60,
-                    "min": 40
+                    "max": 100,
+                    "min": 10
                   },
                   "DirectionWeights": [
                     {
@@ -2132,12 +2132,12 @@
                     "min": 3
                   },
                   "DepositDepthRange": {
-                    "max": 60,
+                    "max": 120,
                     "min": 0
                   },
                   "DepthRange": {
-                    "max": 60,
-                    "min": 50
+                    "max": 100,
+                    "min": 20
                   },
                   "DirectionWeights": [
                     {
@@ -2465,12 +2465,12 @@
                     "min": 15
                   },
                   "DepositDepthRange": {
-                    "max": 100,
+                    "max": 160,
                     "min": 0
                   },
                   "DepthRange": {
-                    "max": 100,
-                    "min": 60
+                    "max": 140,
+                    "min": 30
                   },
                   "DirectionWeights": [
                     {
@@ -2685,11 +2685,11 @@
                     "min": 20
                   },
                   "DepositDepthRange": {
-                    "max": 60,
+                    "max": 120,
                     "min": 0
                   },
                   "DepthRange": {
-                    "max": 60,
+                    "max": 100,
                     "min": 10
                   },
                   "DirectionWeights": [
@@ -2749,7 +2749,7 @@
                     "min": 4
                   },
                   "DepositDepthRange": {
-                    "max": 15,
+                    "max": 35,
                     "min": -1
                   },
                   "DepthRange": {
@@ -3093,11 +3093,11 @@
                     "min": 15
                   },
                   "DepositDepthRange": {
-                    "max": 20,
+                    "max": 80,
                     "min": 0
                   },
                   "DepthRange": {
-                    "max": 20,
+                    "max": 60,
                     "min": 8
                   },
                   "DirectionWeights": [
@@ -3152,11 +3152,11 @@
                     "min": 40
                   },
                   "DepositDepthRange": {
-                    "max": 20,
-                    "min": 8
+                    "max": 80,
+                    "min": 5
                   },
                   "DepthRange": {
-                    "max": 20,
+                    "max": 60,
                     "min": 8
                   },
                   "DirectionWeights": [
@@ -3211,11 +3211,11 @@
                     "min": 35
                   },
                   "DepositDepthRange": {
-                    "max": 20,
+                    "max": 80,
                     "min": 0
                   },
                   "DepthRange": {
-                    "max": 20,
+                    "max": 60,
                     "min": 14
                   },
                   "DirectionWeights": [
@@ -3270,11 +3270,11 @@
                     "min": 15
                   },
                   "DepositDepthRange": {
-                    "max": 20,
+                    "max": 80,
                     "min": 0
                   },
                   "DepthRange": {
-                    "max": 20,
+                    "max": 60,
                     "min": 18
                   },
                   "DirectionWeights": [
@@ -3329,7 +3329,7 @@
                     "min": 8
                   },
                   "DepositDepthRange": {
-                    "max": 1,
+                    "max": 21,
                     "min": -2
                   },
                   "DepthRange": {
@@ -3410,12 +3410,12 @@
                     "min": 15
                   },
                   "DepositDepthRange": {
-                    "max": 30,
+                    "max": 84,
                     "min": 5
                   },
                   "DepthRange": {
-                    "max": 24,
-                    "min": 20
+                    "max": 64,
+                    "min": 5
                   },
                   "DirectionWeights": [
                     {
