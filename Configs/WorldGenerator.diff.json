@@ -29,7 +29,473 @@
           "min": 3
         },
         "NumSteppes": 0,
-        "RiverCellWidth": 20
+        "RiverCellWidth": 20,
+        "Seed": 89988395
+      }
+    }
+  },
+  "TerrainModule": {
+    "Modules": {
+      "0": {
+        "Module": {
+          "BlockDepthRanges": {
+            "4": {
+              "SubModules": {
+                "2": {
+                  "DepositDepthRange": {
+                    "max": 100,
+                    "min": 33
+                  },
+                  "DepthRange": {
+                    "max": 80,
+                    "min": 38
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "1": {
+        "Module": {
+          "BlockDepthRanges": {
+            "2": {
+              "SubModules": {
+                "0": {
+                  "DepositDepthRange": {
+                    "max": 23
+                  }
+                }
+              }
+            },
+            "3": {
+              "SubModules": {
+                "1": {
+                  "DepositDepthRange": {
+                    "max": 60
+                  },
+                  "DepthRange": {
+                    "max": 40
+                  }
+                },
+                "2": {
+                  "DepositDepthRange": {
+                    "max": 20
+                  }
+                }
+              }
+            },
+            "4": {
+              "SubModules": {
+                "1": {
+                  "DepositDepthRange": {
+                    "max": 81,
+                    "min": 20
+                  },
+                  "DepthRange": {
+                    "max": 61,
+                    "min": 25
+                  }
+                }
+              }
+            },
+            "5": {
+              "SubModules": {
+                "0": {
+                  "DepositDepthRange": {
+                    "max": 95
+                  },
+                  "DepthRange": {
+                    "max": 75,
+                    "min": 35
+                  }
+                },
+                "1": {
+                  "DepositDepthRange": {
+                    "max": 100
+                  },
+                  "DepthRange": {
+                    "max": 80,
+                    "min": 36
+                  }
+                }
+              }
+            },
+            "6": {
+              "SubModules": {
+                "0": {
+                  "DepositDepthRange": {
+                    "max": 120
+                  },
+                  "DepthRange": {
+                    "max": 100,
+                    "min": 45
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "10": {
+        "Module": {
+          "BlockDepthRanges": {
+            "5": {
+              "SubModules": {
+                "1": {
+                  "DepositDepthRange": {
+                    "max": 77,
+                    "min": 14
+                  },
+                  "DepthRange": {
+                    "max": 57,
+                    "min": 19
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "11": {
+        "Module": {
+          "BlockDepthRanges": {
+            "5": {
+              "SubModules": {
+                "1": {
+                  "DepositDepthRange": {
+                    "max": 76,
+                    "min": 11
+                  },
+                  "DepthRange": {
+                    "max": 56,
+                    "min": 16
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "12": {
+        "Module": {
+          "BlockDepthRanges": {
+            "3": {
+              "SubModules": {
+                "3": {
+                  "DepositDepthRange": {
+                    "max": 60
+                  },
+                  "DepthRange": {
+                    "max": 40
+                  }
+                },
+                "4": {
+                  "DepositDepthRange": {
+                    "max": 60,
+                    "min": 5
+                  },
+                  "DepthRange": {
+                    "max": 40
+                  }
+                },
+                "5": {
+                  "DepositDepthRange": {
+                    "max": 60
+                  },
+                  "DepthRange": {
+                    "max": 40
+                  }
+                },
+                "6": {
+                  "DepositDepthRange": {
+                    "max": 60
+                  },
+                  "DepthRange": {
+                    "max": 40
+                  }
+                },
+                "7": {
+                  "DepositDepthRange": {
+                    "max": 21
+                  }
+                }
+              }
+            },
+            "4": {
+              "SubModules": {
+                "2": {
+                  "DepositDepthRange": {
+                    "max": 64
+                  },
+                  "DepthRange": {
+                    "max": 44,
+                    "min": 5
+                  }
+                },
+                "4": {
+                  "DepositDepthRange": {
+                    "max": 95,
+                    "min": 28
+                  },
+                  "DepthRange": {
+                    "max": 75,
+                    "min": 33
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "2": {
+        "Module": {
+          "BlockDepthRanges": {
+            "3": {
+              "SubModules": {
+                "1": {
+                  "DepositDepthRange": {
+                    "max": 70
+                  },
+                  "DepthRange": {
+                    "max": 50
+                  }
+                },
+                "2": {
+                  "DepositDepthRange": {
+                    "max": 95
+                  },
+                  "DepthRange": {
+                    "max": 75,
+                    "min": 10
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "3": {
+        "Module": {
+          "BlockDepthRanges": {
+            "3": {
+              "SubModules": {
+                "1": {
+                  "DepositDepthRange": {
+                    "max": 60
+                  },
+                  "DepthRange": {
+                    "max": 40
+                  }
+                }
+              }
+            },
+            "4": {
+              "SubModules": {
+                "0": {
+                  "DepositDepthRange": {
+                    "max": 85
+                  },
+                  "DepthRange": {
+                    "max": 65,
+                    "min": 20
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "4": {
+        "Module": {
+          "BlockDepthRanges": {
+            "4": {
+              "SubModules": {
+                "0": {
+                  "DepositDepthRange": {
+                    "max": 80
+                  },
+                  "DepthRange": {
+                    "max": 60,
+                    "min": 10
+                  }
+                },
+                "1": {
+                  "DepositDepthRange": {
+                    "max": 100
+                  },
+                  "DepthRange": {
+                    "max": 80,
+                    "min": 25
+                  }
+                },
+                "2": {
+                  "DepositDepthRange": {
+                    "max": 100
+                  },
+                  "DepthRange": {
+                    "max": 80,
+                    "min": 35
+                  }
+                },
+                "3": {
+                  "DepositDepthRange": {
+                    "max": 115
+                  },
+                  "DepthRange": {
+                    "max": 95,
+                    "min": 50
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "5": {
+        "Module": {
+          "BlockDepthRanges": {
+            "4": {
+              "SubModules": {
+                "1": {
+                  "DepositDepthRange": {
+                    "max": 140
+                  },
+                  "DepthRange": {
+                    "max": 120,
+                    "min": 45
+                  }
+                },
+                "2": {
+                  "DepositDepthRange": {
+                    "max": 140
+                  },
+                  "DepthRange": {
+                    "max": 120,
+                    "min": 15
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "6": {
+        "Module": {
+          "BlockDepthRanges": {
+            "2": {
+              "SubModules": {
+                "1": {
+                  "DepositDepthRange": {
+                    "max": 100
+                  },
+                  "DepthRange": {
+                    "max": 80
+                  }
+                },
+                "2": {
+                  "DepositDepthRange": {
+                    "max": 35
+                  }
+                }
+              }
+            },
+            "3": {
+              "SubModules": {
+                "0": {
+                  "DepositDepthRange": {
+                    "max": 100
+                  },
+                  "DepthRange": {
+                    "max": 80,
+                    "min": 35
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "7": {
+        "Module": {
+          "BlockDepthRanges": {
+            "3": {
+              "SubModules": {
+                "3": {
+                  "DepositDepthRange": {
+                    "max": 60
+                  },
+                  "DepthRange": {
+                    "max": 40
+                  }
+                },
+                "4": {
+                  "DepositDepthRange": {
+                    "max": 60,
+                    "min": 5
+                  },
+                  "DepthRange": {
+                    "max": 40
+                  }
+                },
+                "5": {
+                  "DepositDepthRange": {
+                    "max": 60
+                  },
+                  "DepthRange": {
+                    "max": 40
+                  }
+                },
+                "6": {
+                  "DepositDepthRange": {
+                    "max": 60
+                  },
+                  "DepthRange": {
+                    "max": 40
+                  }
+                },
+                "7": {
+                  "DepositDepthRange": {
+                    "max": 21
+                  }
+                }
+              }
+            },
+            "4": {
+              "SubModules": {
+                "1": {
+                  "DepositDepthRange": {
+                    "max": 64
+                  },
+                  "DepthRange": {
+                    "max": 44,
+                    "min": 5
+                  }
+                },
+                "2": {
+                  "DepositDepthRange": {
+                    "max": 75,
+                    "min": 10
+                  },
+                  "DepthRange": {
+                    "max": 55,
+                    "min": 15
+                  }
+                },
+                "4": {
+                  "DepositDepthRange": {
+                    "max": 95,
+                    "min": 28
+                  },
+                  "DepthRange": {
+                    "max": 75,
+                    "min": 33
+                  }
+                }
+              }
+            }
+          }
+        }
       }
     }
   }
