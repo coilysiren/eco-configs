@@ -124,6 +124,15 @@ def show_diffs(_: invoke.Context):
 
 
 @invoke.task
+def reset_worldgen(_: invoke.Context):
+    with open(os.path.join(server_path(), "Configs", "WorldGenerator.eco.template"), "r", encoding="utf-8") as file:
+        data = file.read()
+
+    with open(os.path.join("Configs", "WorldGenerator.eco"), "w", encoding="utf-8") as file:
+        file.write(data)
+
+
+@invoke.task
 def expand_deposits(_: invoke.Context):
     example_data = {
         "TerrainModule": {
