@@ -121,3 +121,64 @@ def show_diffs(_: invoke.Context):
         return new_data
 
     process_configs("", _show_diffs, verbose=False)
+
+
+@invoke.task
+def expand_deposits(_: invoke.Context):
+    example_data = {
+        "TerrainModule": {
+            "$id": "11",
+            "$type": "Eco.WorldGenerator.TerrainModule, Eco.WorldGenerator",
+            "Modules": [
+                {
+                    "$id": "12",
+                    "$type": "Eco.WorldGenerator.BiomeTerrainModule, Eco.WorldGenerator",
+                    "BiomeName": "Grassland",
+                    "Module": {
+                        "$id": "13",
+                        "BlockDepthRanges": [
+                            {
+                                "BlockType": {"Type": "Eco.Mods.TechTree.SandstoneBlock, Eco.Mods"},
+                                "SubModules": [
+                                    {
+                                        "$type": "Eco.WorldGenerator.DepositTerrainModule, Eco.WorldGenerator",
+                                        "BlockType": {"$id": "48", "Type": "Eco.Mods.TechTree.IronOreBlock, Eco.Mods"},
+                                        "DepositDepthRange": {"max": 60, "min": 15},
+                                        "DepthRange": {"max": 60, "min": 53},
+                                    }
+                                ],
+                            }
+                        ],
+                    },
+                }
+            ],
+        }
+    }
+
+    def _expand_deposits(sub_module: dict) -> dict:
+        if "DepthRange" in sub_module:
+            if sub_module["DepthRange"]["min"] >= 20:
+                sub_module["DepthRange"]["min"] -= 15
+            if sub_module["DepthRange"]["max"] >= 20:
+                sub_module["DepthRange"]["max"] = min(sub_module["DepthRange"]["max"] + 20, 200)
+
+        if "DepositDepthRange" in sub_module:
+            if sub_module["DepositDepthRange"]["min"] >= 5:
+                sub_module["DepositDepthRange"]["min"] = max(sub_module["DepthRange"]["min"] - 5, 5)
+            sub_module["DepositDepthRange"]["max"] = min(sub_module["DepthRange"]["max"] + 20, 200)
+
+        return sub_module
+
+    with open(os.path.join("Configs", "WorldGenerator.eco"), "r", encoding="utf-8") as file:
+        world_data = json.loads(file.read())
+        terrain_modules = world_data["TerrainModule"]["Modules"]
+
+        for module in terrain_modules:
+            if module["$type"] == "Eco.WorldGenerator.BiomeTerrainModule, Eco.WorldGenerator":
+                for block_depth_range in module["Module"]["BlockDepthRanges"]:
+                    for sub_module in block_depth_range["SubModules"]:
+                        if sub_module["$type"] == "Eco.WorldGenerator.DepositTerrainModule, Eco.WorldGenerator":
+                            sub_module = _expand_deposits(sub_module)
+
+    with open(os.path.join("Configs", "WorldGenerator.eco"), "w", encoding="utf-8") as file:
+        file.write(json.dumps(world_data, indent=2, sort_keys=True))
