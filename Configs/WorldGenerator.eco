@@ -37,7 +37,7 @@
         },
         "CoolForestWeight": 0.22,
         "DesertWeight": 0.15,
-        "ElevationPower": 1,
+        "ElevationPower": 2,
         "HighDesertWeight": 0.05,
         "IceWeight": 0.01,
         "IslandAvoidRange": {
