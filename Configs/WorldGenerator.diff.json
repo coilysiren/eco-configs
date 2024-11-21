@@ -6,12 +6,11 @@
   "HeightmapModule": {
     "Source": {
       "Config": {
-        "ElevationPower": 1,
         "LakeSizeRange": {
           "max": 0.004,
           "min": 0.002
         },
-        "MaxElevationOceanDistance": 5,
+        "MaxElevationOceanDistance": 20,
         "NumContinentsRange": {
           "max": 1
         },
