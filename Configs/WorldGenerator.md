@@ -9,8 +9,7 @@ Changes to make each season relative to the vanilla world generation
 
 ## Flatter map
 
-- ElevationPower (halve)
-- MaxElevationOceanDistance (halve)
+- MaxElevationOceanDistance (double)
 - NumHighDeserts (zero, it has no unique flora / fauna)
 - NumSteppes (zero, it has no unique flora / fauna)
 
