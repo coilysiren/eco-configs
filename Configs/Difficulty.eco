@@ -16,7 +16,7 @@
       "CraftTimeMultiplier": 1,
       "FuelMultiplier": 1,
       "GainCharacterExperienceWithSpecialtyExperience": 0,
-      "GrowthRateMultiplier": 3,
+      "GrowthRateMultiplier": 2,
       "MaxProfessionsPerCitizen": 10,
       "MaxSpecialtiesPerCitizen": 33,
       "MeteorImpactInDays": 30,
