@@ -1,5 +1,5 @@
 {
-  "AutoShutdownHour": 9,
+  "AutoShutdownHour": 8,
   "AutoShutdownMessage": "Automatic Restart",
   "CountdownIntervals": [
     60,
