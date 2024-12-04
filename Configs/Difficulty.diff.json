@@ -2,7 +2,7 @@
   "GameSettings": {
     "AdvancedGameSettings": {
       "ConnectionRangeMultiplier": 2,
-      "GrowthRateMultiplier": 3
+      "GrowthRateMultiplier": 2
     },
     "DesiredNumberOfPlayers": 200,
     "ExhaustionEnabled": false,
