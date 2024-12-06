@@ -250,9 +250,9 @@
     10
   ],
   "SettlementClaimsPerCitizen": [
+    15,
     20,
-    30,
-    40
+    30
   ],
   "SettlementFoundationBaseInfluence": [
     50,
