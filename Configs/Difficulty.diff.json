@@ -1,6 +1,8 @@
 {
   "GameSettings": {
     "AdvancedGameSettings": {
+      "ClaimPapersGrantedUponSkillscrollConsumed": 1,
+      "ClaimStakesGrantedUponSkillscrollConsumed": 0.25,
       "ConnectionRangeMultiplier": 2,
       "GrowthRateMultiplier": 2
     },
