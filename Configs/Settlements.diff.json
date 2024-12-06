@@ -9,6 +9,16 @@
     2,
     2
   ],
+  "HomesteadSupportClaimsPerAbandonedCitizen": [
+    5,
+    5,
+    5
+  ],
+  "HomesteadSupportClaimsPerCitizen": [
+    10,
+    10,
+    10
+  ],
   "MinCitizensToFoundSettlement": {
     "$delete": [
       2,
