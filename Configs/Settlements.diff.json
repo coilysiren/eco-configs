@@ -1,4 +1,14 @@
 {
+  "ClaimStakesPerAbandonedCitizen": [
+    1,
+    1,
+    1
+  ],
+  "ClaimStakesPerCitizen": [
+    2,
+    2,
+    2
+  ],
   "MinCitizensToFoundSettlement": {
     "$delete": [
       2,
@@ -23,6 +33,22 @@
       [
         0,
         1
+      ]
+    ]
+  },
+  "SettlementClaimsPerAbandonedCitizen": [
+    10,
+    10,
+    10
+  ],
+  "SettlementClaimsPerCitizen": {
+    "$delete": [
+      0
+    ],
+    "$insert": [
+      [
+        1,
+        30
       ]
     ]
   },

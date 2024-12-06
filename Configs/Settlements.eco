@@ -82,14 +82,14 @@
   ],
   "BasePlotsOnHomesteadClaimStake": 16,
   "ClaimStakesPerAbandonedCitizen": [
-    0.5,
-    0.5,
-    0.5
+    1,
+    1,
+    1
   ],
   "ClaimStakesPerCitizen": [
-    1.5,
-    1.5,
-    1.5
+    2,
+    2,
+    2
   ],
   "ConfigVersion": 1,
   "CultureAdvantageAbsoluteRequiredToAnnexChildSettlement": [
@@ -245,13 +245,13 @@
   "ReductionPercentageWhenHomesteadIsAbandoned": 0.9,
   "ScaleInfluenceBasedOnWorldSize": true,
   "SettlementClaimsPerAbandonedCitizen": [
-    5,
-    5,
-    5
+    10,
+    10,
+    10
   ],
   "SettlementClaimsPerCitizen": [
-    10,
     20,
+    30,
     40
   ],
   "SettlementFoundationBaseInfluence": [
