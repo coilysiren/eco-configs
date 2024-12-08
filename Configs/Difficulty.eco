@@ -9,7 +9,7 @@
       "AllowDeepOceanBuilding": false,
       "BrokenPartsWillDisableVehicles": true,
       "CanAbandonSpecialties": true,
-      "ClaimPapersGrantedUponSkillscrollConsumed": 1,
+      "ClaimPapersGrantedUponSkillscrollConsumed": 2,
       "ClaimStakesGrantedUponSkillscrollConsumed": 0.25,
       "ConnectionRangeMultiplier": 2,
       "CraftResourceMultiplier": 1,
