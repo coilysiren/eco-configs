@@ -18,6 +18,8 @@
   "ReservedSlots": -1,
   "ServerCategory": "Beginner",
   "SteamServerPort": 3003,
+  "ID": "3274a4ef-d175-4669-843f-76d3f0831820",
+  "Passport": "d329cd13-27d1-4397-982b-381b16295a33",
   "UPnPEnabled": true,
   "WebServerPort": 3001,
   "WebServerUrl": "http://eco.coilysiren.me:3001"
