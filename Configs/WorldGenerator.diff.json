@@ -3,14 +3,15 @@
     "WorldLength": 100,
     "WorldWidth": 100
   },
+  "Height": 120,
   "HeightmapModule": {
     "Source": {
       "Config": {
         "ElevationPower": 1,
         "IslandWeight": 0,
         "LakeSizeRange": {
-          "max": 0.008,
-          "min": 0.002
+          "max": 0.01,
+          "min": 0.005
         },
         "LandPercentRange": {
           "max": 0.6,
@@ -20,6 +21,7 @@
         "NumContinentsRange": {
           "max": 1
         },
+        "NumHighDeserts": 0,
         "NumLakesRange": {
           "max": 12
         },
@@ -31,6 +33,7 @@
           "max": 0,
           "min": 0
         },
+        "NumSteppes": 0,
         "RiverCellWidth": 20
       }
     }
