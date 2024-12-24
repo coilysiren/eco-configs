@@ -6,30 +6,27 @@
   "HeightmapModule": {
     "Source": {
       "Config": {
+        "ElevationPower": 1,
         "LakeSizeRange": {
-          "max": 0.004,
+          "max": 0,
           "min": 0.002
         },
         "MaxElevationOceanDistance": 20,
         "NumContinentsRange": {
           "max": 1
         },
-        "NumHighDeserts": 0,
         "NumLakesRange": {
-          "max": 10,
-          "min": 5
+          "max": 12
         },
         "NumRiversRange": {
-          "max": 8,
+          "max": 12,
           "min": 4
         },
         "NumSmallIslandsRange": {
-          "max": 9,
-          "min": 3
+          "max": 0,
+          "min": 0
         },
-        "NumSteppes": 0,
-        "RiverCellWidth": 20,
-        "Seed": 89988395
+        "RiverCellWidth": 30
       }
     }
   }

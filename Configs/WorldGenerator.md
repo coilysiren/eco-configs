@@ -10,18 +10,16 @@ Changes to make each season relative to the vanilla world generation
 ## Flatter map
 
 - MaxElevationOceanDistance (double)
-- (the other thing that controls Y in the equation, TODO)
-- NumHighDeserts (zero, it has no unique flora / fauna)
-- NumSteppes (zero, it has no unique flora / fauna)
+- ElevationPower (halve)
 
 ## More Fresh Water
 
-- LakeSizeRange (increase)
-- NumLakesRange (increase)
-- NumRiversRange (increase)
-- RiverCellWidth (increase)
+- LakeSizeRange (0.002, 0.008)
+- NumLakesRange (4, 12)
+- NumRiversRange (4, 12)
+- RiverCellWidth (triple)
 
-## One Continent, More Islands
+## One Continent, No Islands
 
 - NumContinentsRange [1, 1]
-- NumSmallIslandsRange (triple)
+- NumSmallIslandsRange [0, 0]
