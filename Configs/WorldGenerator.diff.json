@@ -7,9 +7,14 @@
     "Source": {
       "Config": {
         "ElevationPower": 1,
+        "IslandWeight": 0,
         "LakeSizeRange": {
-          "max": 0,
+          "max": 0.008,
           "min": 0.002
+        },
+        "LandPercentRange": {
+          "max": 0.6,
+          "min": 0.5
         },
         "MaxElevationOceanDistance": 20,
         "NumContinentsRange": {
@@ -26,7 +31,7 @@
           "max": 0,
           "min": 0
         },
-        "RiverCellWidth": 30
+        "RiverCellWidth": 20
       }
     }
   }

@@ -1,5 +1,3 @@
 {
-  "SkillGainMultiplier": 1.25,
-  "ToolRepairPenalty": 0.1,
-  "VehicleMaintenanceDecayPercentage": 5
+  "SkillGainMultiplier": 1.25
 }
