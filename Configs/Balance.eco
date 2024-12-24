@@ -5,7 +5,7 @@
   "MaintenanceDecayPercentage": 5,
   "RetroactiveExperienceRate": 0,
   "ShowOilLayer": false,
-  "SkillGainMultiplier": 1,
+  "SkillGainMultiplier": 1.25,
   "SpecialtyExperiencePerLevelSquared": 25,
   "ToolRepairPenalty": 0.1,
   "VehicleMaintenanceDecayPercentage": 5
