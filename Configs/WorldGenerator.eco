@@ -46,12 +46,12 @@
         },
         "IslandWeight": 0.05,
         "LakeSizeRange": {
-          "max": 0.0018,
-          "min": 0.0008
+          "max": 0.004,
+          "min": 0.001
         },
         "LandPercentRange": {
-          "max": 0.75,
-          "min": 0.65
+          "max": 0.7,
+          "min": 0.5
         },
         "MaxElevationOceanDistance": 20,
         "NumContinentsRange": {
@@ -72,7 +72,7 @@
           "min": 4
         },
         "NumSmallIslandsRange": {
-          "max": 3,
+          "max": 1,
           "min": 1
         },
         "NumSteppes": 0,
