@@ -2,7 +2,7 @@
   "GameSettings": {
     "AdvancedGameSettings": {
       "ClaimPapersGrantedUponSkillscrollConsumed": 2,
-      "ClaimStakesGrantedUponSkillscrollConsumed": 0.25,
+      "ClaimStakesGrantedUponSkillscrollConsumed": 0.2,
       "ConnectionRangeMultiplier": 2,
       "GrowthRateMultiplier": 2
     },
