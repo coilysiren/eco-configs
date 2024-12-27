@@ -1,6 +1,6 @@
 {
   "DefaultSlots": -1,
-  "DetailedDescription": "Configs:\n- 2 person towns\n- 3x plant growth rate\n- 2x stockpile range\n- faster star gain rate\n- easier tool & vehicle repair\n\nMods\n- Discord Link\n- Price Calculator\n- OpenNutriView\n- AnimalHusbandry\n- Hydroponics & Greenhouses\n- Easy Mining & Logging\n- Pan Drippings\n- Fishing Reloaded\n- Biochemist",
+  "DetailedDescription": "Configs:\n- 2 person towns\n- claims for learning skills\n- 2x stockpile range\n- 4x pollution\n- faster star gain\n\nMods\n- Discord Link\n- Animal Husbandry\n- Greenhouses\n- Easy Mining & Easy Logging\n- Pan Drippings\n- Biochemist\n- Larger Shovel Capacity\n- Mines & Quarries\n- Librarian",
   "DiscordAddress": "xbREEcRTyT",
   "GameServerPort": 3000,
   "ID": "3274a4ef-d175-4669-843f-76d3f0831820",
