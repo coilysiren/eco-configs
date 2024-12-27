@@ -1,0 +1,65 @@
+{
+  "HolidaysEnabled": true,
+  "Holidays": [
+    {
+      "HolidayName": "Christmas",
+      "Enabled": true,
+      "StartDate": new Date(
+        1734649200000
+      ),
+      "EndDate": new Date(
+        1738089600
+      )
+    },
+    {
+      "HolidayName": "Christmas",
+      "Enabled": true,
+      "StartDate": new Date(
+        1766185200000
+      ),
+      "EndDate": new Date(
+        1767222000000
+      )
+    },
+    {
+      "HolidayName": "Christmas",
+      "Enabled": true,
+      "StartDate": new Date(
+        1797721200000
+      ),
+      "EndDate": new Date(
+        1798758000000
+      )
+    },
+    {
+      "HolidayName": "Christmas",
+      "Enabled": true,
+      "StartDate": new Date(
+        1829257200000
+      ),
+      "EndDate": new Date(
+        1830294000000
+      )
+    },
+    {
+      "HolidayName": "Christmas",
+      "Enabled": true,
+      "StartDate": new Date(
+        1860879600000
+      ),
+      "EndDate": new Date(
+        1861916400000
+      )
+    },
+    {
+      "HolidayName": "Christmas",
+      "Enabled": true,
+      "StartDate": new Date(
+        1892415600000
+      ),
+      "EndDate": new Date(
+        1893452400000
+      )
+    }
+  ]
+}
