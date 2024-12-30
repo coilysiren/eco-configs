@@ -11,5 +11,5 @@
     1
   ],
   "CountdownStart": 15,
-  "ReasonForAutoShutdown": "automatic restart, server cleanup will happen 15 minutes before restart"
+  "ReasonForAutoShutdown": "Restart"
 }
