@@ -1,6 +1,6 @@
 {
   "AutoShutdownHour": 8,
-  "AutoShutdownMessage": "Automatic Restart",
+  "AutoShutdownMessage": "automatic restart, server cleanup will happen 15 minutes before restart",
   "CountdownIntervals": [
     60,
     45,
@@ -10,6 +10,6 @@
     3,
     1
   ],
-  "CountdownStart": 30,
-  "ReasonForAutoShutdown": "Restart"
+  "CountdownStart": 15,
+  "ReasonForAutoShutdown": "automatic restart, server cleanup will happen 15 minutes before restart"
 }
