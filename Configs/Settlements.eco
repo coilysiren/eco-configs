@@ -82,9 +82,9 @@
   ],
   "BasePlotsOnHomesteadClaimStake": 16,
   "ClaimStakesPerAbandonedCitizen": [
-    1,
-    1,
-    1
+    2,
+    2,
+    2
   ],
   "ClaimStakesPerCitizen": [
     2,
@@ -151,9 +151,9 @@
   ],
   "HomesteadMinRequiredPlotCoveragePercentage": 0.5,
   "HomesteadSupportClaimsPerAbandonedCitizen": [
-    5,
-    5,
-    5
+    10,
+    10,
+    10
   ],
   "HomesteadSupportClaimsPerCitizen": [
     10,
@@ -245,14 +245,14 @@
   "ReductionPercentageWhenHomesteadIsAbandoned": 0.9,
   "ScaleInfluenceBasedOnWorldSize": true,
   "SettlementClaimsPerAbandonedCitizen": [
-    10,
-    10,
-    10
+    20,
+    30,
+    40
   ],
   "SettlementClaimsPerCitizen": [
-    15,
     20,
-    30
+    30,
+    40
   ],
   "SettlementFoundationBaseInfluence": [
     50,

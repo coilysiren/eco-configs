@@ -5,9 +5,9 @@
     9
   ],
   "ClaimStakesPerAbandonedCitizen": [
-    1,
-    1,
-    1
+    2,
+    2,
+    2
   ],
   "ClaimStakesPerCitizen": [
     2,
@@ -15,9 +15,9 @@
     2
   ],
   "HomesteadSupportClaimsPerAbandonedCitizen": [
-    5,
-    5,
-    5
+    10,
+    10,
+    10
   ],
   "HomesteadSupportClaimsPerCitizen": [
     10,
@@ -52,22 +52,17 @@
     ]
   },
   "SettlementClaimsPerAbandonedCitizen": [
-    10,
-    10,
-    10
+    20,
+    30,
+    40
   ],
   "SettlementClaimsPerCitizen": {
     "$delete": [
-      2,
       0
     ],
     "$insert": [
       [
-        0,
-        15
-      ],
-      [
-        2,
+        1,
         30
       ]
     ]
