@@ -29,7 +29,7 @@
     },
     "AllowFriendsToJoin": true,
     "CollaborationLevel": "MediumCollaboration",
-    "DesiredNumberOfPlayers": 200,
+    "DesiredNumberOfPlayers": 500,
     "ExhaustionEnabled": false,
     "GameSpeed": "Normal",
     "GenerateRandomWorld": false,
