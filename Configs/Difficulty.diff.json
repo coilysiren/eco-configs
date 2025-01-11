@@ -1,13 +1,19 @@
 {
+  "EndgameCraftCost": "Expensive",
   "GameSettings": {
     "AdvancedGameSettings": {
       "ClaimPapersGrantedUponSkillscrollConsumed": 2,
       "ClaimStakesGrantedUponSkillscrollConsumed": 0.2,
       "ConnectionRangeMultiplier": 2,
-      "GrowthRateMultiplier": 2
+      "MaxProfessionsPerCitizen": 3,
+      "MaxSpecialtiesPerCitizen": 12,
+      "MeteorImpactInDays": 60,
+      "SpecialtyRefundPercentage": 100
     },
-    "DesiredNumberOfPlayers": 200,
+    "CollaborationLevel": "HighCollaboration",
+    "DesiredNumberOfPlayers": 500,
     "ExhaustionEnabled": false,
     "HoursPlayedPerDay": 0
-  }
+  },
+  "SkillbookCraftCost": "Expensive"
 }
