@@ -13,7 +13,13 @@
     "CollaborationLevel": "HighCollaboration",
     "DesiredNumberOfPlayers": 500,
     "ExhaustionEnabled": false,
-    "HoursPlayedPerDay": 0
+    "GameSpeed": "Slow",
+    "HoursPlayedPerDay": 0,
+    "SimulationLevel": "Harcore"
   },
-  "SkillbookCraftCost": "Expensive"
+  "SkillbookCraftCost": "Expensive",
+  "SwimSpeed": {
+    "DeepOcean": 0.1,
+    "Ocean": 0.5
+  }
 }
