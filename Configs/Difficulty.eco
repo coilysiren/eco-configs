@@ -3,7 +3,7 @@
     "DeepOcean": 30,
     "Ocean": 2
   },
-  "EndgameCraftCost": "Expensive",
+  "EndgameCraftCost": "Normal",
   "GameSettings": {
     "AdvancedGameSettings": {
       "AllowDeepOceanBuilding": true,
@@ -31,14 +31,14 @@
     "CollaborationLevel": "HighCollaboration",
     "DesiredNumberOfPlayers": 500,
     "ExhaustionEnabled": false,
-    "GameSpeed": "Slow",
+    "GameSpeed": "Normal",
     "GenerateRandomWorld": false,
     "HasMeteor": true,
     "HoursPlayedPerDay": 0,
-    "SimulationLevel": "Harcore"
+    "SimulationLevel": "Normal"
   },
   "PlayerCanDrownWhenSwimming": true,
-  "SkillbookCraftCost": "Expensive",
+  "SkillbookCraftCost": "Normal",
   "SwimSpeed": {
     "DeepOcean": 0.1,
     "Ocean": 0.5
