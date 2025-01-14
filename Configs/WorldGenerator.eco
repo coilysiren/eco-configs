@@ -15,10 +15,10 @@
   },
   "Dimensions": {
     "$id": "2",
-    "WorldLength": 100,
-    "WorldWidth": 100
+    "WorldLength": 140,
+    "WorldWidth": 140
   },
-  "Height": 120,
+  "Height": 160,
   "HeightmapModule": {
     "$id": "3",
     "$type": "Eco.WorldGenerator.EcoTerraceNode, Eco.WorldGenerator",
@@ -38,7 +38,7 @@
         "CoolForestWeight": 0.22,
         "DesertWeight": 0.15,
         "ElevationPower": 1,
-        "HighDesertWeight": 0.05,
+        "HighDesertWeight": 0,
         "IceWeight": 0.01,
         "IslandAvoidRange": {
           "max": 8,
@@ -46,17 +46,17 @@
         },
         "IslandWeight": 0.05,
         "LakeSizeRange": {
-          "max": 0.004,
-          "min": 0.001
+          "max": 0.0018,
+          "min": 0.0008
         },
         "LandPercentRange": {
-          "max": 0.7,
-          "min": 0.5
+          "max": 0.75,
+          "min": 0.65
         },
         "MaxElevationOceanDistance": 20,
         "NumContinentsRange": {
-          "max": 1,
-          "min": 1
+          "max": 3,
+          "min": 3
         },
         "NumCoolForests": 1,
         "NumDeserts": 1,
@@ -72,8 +72,8 @@
           "min": 4
         },
         "NumSmallIslandsRange": {
-          "max": 1,
-          "min": 1
+          "max": 0,
+          "min": 0
         },
         "NumSteppes": 0,
         "NumTaigas": 1,
@@ -87,7 +87,7 @@
         "SaveTerrainImage": true,
         "Seed": 0,
         "ShallowOceanSize": 2,
-        "SteppeWeight": 0.1,
+        "SteppeWeight": 0,
         "TaigaWeight": 0.08,
         "TundraWeight": 0.03,
         "WarmForestWeight": 0.2,

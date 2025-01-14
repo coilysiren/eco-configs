@@ -1,24 +1,16 @@
 {
   "Dimensions": {
-    "WorldLength": 100,
-    "WorldWidth": 100
+    "WorldLength": 140,
+    "WorldWidth": 140
   },
-  "Height": 120,
   "HeightmapModule": {
     "Source": {
       "Config": {
         "ElevationPower": 1,
-        "LakeSizeRange": {
-          "max": 0.004,
-          "min": 0.001
-        },
-        "LandPercentRange": {
-          "max": 0.7,
-          "min": 0.5
-        },
+        "HighDesertWeight": 0,
         "MaxElevationOceanDistance": 20,
         "NumContinentsRange": {
-          "max": 1
+          "min": 3
         },
         "NumHighDeserts": 0,
         "NumRiversRange": {
@@ -26,10 +18,12 @@
           "min": 4
         },
         "NumSmallIslandsRange": {
-          "max": 1
+          "max": 0,
+          "min": 0
         },
         "NumSteppes": 0,
-        "RiverCellWidth": 20
+        "RiverCellWidth": 20,
+        "SteppeWeight": 0
       }
     }
   }
