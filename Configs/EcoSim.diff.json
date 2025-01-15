@@ -1,14 +1,8 @@
 {
   "ClimateSettings": {
-    "MaxCO2PerDayFromAnimals": 50,
-    "MaxTemperatureChangePerDay": 1,
-    "MaxTemperatureRise": 20,
-    "MinCO2PerDayFromPlants": -600,
-    "MinCO2ppm": 200,
+    "MaxCO2PerDayFromAnimals": 9999,
+    "MinCO2PerDayFromPlants": -99999,
     "PollutionMultiplier": 2,
-    "PollutionPerTailingPerTick": 0.02,
-    "SeaLevelsRiseAtCO2ppm": 600,
-    "TailingsPollutionUndergroundHalvingDistance": 10,
-    "TemperaturesRiseAtCO2ppm": 400
+    "TailingsPollutionUndergroundHalvingDistance": 10
   }
 }
