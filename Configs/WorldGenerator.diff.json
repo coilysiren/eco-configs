@@ -3,6 +3,7 @@
     "WorldLength": 140,
     "WorldWidth": 140
   },
+  "Height": 120,
   "HeightmapModule": {
     "Source": {
       "Config": {
@@ -17,10 +18,13 @@
         "NumContinentsRange": {
           "min": 3
         },
+        "NumHighDeserts": 0,
+        "NumIces": 0,
         "NumSmallIslandsRange": {
           "max": 0,
           "min": 0
         },
+        "NumSteppes": 0,
         "RiverCellWidth": 20,
         "Seed": 1879889078
       }

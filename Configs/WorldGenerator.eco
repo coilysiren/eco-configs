@@ -18,7 +18,7 @@
     "WorldLength": 140,
     "WorldWidth": 140
   },
-  "Height": 160,
+  "Height": 120,
   "HeightmapModule": {
     "$id": "3",
     "$type": "Eco.WorldGenerator.EcoTerraceNode, Eco.WorldGenerator",
@@ -59,9 +59,9 @@
           "min": 3
         },
         "NumCoolForests": 1,
-        "NumDeserts": 0,
+        "NumDeserts": 1,
         "NumHighDeserts": 0,
-        "NumIces": 1,
+        "NumIces": 0,
         "NumLakesRange": {
           "max": 8,
           "min": 4
@@ -75,7 +75,7 @@
           "max": 0,
           "min": 0
         },
-        "NumSteppes": 1,
+        "NumSteppes": 0,
         "NumTaigas": 1,
         "NumTundras": 1,
         "NumWarmForests": 1,
