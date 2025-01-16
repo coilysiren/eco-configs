@@ -6,7 +6,7 @@
   "EndgameCraftCost": "Normal",
   "GameSettings": {
     "AdvancedGameSettings": {
-      "AllowDeepOceanBuilding": true,
+      "AllowDeepOceanBuilding": false,
       "BrokenPartsWillDisableVehicles": true,
       "CanAbandonSpecialties": true,
       "ClaimPapersGrantedUponSkillscrollConsumed": 2,
@@ -40,7 +40,7 @@
   "PlayerCanDrownWhenSwimming": true,
   "SkillbookCraftCost": "Normal",
   "SwimSpeed": {
-    "DeepOcean": 0.1,
-    "Ocean": 0.5
+    "DeepOcean": 0.25,
+    "Ocean": 0.75
   }
 }

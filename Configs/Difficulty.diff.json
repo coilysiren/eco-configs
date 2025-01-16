@@ -1,7 +1,6 @@
 {
   "GameSettings": {
     "AdvancedGameSettings": {
-      "AllowDeepOceanBuilding": true,
       "ClaimPapersGrantedUponSkillscrollConsumed": 2,
       "ClaimStakesGrantedUponSkillscrollConsumed": 0.2,
       "ConnectionRangeMultiplier": 2,
@@ -14,9 +13,5 @@
     "DesiredNumberOfPlayers": 500,
     "ExhaustionEnabled": false,
     "HoursPlayedPerDay": 0
-  },
-  "SwimSpeed": {
-    "DeepOcean": 0.1,
-    "Ocean": 0.5
   }
 }
