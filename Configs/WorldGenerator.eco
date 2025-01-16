@@ -59,8 +59,8 @@
           "min": 3
         },
         "NumCoolForests": 1,
-        "NumDeserts": 1,
-        "NumHighDeserts": 1,
+        "NumDeserts": 0,
+        "NumHighDeserts": 0,
         "NumIces": 1,
         "NumLakesRange": {
           "max": 8,
