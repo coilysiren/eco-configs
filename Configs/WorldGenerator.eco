@@ -30,7 +30,7 @@
         "$id": "5",
         "AutoScale": true,
         "AutoScaleExponent": 0.25,
-        "CoastlineSize": 1,
+        "CoastlineSize": 2,
         "ContinentAvoidRange": {
           "max": 16,
           "min": 8
@@ -50,8 +50,8 @@
           "min": 0
         },
         "LandPercentRange": {
-          "max": 0.75,
-          "min": 0.65
+          "max": 0.6,
+          "min": 0.5
         },
         "MaxElevationOceanDistance": 20,
         "NumContinentsRange": {
