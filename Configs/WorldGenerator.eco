@@ -44,10 +44,10 @@
           "max": 8,
           "min": 4
         },
-        "IslandWeight": 0.05,
+        "IslandWeight": 0,
         "LakeSizeRange": {
-          "max": 0.0018,
-          "min": 0.0008
+          "max": 0,
+          "min": 0
         },
         "LandPercentRange": {
           "max": 0.75,
@@ -63,13 +63,13 @@
         "NumHighDeserts": 0,
         "NumIces": 1,
         "NumLakesRange": {
-          "max": 8,
-          "min": 4
+          "max": 0,
+          "min": 0
         },
         "NumRainforests": 1,
         "NumRiversRange": {
-          "max": 12,
-          "min": 4
+          "max": 0,
+          "min": 0
         },
         "NumSmallIslandsRange": {
           "max": 0,
@@ -85,7 +85,7 @@
         "RiverCellAvoidance": 2,
         "RiverCellWidth": 20,
         "SaveTerrainImage": true,
-        "Seed": 0,
+        "Seed": 1879889078,
         "ShallowOceanSize": 2,
         "SteppeWeight": 0,
         "TaigaWeight": 0.08,
