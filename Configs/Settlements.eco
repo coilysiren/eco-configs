@@ -71,9 +71,9 @@
   },
   "BaseInfluenceRadiusFoundationMovementAllowedAfterFounding": 50,
   "BasePlotsOnClaimStake": [
-    9,
-    9,
-    9
+    5,
+    5,
+    5
   ],
   "BasePlotsOnFoundation": [
     9,
@@ -82,14 +82,14 @@
   ],
   "BasePlotsOnHomesteadClaimStake": 16,
   "ClaimStakesPerAbandonedCitizen": [
-    2,
-    2,
-    2
+    1.5,
+    1.5,
+    1.5
   ],
   "ClaimStakesPerCitizen": [
-    2,
-    2,
-    2
+    1.5,
+    1.5,
+    1.5
   ],
   "ConfigVersion": 1,
   "CultureAdvantageAbsoluteRequiredToAnnexChildSettlement": [
@@ -151,14 +151,14 @@
   ],
   "HomesteadMinRequiredPlotCoveragePercentage": 0.5,
   "HomesteadSupportClaimsPerAbandonedCitizen": [
-    10,
-    10,
-    10
+    5,
+    5,
+    5
   ],
   "HomesteadSupportClaimsPerCitizen": [
-    10,
-    10,
-    10
+    5,
+    5,
+    5
   ],
   "HoursBeforeInvalidatingCultureDeed": 2,
   "HoursToResolvePropertyCrisis": [
@@ -190,13 +190,13 @@
   "MayAnnexSubSettlements": true,
   "MinCitizensToFoundSettlement": [
     2,
-    4,
-    12
+    12,
+    30
   ],
   "MinCitizensToMaintainSettlement": [
     1,
-    2,
-    6
+    6,
+    15
   ],
   "MinCultureOfFoundationSettlements": [
     0,
@@ -246,17 +246,17 @@
   "ScaleInfluenceBasedOnWorldSize": true,
   "SettlementClaimsPerAbandonedCitizen": [
     20,
-    30,
-    40
+    20,
+    20
   ],
   "SettlementClaimsPerCitizen": [
     20,
-    30,
-    40
+    20,
+    20
   ],
   "SettlementFoundationBaseInfluence": [
-    50,
-    200,
+    45,
+    150,
     400
   ],
   "SettlementInfluenceMultiplier": [
