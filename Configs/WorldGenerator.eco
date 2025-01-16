@@ -51,7 +51,7 @@
         },
         "LandPercentRange": {
           "max": 0.6,
-          "min": 0.5
+          "min": 0.4
         },
         "MaxElevationOceanDistance": 20,
         "NumContinentsRange": {
@@ -63,13 +63,13 @@
         "NumHighDeserts": 0,
         "NumIces": 1,
         "NumLakesRange": {
-          "max": 0,
-          "min": 0
+          "max": 8,
+          "min": 4
         },
         "NumRainforests": 1,
         "NumRiversRange": {
-          "max": 0,
-          "min": 0
+          "max": 5,
+          "min": 2
         },
         "NumSmallIslandsRange": {
           "max": 0,
