@@ -8,12 +8,7 @@
       "Config": {
         "CoastlineSize": 2,
         "ElevationPower": 1,
-        "HighDesertWeight": 0,
         "IslandWeight": 0,
-        "LakeSizeRange": {
-          "max": 0,
-          "min": 0
-        },
         "LandPercentRange": {
           "max": 0.6,
           "min": 0.4
@@ -22,15 +17,12 @@
         "NumContinentsRange": {
           "min": 3
         },
-        "NumHighDeserts": 0,
         "NumSmallIslandsRange": {
           "max": 0,
           "min": 0
         },
-        "NumSteppes": 0,
         "RiverCellWidth": 20,
-        "Seed": 1879889078,
-        "SteppeWeight": 0
+        "Seed": 1879889078
       }
     }
   }

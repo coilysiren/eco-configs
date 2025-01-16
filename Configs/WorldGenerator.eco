@@ -38,7 +38,7 @@
         "CoolForestWeight": 0.22,
         "DesertWeight": 0.15,
         "ElevationPower": 1,
-        "HighDesertWeight": 0,
+        "HighDesertWeight": 0.05,
         "IceWeight": 0.01,
         "IslandAvoidRange": {
           "max": 8,
@@ -46,8 +46,8 @@
         },
         "IslandWeight": 0,
         "LakeSizeRange": {
-          "max": 0,
-          "min": 0
+          "max": 0.0018,
+          "min": 0.0008
         },
         "LandPercentRange": {
           "max": 0.6,
@@ -60,7 +60,7 @@
         },
         "NumCoolForests": 1,
         "NumDeserts": 1,
-        "NumHighDeserts": 0,
+        "NumHighDeserts": 1,
         "NumIces": 1,
         "NumLakesRange": {
           "max": 8,
@@ -75,7 +75,7 @@
           "max": 0,
           "min": 0
         },
-        "NumSteppes": 0,
+        "NumSteppes": 1,
         "NumTaigas": 1,
         "NumTundras": 1,
         "NumWarmForests": 1,
@@ -87,7 +87,7 @@
         "SaveTerrainImage": true,
         "Seed": 1879889078,
         "ShallowOceanSize": 2,
-        "SteppeWeight": 0,
+        "SteppeWeight": 0.1,
         "TaigaWeight": 0.08,
         "TundraWeight": 0.03,
         "WarmForestWeight": 0.2,
