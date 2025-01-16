@@ -37,7 +37,7 @@
         },
         "CoolForestWeight": 0.22,
         "DesertWeight": 0.15,
-        "ElevationPower": 1,
+        "ElevationPower": 2,
         "HighDesertWeight": 0.05,
         "IceWeight": 0.01,
         "IslandAvoidRange": {
@@ -50,10 +50,10 @@
           "min": 0.0008
         },
         "LandPercentRange": {
-          "max": 0.6,
-          "min": 0.4
+          "max": 0.5,
+          "min": 0.3
         },
-        "MaxElevationOceanDistance": 20,
+        "MaxElevationOceanDistance": 10,
         "NumContinentsRange": {
           "max": 3,
           "min": 3
@@ -61,7 +61,7 @@
         "NumCoolForests": 1,
         "NumDeserts": 1,
         "NumHighDeserts": 0,
-        "NumIces": 0,
+        "NumIces": 1,
         "NumLakesRange": {
           "max": 8,
           "min": 4

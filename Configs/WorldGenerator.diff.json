@@ -8,18 +8,15 @@
     "Source": {
       "Config": {
         "CoastlineSize": 2,
-        "ElevationPower": 1,
         "IslandWeight": 0,
         "LandPercentRange": {
           "max": 0.6,
           "min": 0.4
         },
-        "MaxElevationOceanDistance": 20,
         "NumContinentsRange": {
           "min": 3
         },
         "NumHighDeserts": 0,
-        "NumIces": 0,
         "NumSmallIslandsRange": {
           "max": 0,
           "min": 0
