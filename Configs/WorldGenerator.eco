@@ -15,8 +15,8 @@
   },
   "Dimensions": {
     "$id": "2",
-    "WorldLength": 100,
-    "WorldWidth": 100
+    "WorldLength": 140,
+    "WorldWidth": 72
   },
   "Height": 120,
   "HeightmapModule": {
@@ -86,7 +86,7 @@
         "RiverCellWidth": 20,
         "SaveTerrainImage": true,
         "Seed": 1879889078,
-        "ShallowOceanSize": 2,
+        "ShallowOceanSize": 4,
         "SteppeWeight": 0.1,
         "TaigaWeight": 0.1,
         "TundraWeight": 0.1,
