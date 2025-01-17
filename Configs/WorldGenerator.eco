@@ -15,8 +15,8 @@
   },
   "Dimensions": {
     "$id": "2",
-    "WorldLength": 70,
-    "WorldWidth": 142
+    "WorldLength": 72,
+    "WorldWidth": 138
   },
   "Height": 120,
   "HeightmapModule": {
@@ -50,7 +50,7 @@
           "min": 0.0008
         },
         "LandPercentRange": {
-          "max": 0.4,
+          "max": 0.35,
           "min": 0.3
         },
         "MaxElevationOceanDistance": 20,
