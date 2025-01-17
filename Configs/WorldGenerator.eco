@@ -59,8 +59,8 @@
           "min": 3
         },
         "NumCoolForests": 1,
-        "NumDeserts": 0,
-        "NumHighDeserts": 1,
+        "NumDeserts": 1,
+        "NumHighDeserts": 0,
         "NumIces": 1,
         "NumLakesRange": {
           "max": 8,
@@ -89,7 +89,7 @@
         "ShallowOceanSize": 2,
         "SteppeWeight": 0.1,
         "TaigaWeight": 0.1,
-        "TundraWeight": 0.05,
+        "TundraWeight": 0.1,
         "WarmForestWeight": 0.2,
         "WetlandWeight": 0.1
       },
