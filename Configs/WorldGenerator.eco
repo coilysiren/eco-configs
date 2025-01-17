@@ -15,8 +15,8 @@
   },
   "Dimensions": {
     "$id": "2",
-    "WorldLength": 140,
-    "WorldWidth": 140
+    "WorldLength": 100,
+    "WorldWidth": 100
   },
   "Height": 120,
   "HeightmapModule": {
@@ -28,17 +28,17 @@
       "$type": "Eco.WorldGenerator.VoronoiModule, Eco.WorldGenerator",
       "Config": {
         "$id": "5",
-        "AutoScale": true,
+        "AutoScale": false,
         "AutoScaleExponent": 0.25,
         "CoastlineSize": 2,
         "ContinentAvoidRange": {
           "max": 16,
           "min": 8
         },
-        "CoolForestWeight": 0.22,
-        "DesertWeight": 0.15,
+        "CoolForestWeight": 0.2,
+        "DesertWeight": 0.2,
         "ElevationPower": 1,
-        "HighDesertWeight": 0.05,
+        "HighDesertWeight": 0.1,
         "IceWeight": 0.01,
         "IslandAvoidRange": {
           "max": 8,
@@ -50,8 +50,8 @@
           "min": 0.0008
         },
         "LandPercentRange": {
-          "max": 0.6,
-          "min": 0.4
+          "max": 0.4,
+          "min": 0.3
         },
         "MaxElevationOceanDistance": 20,
         "NumContinentsRange": {
@@ -59,7 +59,7 @@
           "min": 3
         },
         "NumCoolForests": 1,
-        "NumDeserts": 1,
+        "NumDeserts": 0,
         "NumHighDeserts": 1,
         "NumIces": 1,
         "NumLakesRange": {
@@ -75,23 +75,23 @@
           "max": 0,
           "min": 0
         },
-        "NumSteppes": 1,
+        "NumSteppes": 0,
         "NumTaigas": 1,
         "NumTundras": 1,
         "NumWarmForests": 1,
         "NumWetlands": 1,
         "PointRadius": 10,
-        "RainforestWeight": 0.15,
+        "RainforestWeight": 0.2,
         "RiverCellAvoidance": 2,
         "RiverCellWidth": 20,
         "SaveTerrainImage": true,
         "Seed": 1879889078,
         "ShallowOceanSize": 2,
         "SteppeWeight": 0.1,
-        "TaigaWeight": 0.08,
-        "TundraWeight": 0.03,
+        "TaigaWeight": 0.1,
+        "TundraWeight": 0.05,
         "WarmForestWeight": 0.2,
-        "WetlandWeight": 0.04
+        "WetlandWeight": 0.1
       },
       "OutputIndex": 0
     },
