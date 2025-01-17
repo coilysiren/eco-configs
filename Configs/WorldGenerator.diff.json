@@ -1,6 +1,7 @@
 {
   "Dimensions": {
-    "WorldLength": 140
+    "WorldLength": 100,
+    "WorldWidth": 150
   },
   "Height": 120,
   "HeightmapModule": {
