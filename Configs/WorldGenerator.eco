@@ -32,13 +32,13 @@
         "AutoScaleExponent": 0.25,
         "CoastlineSize": 2,
         "ContinentAvoidRange": {
-          "max": 16,
-          "min": 8
+          "max": 20,
+          "min": 12
         },
         "CoolForestWeight": 0.2,
         "DesertWeight": 0.2,
         "ElevationPower": 1,
-        "HighDesertWeight": 0.1,
+        "HighDesertWeight": 0.2,
         "IceWeight": 0.01,
         "IslandAvoidRange": {
           "max": 8,
