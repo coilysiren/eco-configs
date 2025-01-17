@@ -8,22 +8,34 @@
     "Source": {
       "Config": {
         "CoastlineSize": 2,
+        "ContinentAvoidRange": {
+          "max": 24
+        },
+        "CoolForestWeight": 0.2,
         "IslandWeight": 0,
         "LandPercentRange": {
-          "max": 0.6,
-          "min": 0.4
+          "max": 0.5,
+          "min": 0.35
         },
         "NumContinentsRange": {
           "min": 3
         },
         "NumHighDeserts": 0,
+        "NumLakesRange": {
+          "max": 0,
+          "min": 0
+        },
         "NumSmallIslandsRange": {
           "max": 0,
           "min": 0
         },
         "NumSteppes": 0,
+        "RainforestWeight": 0.2,
         "RiverCellWidth": 20,
-        "Seed": 1879889078
+        "Seed": 1879889078,
+        "ShallowOceanSize": 4,
+        "TaigaWeight": 0.1,
+        "WetlandWeight": 0.1
       }
     }
   }

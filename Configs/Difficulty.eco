@@ -38,7 +38,7 @@
     "SimulationLevel": "Normal"
   },
   "PlayerCanDrownWhenSwimming": true,
-  "SkillbookCraftCost": "Normal",
+  "SkillbookCraftCost": "Expensive",
   "SwimSpeed": {
     "DeepOcean": 0.25,
     "Ocean": 0.75

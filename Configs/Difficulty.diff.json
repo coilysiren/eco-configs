@@ -13,5 +13,6 @@
     "DesiredNumberOfPlayers": 500,
     "ExhaustionEnabled": false,
     "HoursPlayedPerDay": 0
-  }
+  },
+  "SkillbookCraftCost": "Expensive"
 }
