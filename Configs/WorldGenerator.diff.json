@@ -1,7 +1,6 @@
 {
   "Dimensions": {
-    "WorldLength": 70,
-    "WorldWidth": 142
+    "WorldWidth": 138
   },
   "Height": 120,
   "HeightmapModule": {
@@ -14,12 +13,11 @@
           "min": 12
         },
         "CoolForestWeight": 0.2,
-        "DesertWeight": 0.2,
         "ElevationPower": 1,
         "HighDesertWeight": 0.2,
         "IslandWeight": 0,
         "LandPercentRange": {
-          "max": 0.4,
+          "max": 0.35,
           "min": 0.3
         },
         "MaxElevationOceanDistance": 20,
@@ -27,6 +25,14 @@
           "min": 3
         },
         "NumHighDeserts": 0,
+        "NumLakesRange": {
+          "max": 0,
+          "min": 0
+        },
+        "NumRiversRange": {
+          "max": 6,
+          "min": 3
+        },
         "NumSmallIslandsRange": {
           "max": 0,
           "min": 0
@@ -35,7 +41,7 @@
         "RainforestWeight": 0.2,
         "RiverCellWidth": 20,
         "Seed": 1879889078,
-        "ShallowOceanSize": 4,
+        "ShallowOceanSize": 5,
         "TaigaWeight": 0.1,
         "TundraWeight": 0.1,
         "WetlandWeight": 0.1

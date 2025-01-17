@@ -36,7 +36,7 @@
           "min": 12
         },
         "CoolForestWeight": 0.2,
-        "DesertWeight": 0.2,
+        "DesertWeight": 0.15,
         "ElevationPower": 1,
         "HighDesertWeight": 0.2,
         "IceWeight": 0.01,
@@ -63,13 +63,13 @@
         "NumHighDeserts": 0,
         "NumIces": 1,
         "NumLakesRange": {
-          "max": 8,
-          "min": 4
+          "max": 0,
+          "min": 0
         },
         "NumRainforests": 1,
         "NumRiversRange": {
-          "max": 5,
-          "min": 2
+          "max": 6,
+          "min": 3
         },
         "NumSmallIslandsRange": {
           "max": 0,
@@ -86,7 +86,7 @@
         "RiverCellWidth": 20,
         "SaveTerrainImage": true,
         "Seed": 1879889078,
-        "ShallowOceanSize": 4,
+        "ShallowOceanSize": 5,
         "SteppeWeight": 0.1,
         "TaigaWeight": 0.1,
         "TundraWeight": 0.1,
