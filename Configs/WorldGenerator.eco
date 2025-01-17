@@ -15,8 +15,8 @@
   },
   "Dimensions": {
     "$id": "2",
-    "WorldLength": 140,
-    "WorldWidth": 72
+    "WorldLength": 72,
+    "WorldWidth": 140
   },
   "Height": 120,
   "HeightmapModule": {
