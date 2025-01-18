@@ -1,4 +1,9 @@
 {
+  "BasePlotsOnClaimStake": [
+    16,
+    16,
+    16
+  ],
   "ClaimStakesPerAbandonedCitizen": [
     1.5,
     1.5,

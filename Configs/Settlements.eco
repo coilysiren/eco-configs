@@ -71,9 +71,9 @@
   },
   "BaseInfluenceRadiusFoundationMovementAllowedAfterFounding": 50,
   "BasePlotsOnClaimStake": [
-    5,
-    5,
-    5
+    16,
+    16,
+    16
   ],
   "BasePlotsOnFoundation": [
     9,
