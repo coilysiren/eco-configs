@@ -1,9 +1,9 @@
 {
   "CalorieMultiplierOnMove": 5,
-  "CraftingQueueQuantity": 5,
+  "CraftingQueueQuantity": 10,
   "MaintenanceDecayMultiplier": 1,
   "MaintenanceDecayPercentage": 5,
-  "RetroactiveExperienceRate": 0,
+  "RetroactiveExperienceRate": 20,
   "ShowOilLayer": false,
   "SkillGainMultiplier": 1,
   "SpecialtyExperiencePerLevelSquared": 25,
