@@ -3,7 +3,7 @@
     "DeepOcean": 30,
     "Ocean": 2
   },
-  "EndgameCraftCost": "Normal",
+  "EndgameCraftCost": "Expensive",
   "GameSettings": {
     "AdvancedGameSettings": {
       "AllowDeepOceanBuilding": false,
@@ -12,8 +12,8 @@
       "ClaimPapersGrantedUponSkillscrollConsumed": 2,
       "ClaimStakesGrantedUponSkillscrollConsumed": 0.2,
       "ConnectionRangeMultiplier": 2,
-      "CraftResourceMultiplier": 1,
-      "CraftTimeMultiplier": 1,
+      "CraftResourceMultiplier": 1.5,
+      "CraftTimeMultiplier": 1.5,
       "FuelMultiplier": 1,
       "GainCharacterExperienceWithSpecialtyExperience": 0,
       "GrowthRateMultiplier": 1,
@@ -22,20 +22,20 @@
       "MeteorImpactInDays": 60,
       "RequireSkillsToReplaceParts": true,
       "ShelfLifeMultiplier": 1,
-      "SkillCostMultiplier": 1,
+      "SkillCostMultiplier": 2,
       "SpecialtyRefundPercentage": 1,
       "StackSizeMultiplier": 1,
       "WeightMultiplier": 1
     },
     "AllowFriendsToJoin": true,
     "CollaborationLevel": "HighCollaboration",
-    "DesiredNumberOfPlayers": 500,
+    "DesiredNumberOfPlayers": 200,
     "ExhaustionEnabled": false,
-    "GameSpeed": "Normal",
+    "GameSpeed": "Slow",
     "GenerateRandomWorld": false,
     "HasMeteor": true,
     "HoursPlayedPerDay": 0,
-    "SimulationLevel": "Normal"
+    "SimulationLevel": "Harcore"
   },
   "PlayerCanDrownWhenSwimming": true,
   "SkillbookCraftCost": "Expensive",
