@@ -11,7 +11,8 @@
       "MaxSpecialtiesPerCitizen": 12,
       "MeteorImpactInDays": 60,
       "SkillCostMultiplier": 2,
-      "SpecialtyRefundPercentage": 1
+      "SpecialtyRefundPercentage": 1,
+      "StackSizeMultiplier": 2
     },
     "CollaborationLevel": "HighCollaboration",
     "DesiredNumberOfPlayers": 200,
