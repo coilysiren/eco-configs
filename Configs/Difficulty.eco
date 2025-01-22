@@ -12,7 +12,7 @@
       "ClaimPapersGrantedUponSkillscrollConsumed": 2,
       "ClaimStakesGrantedUponSkillscrollConsumed": 0.2,
       "ConnectionRangeMultiplier": 2,
-      "CraftResourceMultiplier": 2,
+      "CraftResourceMultiplier": 1,
       "CraftTimeMultiplier": 2,
       "FuelMultiplier": 1,
       "GainCharacterExperienceWithSpecialtyExperience": 0,
