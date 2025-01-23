@@ -6,8 +6,6 @@
       "ClaimStakesGrantedUponSkillscrollConsumed": 0.2,
       "ConnectionRangeMultiplier": 2,
       "CraftTimeMultiplier": 2,
-      "MaxProfessionsPerCitizen": 3,
-      "MaxSpecialtiesPerCitizen": 12,
       "MeteorImpactInDays": 60,
       "SkillCostMultiplier": 2,
       "SpecialtyRefundPercentage": 1,
