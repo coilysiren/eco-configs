@@ -7,7 +7,7 @@
       "ConnectionRangeMultiplier": 2,
       "CraftTimeMultiplier": 2,
       "MeteorImpactInDays": 60,
-      "SkillCostMultiplier": 2,
+      "SkillCostMultiplier": 1.5,
       "SpecialtyRefundPercentage": 1,
       "StackSizeMultiplier": 2
     },
