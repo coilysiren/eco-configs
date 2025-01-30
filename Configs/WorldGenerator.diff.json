@@ -1,6 +1,7 @@
 {
   "Dimensions": {
-    "WorldWidth": 138
+    "WorldLength": 140,
+    "WorldWidth": 140
   },
   "Height": 120,
   "HeightmapModule": {
@@ -40,7 +41,7 @@
         "NumSteppes": 0,
         "RainforestWeight": 0.2,
         "RiverCellWidth": 20,
-        "Seed": 1879889078,
+        "Seed": 802329703,
         "ShallowOceanSize": 5,
         "TaigaWeight": 0.1,
         "TundraWeight": 0.1,
