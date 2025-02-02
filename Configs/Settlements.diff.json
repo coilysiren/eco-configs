@@ -1,4 +1,7 @@
 {
+  "$delete": [
+    "BasePlotsOnOutpostClaimStake"
+  ],
   "BasePlotsOnClaimStake": [
     16,
     16,

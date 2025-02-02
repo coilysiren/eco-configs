@@ -14,7 +14,7 @@
       "ConnectionRangeMultiplier": 1.0,
       "CraftResourceMultiplier": 1.0,
       "CraftTimeMultiplier": 1.0,
-      "FuelMultiplier": 1.0,
+      "FuelEfficiencyMultiplier": 1.0,
       "GainCharacterExperienceWithSpecialtyExperience": 0.0,
       "GrowthRateMultiplier": 1.0,
       "MaxProfessionsPerCitizen": 10.0,
