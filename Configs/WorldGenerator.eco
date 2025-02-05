@@ -18,7 +18,7 @@
     "WorldLength": 140,
     "WorldWidth": 140
   },
-  "Height": 120,
+  "Height": 160,
   "HeightmapModule": {
     "$id": "3",
     "$type": "Eco.WorldGenerator.EcoTerraceNode, Eco.WorldGenerator",

@@ -18,7 +18,7 @@
     "ExhaustionEnabled": false,
     "GameSpeed": "Slow",
     "HoursPlayedPerDay": 0,
-    "SimulationLevel": "Harcore"
+    "SimulationLevel": "Normal"
   },
   "SkillbookCraftCost": "Expensive"
 }
