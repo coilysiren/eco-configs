@@ -23,7 +23,7 @@
     "MinCO2ppm": 325,
     "PPMPerTon": 1.2860082,
     "PollutionMultiplier": 2,
-    "PollutionPerTailingPerTick": 0.03,
+    "PollutionPerTailingPerTick": 0.1,
     "SeaLevelSimEnabled": true,
     "SeaLevelsRiseAtCO2ppm": 420,
     "TailingsPollutionUndergroundHalvingDistance": 10,

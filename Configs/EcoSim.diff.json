@@ -3,7 +3,7 @@
     "MaxCO2PerDayFromAnimals": 9999,
     "MinCO2PerDayFromPlants": -99999,
     "PollutionMultiplier": 2,
-    "PollutionPerTailingPerTick": 0.03,
+    "PollutionPerTailingPerTick": 0.1,
     "TailingsPollutionUndergroundHalvingDistance": 10
   }
 }
