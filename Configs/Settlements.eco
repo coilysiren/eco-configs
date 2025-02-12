@@ -1,9 +1,9 @@
 {
   "ActiveCitizensRequiredtoAnnexRelative": [
-    1.2,
-    1.2,
-    1.2,
-    1.2
+    4,
+    4,
+    4,
+    4
   ],
   "AllowOptionToPreventSettlementsFromSeceding": false,
   "AnnexTargetBoostPerAdditionalChildSettlementInUnfoundedSettlementParent": 0.5,
@@ -81,15 +81,16 @@
     25
   ],
   "BasePlotsOnHomesteadClaimStake": 16,
+  "BasePlotsOnOutpostClaimStake": 16,
   "ClaimStakesPerAbandonedCitizen": [
-    1.5,
-    1.5,
-    1.5
+    2,
+    2,
+    2
   ],
   "ClaimStakesPerCitizen": [
-    1.5,
-    1.5,
-    1.5
+    2,
+    2,
+    2
   ],
   "ConfigVersion": 1,
   "CultureAdvantageAbsoluteRequiredToAnnexChildSettlement": [
@@ -194,7 +195,7 @@
     30
   ],
   "MinCitizensToMaintainSettlement": [
-    1,
+    2,
     6,
     15
   ],
@@ -245,14 +246,14 @@
   "ReductionPercentageWhenHomesteadIsAbandoned": 0.9,
   "ScaleInfluenceBasedOnWorldSize": true,
   "SettlementClaimsPerAbandonedCitizen": [
-    20,
-    20,
-    20
+    30,
+    10,
+    3
   ],
   "SettlementClaimsPerCitizen": [
-    20,
-    20,
-    20
+    30,
+    10,
+    3
   ],
   "SettlementFoundationBaseInfluence": [
     45,
@@ -260,9 +261,9 @@
     400
   ],
   "SettlementInfluenceMultiplier": [
-    2,
-    2,
-    2
+    1.5,
+    1.5,
+    1.5
   ],
   "SettlementMinRequiredPlotCoveragePercentage": 0.2,
   "WeightCultureByPercentOfNeighboringPlotsChildSettlement": [

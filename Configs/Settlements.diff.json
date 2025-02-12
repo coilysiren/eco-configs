@@ -1,6 +1,9 @@
 {
-  "$delete": [
-    "BasePlotsOnOutpostClaimStake"
+  "ActiveCitizensRequiredtoAnnexRelative": [
+    4,
+    4,
+    4,
+    4
   ],
   "BasePlotsOnClaimStake": [
     16,
@@ -8,9 +11,14 @@
     16
   ],
   "ClaimStakesPerAbandonedCitizen": [
-    1.5,
-    1.5,
-    1.5
+    2,
+    2,
+    2
+  ],
+  "ClaimStakesPerCitizen": [
+    2,
+    2,
+    2
   ],
   "HomesteadSupportClaimsPerAbandonedCitizen": [
     5,
@@ -28,41 +36,30 @@
       ]
     ]
   },
-  "MinCitizensToMaintainSettlement": {
-    "$delete": [
-      0
-    ],
-    "$insert": [
-      [
-        0,
-        1
-      ]
-    ]
-  },
   "SettlementClaimsPerAbandonedCitizen": [
-    20,
-    20,
-    20
+    30,
+    10,
+    3
   ],
   "SettlementClaimsPerCitizen": {
     "$delete": [
       2,
-      0
+      1
     ],
     "$insert": [
       [
-        1,
-        20
+        0,
+        30
       ],
       [
         2,
-        20
+        3
       ]
     ]
   },
   "SettlementInfluenceMultiplier": [
-    2,
-    2,
-    2
+    1.5,
+    1.5,
+    1.5
   ]
 }
