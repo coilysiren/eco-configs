@@ -35,7 +35,7 @@
     "GenerateRandomWorld": false,
     "HasMeteor": true,
     "HoursPlayedPerDay": 0,
-    "SimulationLevel": "Harcore"
+    "SimulationLevel": "Normal"
   },
   "PlayerCanDrownWhenSwimming": true,
   "SkillbookCraftCost": "Expensive",

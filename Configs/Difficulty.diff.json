@@ -2,7 +2,7 @@
   "EndgameCraftCost": "Expensive",
   "GameSettings": {
     "AdvancedGameSettings": {
-      "ClaimPapersGrantedUponSkillscrollConsumed": 2,
+      "ClaimPapersGrantedUponSkillscrollConsumed": 5,
       "ClaimStakesGrantedUponSkillscrollConsumed": 0.2,
       "ConnectionRangeMultiplier": 2,
       "CraftTimeMultiplier": 2,
@@ -17,8 +17,7 @@
     "DesiredNumberOfPlayers": 200,
     "ExhaustionEnabled": false,
     "GameSpeed": "Slow",
-    "HoursPlayedPerDay": 0,
-    "SimulationLevel": "Normal"
+    "HoursPlayedPerDay": 0
   },
   "SkillbookCraftCost": "Expensive"
 }
