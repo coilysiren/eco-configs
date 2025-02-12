@@ -36,6 +36,17 @@
       ]
     ]
   },
+  "MinCitizensToMaintainSettlement": {
+    "$delete": [
+      0
+    ],
+    "$insert": [
+      [
+        0,
+        1
+      ]
+    ]
+  },
   "SettlementClaimsPerAbandonedCitizen": [
     30,
     10,
