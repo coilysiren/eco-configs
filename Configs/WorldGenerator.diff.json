@@ -3,6 +3,7 @@
     "WorldLength": 140,
     "WorldWidth": 140
   },
+  "Height": 120,
   "HeightmapModule": {
     "Source": {
       "Config": {
