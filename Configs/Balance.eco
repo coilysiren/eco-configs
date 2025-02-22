@@ -3,7 +3,7 @@
   "CraftingQueueQuantity": 10,
   "MaintenanceDecayMultiplier": 1,
   "MaintenanceDecayPercentage": 5,
-  "RetroactiveExperienceRate": 20,
+  "RetroactiveExperienceRate": 25,
   "ShowOilLayer": false,
   "SkillGainMultiplier": 1,
   "SpecialtyExperiencePerLevelSquared": 25,
