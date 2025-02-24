@@ -12,54 +12,26 @@
   "AnnexationResourceRequirementPerCitizen": [
     [
       {
-        "Required": 2,
-        "TagName": "BasicUpgrade"
-      },
-      {
-        "Required": 100,
-        "TagName": "Wood"
+        "Required": 1,
+        "TagName": "NotInBrowser"
       }
     ],
     [
       {
-        "Required": 2,
-        "TagName": "AdvancedUpgrade"
-      },
-      {
-        "Required": 200,
-        "TagName": "Wood"
-      },
-      {
-        "Required": 200,
-        "TagName": "Metal"
+        "Required": 1,
+        "TagName": "NotInBrowser"
       }
     ],
     [
       {
-        "Required": 2,
-        "TagName": "ModernUpgrade"
-      },
-      {
-        "Required": 200,
-        "TagName": "Wood"
-      },
-      {
-        "Required": 100,
-        "TagName": "Metal"
+        "Required": 1,
+        "TagName": "NotInBrowser"
       }
     ],
     [
       {
-        "Required": 2,
-        "TagName": "ModernUpgrade"
-      },
-      {
-        "Required": 200,
-        "TagName": "Wood"
-      },
-      {
-        "Required": 200,
-        "TagName": "Metal"
+        "Required": 1,
+        "TagName": "NotInBrowser"
       }
     ]
   ],
