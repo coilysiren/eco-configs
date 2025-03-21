@@ -1,4 +1,5 @@
 {
   "CraftingQueueQuantity": 10,
-  "RetroactiveExperienceRate": 25
+  "RetroactiveExperienceRate": 25,
+  "ToolRepairPenalty": 0.1
 }
