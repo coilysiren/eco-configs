@@ -5,8 +5,6 @@
       "ClaimPapersGrantedUponSkillscrollConsumed": 5,
       "ClaimStakesGrantedUponSkillscrollConsumed": 0.2,
       "ConnectionRangeMultiplier": 2,
-      "CraftTimeMultiplier": 2,
-      "FuelEfficiencyMultiplier": 2,
       "GrowthRateMultiplier": 2,
       "MeteorImpactInDays": 60,
       "SkillCostMultiplier": 1.5,

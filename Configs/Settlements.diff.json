@@ -5,6 +5,47 @@
     4,
     4
   ],
+  "AnnexationResourceRequirementPerCitizen": {
+    "0": {
+      "$delete": [
+        0
+      ],
+      "0": {
+        "Required": 1,
+        "TagName": "NotInBrowser"
+      }
+    },
+    "1": {
+      "$delete": [
+        1,
+        0
+      ],
+      "0": {
+        "Required": 1,
+        "TagName": "NotInBrowser"
+      }
+    },
+    "2": {
+      "$delete": [
+        1,
+        0
+      ],
+      "0": {
+        "Required": 1,
+        "TagName": "NotInBrowser"
+      }
+    },
+    "3": {
+      "$delete": [
+        1,
+        0
+      ],
+      "0": {
+        "Required": 1,
+        "TagName": "NotInBrowser"
+      }
+    }
+  },
   "BasePlotsOnClaimStake": [
     16,
     16,
@@ -49,13 +90,13 @@
   },
   "SettlementClaimsPerAbandonedCitizen": [
     30,
-    10,
-    3
+    20,
+    10
   ],
   "SettlementClaimsPerCitizen": {
     "$delete": [
       2,
-      1
+      0
     ],
     "$insert": [
       [
@@ -64,7 +105,7 @@
       ],
       [
         2,
-        3
+        10
       ]
     ]
   },
