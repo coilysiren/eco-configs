@@ -30,7 +30,7 @@
         "$id": "5",
         "AutoScale": false,
         "AutoScaleExponent": 0.25,
-        "CoastlineSize": 2,
+        "CoastlineSize": 3,
         "ContinentAvoidRange": {
           "max": 20,
           "min": 12
@@ -39,7 +39,7 @@
         "DesertWeight": 0.15,
         "ElevationPower": 1,
         "HighDesertWeight": 0.2,
-        "IceWeight": 0.01,
+        "IceWeight": 0,
         "IslandAvoidRange": {
           "max": 8,
           "min": 4
@@ -50,26 +50,26 @@
           "min": 0.0008
         },
         "LandPercentRange": {
-          "max": 0.35,
-          "min": 0.3
+          "max": 0.5,
+          "min": 0.7
         },
         "MaxElevationOceanDistance": 20,
         "NumContinentsRange": {
-          "max": 3,
-          "min": 3
+          "max": 1,
+          "min": 1
         },
         "NumCoolForests": 1,
         "NumDeserts": 1,
         "NumHighDeserts": 0,
-        "NumIces": 1,
+        "NumIces": 0,
         "NumLakesRange": {
           "max": 0,
           "min": 0
         },
         "NumRainforests": 1,
         "NumRiversRange": {
-          "max": 6,
-          "min": 3
+          "max": 12,
+          "min": 8
         },
         "NumSmallIslandsRange": {
           "max": 0,
@@ -81,15 +81,15 @@
         "NumWarmForests": 1,
         "NumWetlands": 1,
         "PointRadius": 10,
-        "RainforestWeight": 0.2,
-        "RiverCellAvoidance": 2,
-        "RiverCellWidth": 20,
+        "RainforestWeight": 0.4,
+        "RiverCellAvoidance": 0,
+        "RiverCellWidth": 50,
         "SaveTerrainImage": true,
-        "Seed": 802329703,
+        "Seed": 138081664,
         "ShallowOceanSize": 5,
         "SteppeWeight": 0.1,
-        "TaigaWeight": 0.1,
-        "TundraWeight": 0.1,
+        "TaigaWeight": 0,
+        "TundraWeight": 0.2,
         "WarmForestWeight": 0.2,
         "WetlandWeight": 0.1
       },
