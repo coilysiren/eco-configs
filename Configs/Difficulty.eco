@@ -19,7 +19,7 @@
       "GrowthRateMultiplier": 2,
       "MaxProfessionsPerCitizen": 10,
       "MaxSpecialtiesPerCitizen": 33,
-      "MeteorImpactInDays": 60,
+      "MeteorImpactInDays": 30,
       "RequireSkillsToReplaceParts": true,
       "ShelfLifeMultiplier": 1,
       "SkillCostMultiplier": 1.5,
