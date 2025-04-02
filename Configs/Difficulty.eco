@@ -23,7 +23,7 @@
       "RequireSkillsToReplaceParts": true,
       "ShelfLifeMultiplier": 1,
       "SkillCostMultiplier": 1.5,
-      "SpecialtyRefundPercentage": 1,
+      "SpecialtyRefundPercentage": 0,
       "StackSizeMultiplier": 2,
       "WeightMultiplier": 1
     },
