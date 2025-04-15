@@ -1,9 +1,9 @@
 {
   "ActiveCitizensRequiredtoAnnexRelative": [
-    4,
-    4,
-    4,
-    4
+    1,
+    1,
+    1,
+    1
   ],
   "AllowOptionToPreventSettlementsFromSeceding": false,
   "AnnexTargetBoostPerAdditionalChildSettlementInUnfoundedSettlementParent": 0.5,
