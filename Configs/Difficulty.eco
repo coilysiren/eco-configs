@@ -24,7 +24,7 @@
       "ShelfLifeMultiplier": 1,
       "SkillCostMultiplier": 1.5,
       "SpecialtyRefundPercentage": 0,
-      "StackSizeMultiplier": 2,
+      "StackSizeMultiplier": 3,
       "WeightMultiplier": 1
     },
     "AllowFriendsToJoin": true,
