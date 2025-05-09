@@ -50,36 +50,36 @@
           "min": 0.0008
         },
         "LandPercentRange": {
-          "max": 0.75,
-          "min": 0.65
+          "max": 0.9,
+          "min": 0.8
         },
         "MaxElevationOceanDistance": 10,
         "NumContinentsRange": {
           "max": 3,
-          "min": 1
+          "min": 3
         },
-        "NumCoolForests": 1,
-        "NumDeserts": 1,
-        "NumHighDeserts": 1,
-        "NumIces": 1,
+        "NumCoolForests": 3,
+        "NumDeserts": 3,
+        "NumHighDeserts": 0,
+        "NumIces": 0,
         "NumLakesRange": {
-          "max": 8,
-          "min": 4
+          "max": 0,
+          "min": 0
         },
-        "NumRainforests": 1,
+        "NumRainforests": 3,
         "NumRiversRange": {
-          "max": 5,
-          "min": 2
+          "max": 0,
+          "min": 0
         },
         "NumSmallIslandsRange": {
-          "max": 3,
-          "min": 1
+          "max": 0,
+          "min": 0
         },
-        "NumSteppes": 1,
-        "NumTaigas": 1,
-        "NumTundras": 1,
-        "NumWarmForests": 1,
-        "NumWetlands": 1,
+        "NumSteppes": 0,
+        "NumTaigas": 3,
+        "NumTundras": 3,
+        "NumWarmForests": 3,
+        "NumWetlands": 3,
         "PointRadius": 10,
         "RainforestWeight": 0.15,
         "RiverCellAvoidance": 2,

@@ -1,1 +1,37 @@
-{}
+{
+  "HeightmapModule": {
+    "Source": {
+      "Config": {
+        "LandPercentRange": {
+          "max": 0.9,
+          "min": 0.8
+        },
+        "NumContinentsRange": {
+          "min": 3
+        },
+        "NumCoolForests": 3,
+        "NumDeserts": 3,
+        "NumHighDeserts": 0,
+        "NumIces": 0,
+        "NumLakesRange": {
+          "max": 0,
+          "min": 0
+        },
+        "NumRainforests": 3,
+        "NumRiversRange": {
+          "max": 0,
+          "min": 0
+        },
+        "NumSmallIslandsRange": {
+          "max": 0,
+          "min": 0
+        },
+        "NumSteppes": 0,
+        "NumTaigas": 3,
+        "NumTundras": 3,
+        "NumWarmForests": 3,
+        "NumWetlands": 3
+      }
+    }
+  }
+}
