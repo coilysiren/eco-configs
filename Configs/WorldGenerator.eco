@@ -15,10 +15,10 @@
   },
   "Dimensions": {
     "$id": "2",
-    "WorldLength": 72,
-    "WorldWidth": 72
+    "WorldLength": 140,
+    "WorldWidth": 140
   },
-  "Height": 80,
+  "Height": 120,
   "HeightmapModule": {
     "$id": "3",
     "$type": "Eco.WorldGenerator.EcoTerraceNode, Eco.WorldGenerator",
@@ -50,8 +50,8 @@
           "min": 0.0008
         },
         "LandPercentRange": {
-          "max": 0.9,
-          "min": 0.8
+          "max": 0.8,
+          "min": 0.6
         },
         "MaxElevationOceanDistance": 10,
         "NumContinentsRange": {
@@ -85,7 +85,7 @@
         "RiverCellAvoidance": 2,
         "RiverCellWidth": 10,
         "SaveTerrainImage": true,
-        "Seed": 379784442,
+        "Seed": 0,
         "ShallowOceanSize": 2,
         "SteppeWeight": 0.1,
         "TaigaWeight": 0.08,
