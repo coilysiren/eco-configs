@@ -30,7 +30,7 @@
         "$id": "5",
         "AutoScale": true,
         "AutoScaleExponent": 0.25,
-        "CoastlineSize": 2,
+        "CoastlineSize": 1,
         "ContinentAvoidRange": {
           "max": 16,
           "min": 8
@@ -46,8 +46,8 @@
         },
         "IslandWeight": 0.1,
         "LakeSizeRange": {
-          "max": 0.006,
-          "min": 0.003
+          "max": 0.004,
+          "min": 0.002
         },
         "LandPercentRange": {
           "max": 0.9,
@@ -63,13 +63,13 @@
         "NumHighDeserts": 0,
         "NumIces": 0,
         "NumLakesRange": {
-          "max": 6,
-          "min": 3
+          "max": 0,
+          "min": 0
         },
         "NumRainforests": 3,
         "NumRiversRange": {
-          "max": 6,
-          "min": 3
+          "max": 0,
+          "min": 0
         },
         "NumSmallIslandsRange": {
           "max": 10,
