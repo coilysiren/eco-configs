@@ -7,8 +7,7 @@
       "ConnectionRangeMultiplier": 2,
       "GrowthRateMultiplier": 2,
       "SkillCostMultiplier": 1.5,
-      "SpecialtyRefundPercentage": 1,
-      "StackSizeMultiplier": 2
+      "StackSizeMultiplier": 3
     },
     "CollaborationLevel": "HighCollaboration",
     "DesiredNumberOfPlayers": 200,

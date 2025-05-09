@@ -3,6 +3,7 @@
 import json
 import os
 import re
+import sys
 import typing
 
 import invoke
@@ -12,6 +13,19 @@ import jsondiff
 JsonCallableType = typing.Callable[[str, dict], dict]
 
 
+MAC_SERVER_PATH = os.path.join(
+    "/Users",
+    "kai",
+    "Library",
+    "Application Support",
+    "Steam",
+    "steamapps",
+    "common",
+    "Eco",
+    "Eco.app",
+    "Contents",
+    "Server",
+)
 WINDOWS_SERVER_PATH = os.path.join(
     "C:\\",
     "Program Files (x86)",
@@ -39,6 +53,8 @@ LINUX_SERVER_PATH = os.path.join(
 def server_path():
     if "windows" in os.getenv("OS", "").lower():
         return WINDOWS_SERVER_PATH
+    elif "darwin" in sys.platform:
+        return MAC_SERVER_PATH
     else:
         return LINUX_SERVER_PATH
 
@@ -99,12 +115,16 @@ def show_diffs(_: invoke.Context):
             print(f"\tDiffing {config}")
 
             # read in the original data
-            original_path = os.path.join(server_path(), "Configs", f"{config}.eco.template")
+            original_path = os.path.join(
+                server_path(), "Configs", f"{config}.eco.template"
+            )
             with open(original_path, "r", encoding="utf-8") as file:
                 original_data = json.loads(file.read())
 
             # write back the original data, as a reference
-            with open(os.path.join("Configs", config + ".original.json"), "w", encoding="utf-8") as file:
+            with open(
+                os.path.join("Configs", config + ".original.json"), "w", encoding="utf-8"
+            ) as file:
                 file.write(json.dumps(original_data, indent=2, sort_keys=True))
 
             # diff the two then dump..
@@ -113,7 +133,9 @@ def show_diffs(_: invoke.Context):
             diff_str = json.dumps(json.loads(diff_json), indent=2, sort_keys=True)
 
             # write the diff to a file
-            with open(os.path.join("Configs", config + ".diff.json"), "w", encoding="utf-8") as file:
+            with open(
+                os.path.join("Configs", config + ".diff.json"), "w", encoding="utf-8"
+            ) as file:
                 file.write(diff_str)
 
         else:
@@ -125,10 +147,16 @@ def show_diffs(_: invoke.Context):
 
 @invoke.task
 def reset_worldgen(_: invoke.Context):
-    with open(os.path.join(server_path(), "Configs", "WorldGenerator.eco.template"), "r", encoding="utf-8") as file:
+    with open(
+        os.path.join(server_path(), "Configs", "WorldGenerator.eco.template"),
+        "r",
+        encoding="utf-8",
+    ) as file:
         data = file.read()
 
-    with open(os.path.join("Configs", "WorldGenerator.eco"), "w", encoding="utf-8") as file:
+    with open(
+        os.path.join("Configs", "WorldGenerator.eco"), "w", encoding="utf-8"
+    ) as file:
         file.write(data)
 
 
@@ -147,11 +175,16 @@ def expand_deposits(_: invoke.Context):
                         "$id": "13",
                         "BlockDepthRanges": [
                             {
-                                "BlockType": {"Type": "Eco.Mods.TechTree.SandstoneBlock, Eco.Mods"},
+                                "BlockType": {
+                                    "Type": "Eco.Mods.TechTree.SandstoneBlock, Eco.Mods"
+                                },
                                 "SubModules": [
                                     {
                                         "$type": "Eco.WorldGenerator.DepositTerrainModule, Eco.WorldGenerator",
-                                        "BlockType": {"$id": "48", "Type": "Eco.Mods.TechTree.IronOreBlock, Eco.Mods"},
+                                        "BlockType": {
+                                            "$id": "48",
+                                            "Type": "Eco.Mods.TechTree.IronOreBlock, Eco.Mods",
+                                        },
                                         "DepositDepthRange": {"max": 60, "min": 15},
                                         "DepthRange": {"max": 60, "min": 53},
                                     }
@@ -169,21 +202,32 @@ def expand_deposits(_: invoke.Context):
             if sub_module["DepthRange"]["min"] >= 20:
                 sub_module["DepthRange"]["min"] -= 15
             if sub_module["DepthRange"]["max"] >= 20:
-                sub_module["DepthRange"]["max"] = min(sub_module["DepthRange"]["max"] + 20, 200)
+                sub_module["DepthRange"]["max"] = min(
+                    sub_module["DepthRange"]["max"] + 20, 200
+                )
 
         if "DepositDepthRange" in sub_module:
             if sub_module["DepositDepthRange"]["min"] >= 5:
-                sub_module["DepositDepthRange"]["min"] = max(sub_module["DepthRange"]["min"] - 5, 5)
-            sub_module["DepositDepthRange"]["max"] = min(sub_module["DepthRange"]["max"] + 20, 200)
+                sub_module["DepositDepthRange"]["min"] = max(
+                    sub_module["DepthRange"]["min"] - 5, 5
+                )
+            sub_module["DepositDepthRange"]["max"] = min(
+                sub_module["DepthRange"]["max"] + 20, 200
+            )
 
         return sub_module
 
-    with open(os.path.join("Configs", "WorldGenerator.eco"), "r", encoding="utf-8") as file:
+    with open(
+        os.path.join("Configs", "WorldGenerator.eco"), "r", encoding="utf-8"
+    ) as file:
         world_data = json.loads(file.read())
         terrain_modules = world_data["TerrainModule"]["Modules"]
 
         for module in terrain_modules:
-            if module["$type"] == "Eco.WorldGenerator.BiomeTerrainModule, Eco.WorldGenerator":
+            if (
+                module["$type"]
+                == "Eco.WorldGenerator.BiomeTerrainModule, Eco.WorldGenerator"
+            ):
                 for block_depth_range in module["Module"]["BlockDepthRanges"]:
                     for sub_module in block_depth_range["SubModules"]:
                         is_deposit = "DepositTerrainModule" in sub_module["$type"]
@@ -191,5 +235,7 @@ def expand_deposits(_: invoke.Context):
                         if is_deposit and is_ore:
                             sub_module = _expand_deposits(sub_module)
 
-    with open(os.path.join("Configs", "WorldGenerator.eco"), "w", encoding="utf-8") as file:
+    with open(
+        os.path.join("Configs", "WorldGenerator.eco"), "w", encoding="utf-8"
+    ) as file:
         file.write(json.dumps(world_data, indent=2, sort_keys=True))

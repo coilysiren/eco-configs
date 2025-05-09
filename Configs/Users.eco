@@ -1,9 +1,9 @@
 {
+  "APIAdminAuthToken": "coilysiren",
+  "APIAuthToken": "coilysiren",
   "AdminCommandsLoggingLevel": "LogFileAndNotifyAdmins",
   "AllowDebugCalls": false,
   "ConfigVersion": 1,
-  "APIAdminAuthToken": "coilysiren",
-  "APIAuthToken": "coilysiren",
   "DelayNearbyFoodCheckMinutes": 4,
   "MovementHackDetection": false,
   "NearbyFoodSpawnCount": 5,

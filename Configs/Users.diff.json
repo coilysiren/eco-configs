@@ -1,4 +1,6 @@
 {
+  "APIAdminAuthToken": "coilysiren",
+  "APIAuthToken": "coilysiren",
   "AdminCommandsLoggingLevel": "LogFileAndNotifyAdmins",
   "SpawnLocation": {
     "x": 344,

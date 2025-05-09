@@ -15,10 +15,10 @@
   },
   "Dimensions": {
     "$id": "2",
-    "WorldLength": 140,
-    "WorldWidth": 140
+    "WorldLength": 72,
+    "WorldWidth": 72
   },
-  "Height": 120,
+  "Height": 160,
   "HeightmapModule": {
     "$id": "3",
     "$type": "Eco.WorldGenerator.EcoTerraceNode, Eco.WorldGenerator",
@@ -28,70 +28,70 @@
       "$type": "Eco.WorldGenerator.VoronoiModule, Eco.WorldGenerator",
       "Config": {
         "$id": "5",
-        "AutoScale": false,
+        "AutoScale": true,
         "AutoScaleExponent": 0.25,
-        "CoastlineSize": 3,
+        "CoastlineSize": 1,
         "ContinentAvoidRange": {
-          "max": 20,
-          "min": 12
+          "max": 16,
+          "min": 8
         },
-        "CoolForestWeight": 0.15,
+        "CoolForestWeight": 0.22,
         "DesertWeight": 0.15,
-        "ElevationPower": 1,
-        "HighDesertWeight": 0.15,
-        "IceWeight": 0,
+        "ElevationPower": 2,
+        "HighDesertWeight": 0.05,
+        "IceWeight": 0.01,
         "IslandAvoidRange": {
           "max": 8,
           "min": 4
         },
-        "IslandWeight": 0,
+        "IslandWeight": 0.05,
         "LakeSizeRange": {
           "max": 0.0018,
           "min": 0.0008
         },
         "LandPercentRange": {
-          "max": 0.5,
-          "min": 0.7
+          "max": 0.75,
+          "min": 0.65
         },
-        "MaxElevationOceanDistance": 20,
+        "MaxElevationOceanDistance": 10,
         "NumContinentsRange": {
-          "max": 1,
+          "max": 3,
           "min": 1
         },
         "NumCoolForests": 1,
         "NumDeserts": 1,
-        "NumHighDeserts": 0,
-        "NumIces": 0,
+        "NumHighDeserts": 1,
+        "NumIces": 1,
         "NumLakesRange": {
-          "max": 0,
-          "min": 0
+          "max": 8,
+          "min": 4
         },
         "NumRainforests": 1,
         "NumRiversRange": {
-          "max": 12,
-          "min": 8
+          "max": 5,
+          "min": 2
         },
         "NumSmallIslandsRange": {
-          "max": 0,
-          "min": 0
+          "max": 3,
+          "min": 1
         },
-        "NumSteppes": 0,
+        "NumSteppes": 1,
         "NumTaigas": 1,
         "NumTundras": 1,
         "NumWarmForests": 1,
         "NumWetlands": 1,
         "PointRadius": 10,
         "RainforestWeight": 0.15,
-        "RiverCellAvoidance": 0,
-        "RiverCellWidth": 50,
+        "RiverCellAvoidance": 2,
+        "RiverCellWidth": 10,
         "SaveTerrainImage": true,
-        "Seed": 138081664,
-        "ShallowOceanSize": 5,
-        "SteppeWeight": 0.15,
-        "TaigaWeight": 0.15,
-        "TundraWeight": 0.15,
-        "WarmForestWeight": 0.15,
-        "WetlandWeight": 0.15
+        "Seed": 0,
+        "ShallowOceanSize": 2,
+        "SteppeWeight": 0.1,
+        "TaigaWeight": 0.08,
+        "TundraWeight": 0.03,
+        "WarmForestWeight": 0.2,
+        "WetlandWeight": 0.04
       },
       "OutputIndex": 0
     },
