@@ -44,10 +44,10 @@
           "max": 8,
           "min": 4
         },
-        "IslandWeight": 0.05,
+        "IslandWeight": 0.1,
         "LakeSizeRange": {
-          "max": 0.002,
-          "min": 0.001
+          "max": 0.004,
+          "min": 0.002
         },
         "LandPercentRange": {
           "max": 0.9,
@@ -83,7 +83,7 @@
         "PointRadius": 10,
         "RainforestWeight": 0.15,
         "RiverCellAvoidance": 2,
-        "RiverCellWidth": 10,
+        "RiverCellWidth": 30,
         "SaveTerrainImage": true,
         "Seed": 70413905,
         "ShallowOceanSize": 2,
