@@ -46,12 +46,12 @@
         },
         "IslandWeight": 0.05,
         "LakeSizeRange": {
-          "max": 0.0018,
-          "min": 0.0008
+          "max": 0.004,
+          "min": 0.002
         },
         "LandPercentRange": {
-          "max": 0.8,
-          "min": 0.6
+          "max": 0.7,
+          "min": 0.5
         },
         "MaxElevationOceanDistance": 10,
         "NumContinentsRange": {
@@ -83,9 +83,9 @@
         "PointRadius": 10,
         "RainforestWeight": 0.15,
         "RiverCellAvoidance": 2,
-        "RiverCellWidth": 10,
+        "RiverCellWidth": 30,
         "SaveTerrainImage": true,
-        "Seed": 0,
+        "Seed": 70413905,
         "ShallowOceanSize": 2,
         "SteppeWeight": 0.1,
         "TaigaWeight": 0.08,
