@@ -51,7 +51,7 @@
         },
         "LandPercentRange": {
           "max": 0.9,
-          "min": 0.6
+          "min": 0.7
         },
         "MaxElevationOceanDistance": 10,
         "NumContinentsRange": {
