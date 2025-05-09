@@ -68,8 +68,8 @@
         },
         "NumRainforests": 3,
         "NumRiversRange": {
-          "max": 0,
-          "min": 0
+          "max": 6,
+          "min": 3
         },
         "NumSmallIslandsRange": {
           "max": 10,
@@ -83,7 +83,7 @@
         "PointRadius": 10,
         "RainforestWeight": 0.15,
         "RiverCellAvoidance": 2,
-        "RiverCellWidth": 30,
+        "RiverCellWidth": 20,
         "SaveTerrainImage": true,
         "Seed": 70413905,
         "ShallowOceanSize": 2,
