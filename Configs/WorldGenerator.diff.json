@@ -1,13 +1,23 @@
 {
+  "Dimensions": {
+    "WorldLength": 140,
+    "WorldWidth": 140
+  },
+  "Height": 120,
   "HeightmapModule": {
     "Source": {
       "Config": {
+        "IslandWeight": 0.1,
+        "LakeSizeRange": {
+          "max": 0.004,
+          "min": 0.002
+        },
         "LandPercentRange": {
           "max": 0.9,
-          "min": 0.8
+          "min": 0.7
         },
         "NumContinentsRange": {
-          "min": 3
+          "max": 1
         },
         "NumCoolForests": 3,
         "NumDeserts": 3,
@@ -19,18 +29,20 @@
         },
         "NumRainforests": 3,
         "NumRiversRange": {
-          "max": 0,
-          "min": 0
+          "max": 6,
+          "min": 3
         },
         "NumSmallIslandsRange": {
-          "max": 0,
-          "min": 0
+          "max": 10,
+          "min": 5
         },
         "NumSteppes": 0,
         "NumTaigas": 3,
         "NumTundras": 3,
         "NumWarmForests": 3,
-        "NumWetlands": 3
+        "NumWetlands": 3,
+        "RiverCellWidth": 20,
+        "Seed": 70413905
       }
     }
   }
