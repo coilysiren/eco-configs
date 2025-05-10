@@ -66,6 +66,11 @@
     5,
     5
   ],
+  "MaxGivableReputationThroughLaws": [
+    100,
+    200,
+    400
+  ],
   "MinCitizensToFoundSettlement": {
     "$delete": [
       0
