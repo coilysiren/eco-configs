@@ -3,7 +3,7 @@
     "DeepOcean": 30,
     "Ocean": 2
   },
-  "EndgameCraftCost": "Expensive",
+  "EndgameCraftCost": "Normal",
   "GameSettings": {
     "AdvancedGameSettings": {
       "AllowDeepOceanBuilding": false,
@@ -38,7 +38,7 @@
     "SimulationLevel": "Normal"
   },
   "PlayerCanDrownWhenSwimming": true,
-  "SkillbookCraftCost": "Expensive",
+  "SkillbookCraftCost": "Normal",
   "SwimSpeed": {
     "DeepOcean": 0.25,
     "Ocean": 0.75
