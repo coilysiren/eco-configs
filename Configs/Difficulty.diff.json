@@ -1,5 +1,4 @@
 {
-  "EndgameCraftCost": "Expensive",
   "GameSettings": {
     "AdvancedGameSettings": {
       "ClaimPapersGrantedUponSkillscrollConsumed": 5,
@@ -14,6 +13,5 @@
     "ExhaustionEnabled": false,
     "GameSpeed": "Slow",
     "HoursPlayedPerDay": 0
-  },
-  "SkillbookCraftCost": "Expensive"
+  }
 }
