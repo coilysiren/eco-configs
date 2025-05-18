@@ -114,9 +114,25 @@
       ]
     ]
   },
+  "SettlementFoundationBaseInfluence": {
+    "$delete": [
+      1,
+      0
+    ],
+    "$insert": [
+      [
+        0,
+        100
+      ],
+      [
+        1,
+        200
+      ]
+    ]
+  },
   "SettlementInfluenceMultiplier": [
-    1.5,
-    1.5,
-    1.5
+    2,
+    2,
+    2
   ]
 }
