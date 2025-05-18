@@ -228,9 +228,9 @@
     10
   ],
   "SettlementFoundationBaseInfluence": [
-    100,
+    50,
     200,
-    400
+    800
   ],
   "SettlementInfluenceMultiplier": [
     2,
