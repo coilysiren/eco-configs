@@ -268,16 +268,16 @@
   "SettlementMinRequiredPlotCoveragePercentage": 0.2,
   "WeightCultureByPercentOfNeighboringPlotsChildSettlement": [
     {
-      "max": 0.2,
-      "min": 0.05
+      "max": 0.7,
+      "min": 0.3
     },
     {
-      "max": 0.4,
-      "min": 0.1
+      "max": 0.7,
+      "min": 0.3
     },
     {
-      "max": 0.6,
-      "min": 0.2
+      "max": 0.7,
+      "min": 0.3
     },
     {
       "max": 1.0,
@@ -286,16 +286,16 @@
   ],
   "WeightCultureByPercentOfNeighboringPlotsSiblingSettlement": [
     {
-      "max": 0.2,
-      "min": 0.05
+      "max": 1.0,
+      "min": 0.3
     },
     {
-      "max": 0.4,
-      "min": 0.1
+      "max": 1.0,
+      "min": 0.3
     },
     {
-      "max": 0.6,
-      "min": 0.2
+      "max": 1.0,
+      "min": 0.3
     },
     {
       "max": 1.0,

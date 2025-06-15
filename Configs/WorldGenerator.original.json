@@ -18,7 +18,6 @@
     "WorldLength": 72,
     "WorldWidth": 72
   },
-  "Height": 160,
   "HeightmapModule": {
     "$id": "3",
     "$type": "Eco.WorldGenerator.EcoTerraceNode, Eco.WorldGenerator",
@@ -98,6 +97,8 @@
     "TerracePoints": 41
   },
   "MapSizePreset": "Small",
+  "MaxBuildHeight": 160,
+  "MaxGenerationHeight": 120,
   "RainfallModule": {
     "$id": "8",
     "$type": "Eco.WorldGenerator.VoronoiModule, Eco.WorldGenerator",

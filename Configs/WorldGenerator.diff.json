@@ -1,48 +1,56 @@
 {
-  "Dimensions": {
-    "WorldLength": 140,
-    "WorldWidth": 140
-  },
-  "Height": 120,
   "HeightmapModule": {
     "Source": {
       "Config": {
-        "IslandWeight": 0.1,
+        "AutoScale": false,
+        "ContinentAvoidRange": {
+          "max": 20,
+          "min": 5
+        },
+        "CoolForestWeight": 0.1,
+        "DesertWeight": 0.1,
+        "HighDesertWeight": 0.1,
+        "IceWeight": 0.05,
+        "IslandAvoidRange": {
+          "max": 99,
+          "min": 99
+        },
+        "IslandWeight": 0,
         "LakeSizeRange": {
-          "max": 0.004,
-          "min": 0.002
+          "max": 0,
+          "min": 0
         },
         "LandPercentRange": {
-          "max": 0.9,
-          "min": 0.7
+          "max": 0.4,
+          "min": 0.3
         },
         "NumContinentsRange": {
-          "max": 1
+          "max": 4,
+          "min": 3
         },
-        "NumCoolForests": 3,
-        "NumDeserts": 3,
         "NumHighDeserts": 0,
-        "NumIces": 0,
         "NumLakesRange": {
           "max": 0,
           "min": 0
         },
-        "NumRainforests": 3,
         "NumRiversRange": {
-          "max": 6,
-          "min": 3
+          "max": 0,
+          "min": 0
         },
         "NumSmallIslandsRange": {
-          "max": 10,
-          "min": 5
+          "max": 0,
+          "min": 0
         },
         "NumSteppes": 0,
-        "NumTaigas": 3,
-        "NumTundras": 3,
-        "NumWarmForests": 3,
-        "NumWetlands": 3,
-        "RiverCellWidth": 20,
-        "Seed": 70413905
+        "RainforestWeight": 0.2,
+        "RiverCellAvoidance": 0,
+        "RiverCellWidth": 0,
+        "Seed": 629717237,
+        "ShallowOceanSize": 1,
+        "TaigaWeight": 0.1,
+        "TundraWeight": 0.1,
+        "WarmForestWeight": 0.3,
+        "WetlandWeight": 0.2
       }
     }
   }
