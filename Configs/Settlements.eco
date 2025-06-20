@@ -228,14 +228,14 @@
     10
   ],
   "SettlementFoundationBaseInfluence": [
-    45,
-    150,
-    400
+    50,
+    200,
+    800
   ],
   "SettlementInfluenceMultiplier": [
-    1.5,
-    1.5,
-    1.5
+    2,
+    2,
+    2
   ],
   "SettlementMinRequiredPlotCoveragePercentage": 0.2,
   "WeightCultureByPercentOfNeighboringPlotsChildSettlement": [
