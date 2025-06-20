@@ -1,0 +1,155 @@
+{
+  "ActiveCitizensRequiredtoAnnexRelative": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "AnnexationResourceRequirementPerCitizen": {
+    "0": {
+      "$delete": [
+        0
+      ],
+      "0": {
+        "Required": 1,
+        "TagName": "NotInBrowser"
+      }
+    },
+    "1": {
+      "$delete": [
+        1,
+        0
+      ],
+      "0": {
+        "Required": 1,
+        "TagName": "NotInBrowser"
+      }
+    },
+    "2": {
+      "$delete": [
+        1,
+        0
+      ],
+      "0": {
+        "Required": 1,
+        "TagName": "NotInBrowser"
+      }
+    },
+    "3": {
+      "$delete": [
+        1,
+        0
+      ],
+      "0": {
+        "Required": 1,
+        "TagName": "NotInBrowser"
+      }
+    }
+  },
+  "BasePlotsOnClaimStake": [
+    16,
+    16,
+    16
+  ],
+  "ClaimStakesPerAbandonedCitizen": [
+    2,
+    2,
+    2
+  ],
+  "ClaimStakesPerCitizen": [
+    2,
+    2,
+    2
+  ],
+  "HomesteadSupportClaimsPerAbandonedCitizen": [
+    5,
+    5,
+    5
+  ],
+  "MaxGivableReputationThroughLaws": [
+    100,
+    200,
+    400
+  ],
+  "MinCitizensToFoundSettlement": {
+    "$delete": [
+      0
+    ],
+    "$insert": [
+      [
+        0,
+        2
+      ]
+    ]
+  },
+  "MinCitizensToMaintainSettlement": {
+    "$delete": [
+      0
+    ],
+    "$insert": [
+      [
+        0,
+        1
+      ]
+    ]
+  },
+  "SettlementClaimsPerAbandonedCitizen": [
+    30,
+    20,
+    10
+  ],
+  "SettlementClaimsPerCitizen": {
+    "$delete": [
+      2,
+      0
+    ],
+    "$insert": [
+      [
+        0,
+        30
+      ],
+      [
+        2,
+        10
+      ]
+    ]
+  },
+  "SettlementFoundationBaseInfluence": [
+    50,
+    200,
+    800
+  ],
+  "SettlementInfluenceMultiplier": [
+    2,
+    2,
+    2
+  ],
+  "WeightCultureByPercentOfNeighboringPlotsChildSettlement": {
+    "0": {
+      "max": 0.2,
+      "min": 0.05
+    },
+    "1": {
+      "max": 0.4,
+      "min": 0.1
+    },
+    "2": {
+      "max": 0.6,
+      "min": 0.2
+    }
+  },
+  "WeightCultureByPercentOfNeighboringPlotsSiblingSettlement": {
+    "0": {
+      "max": 0.2,
+      "min": 0.05
+    },
+    "1": {
+      "max": 0.4,
+      "min": 0.1
+    },
+    "2": {
+      "max": 0.6,
+      "min": 0.2
+    }
+  }
+}
