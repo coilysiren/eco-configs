@@ -6,7 +6,7 @@
   "EndgameCraftCost": "Normal",
   "GameSettings": {
     "AdvancedGameSettings": {
-      "AllowDeepOceanBuilding": false,
+      "AllowDeepOceanBuilding": true,
       "BrokenPartsWillDisableVehicles": true,
       "CanAbandonSpecialties": true,
       "ClaimPapersGrantedUponSkillscrollConsumed": 5,
