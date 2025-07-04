@@ -20,7 +20,7 @@
     "MaxTemperatureChangePerDay": 1.5,
     "MaxTemperatureRise": 30,
     "MinCO2PerDayFromPlants": -99999,
-    "MinCO2ppm": 325,
+    "MinCO2ppm": 1,
     "PPMPerTon": 1.2860082,
     "PollutionMultiplier": 2,
     "PollutionPerTailingPerTick": 0.1,
