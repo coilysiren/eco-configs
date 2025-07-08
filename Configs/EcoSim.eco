@@ -22,7 +22,7 @@
     "MinCO2PerDayFromPlants": -99999,
     "MinCO2ppm": 1,
     "PPMPerTon": 1,
-    "PollutionMultiplier": 1.5,
+    "PollutionMultiplier": 2,
     "PollutionPerTailingPerTick": 0.1,
     "SeaLevelSimEnabled": true,
     "SeaLevelsRiseAtCO2ppm": 600,
