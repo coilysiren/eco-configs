@@ -224,7 +224,7 @@
                   "$type": "Eco.WorldGenerator.StandardTerrainModule, Eco.WorldGenerator",
                   "BlockType": {
                     "$id": "26",
-                    "Type": "Eco.Mods.TechTree.CrushedLimestoneBlock, Eco.Mods"
+                    "Type": "Eco.Mods.TechTree.LimestoneBlock, Eco.Mods"
                   },
                   "DepthRange": {
                     "max": 2,
@@ -264,7 +264,7 @@
                   "$type": "Eco.WorldGenerator.StandardTerrainModule, Eco.WorldGenerator",
                   "BlockType": {
                     "$id": "30",
-                    "Type": "Eco.Mods.TechTree.CrushedSulfurBlock, Eco.Mods"
+                    "Type": "Eco.Mods.TechTree.SulfurBlock, Eco.Mods"
                   },
                   "DepthRange": {
                     "max": 1,
@@ -296,7 +296,7 @@
                   "$type": "Eco.WorldGenerator.StandardTerrainModule, Eco.WorldGenerator",
                   "BlockType": {
                     "$id": "34",
-                    "Type": "Eco.Mods.TechTree.CrushedSandstoneBlock, Eco.Mods"
+                    "Type": "Eco.Mods.TechTree.SandstoneBlock, Eco.Mods"
                   },
                   "DepthRange": {
                     "max": 1,
@@ -316,7 +316,7 @@
                   "$type": "Eco.WorldGenerator.StandardTerrainModule, Eco.WorldGenerator",
                   "BlockType": {
                     "$id": "36",
-                    "Type": "Eco.Mods.TechTree.CrushedIronOreBlock, Eco.Mods"
+                    "Type": "Eco.Mods.TechTree.IronOreBlock, Eco.Mods"
                   },
                   "DepthRange": {
                     "max": 5,
@@ -618,7 +618,7 @@
                   "$type": "Eco.WorldGenerator.StandardTerrainModule, Eco.WorldGenerator",
                   "BlockType": {
                     "$id": "61",
-                    "Type": "Eco.Mods.TechTree.CrushedGraniteBlock, Eco.Mods"
+                    "Type": "Eco.Mods.TechTree.GraniteBlock, Eco.Mods"
                   },
                   "DepthRange": {
                     "max": 0,
@@ -799,7 +799,7 @@
                   "$type": "Eco.WorldGenerator.StandardTerrainModule, Eco.WorldGenerator",
                   "BlockType": {
                     "$id": "79",
-                    "Type": "Eco.Mods.TechTree.CrushedShaleBlock, Eco.Mods"
+                    "Type": "Eco.Mods.TechTree.ShaleBlock, Eco.Mods"
                   },
                   "DepthRange": {
                     "max": 1,
@@ -927,7 +927,7 @@
                   "$type": "Eco.WorldGenerator.StandardTerrainModule, Eco.WorldGenerator",
                   "BlockType": {
                     "$id": "85",
-                    "Type": "Eco.Mods.TechTree.CrushedGoldOreBlock, Eco.Mods"
+                    "Type": "Eco.Mods.TechTree.GoldOreBlock, Eco.Mods"
                   },
                   "DepthRange": {
                     "max": 1,
@@ -1363,7 +1363,7 @@
                   "$type": "Eco.WorldGenerator.StandardTerrainModule, Eco.WorldGenerator",
                   "BlockType": {
                     "$id": "113",
-                    "Type": "Eco.Mods.TechTree.CrushedGraniteBlock, Eco.Mods"
+                    "Type": "Eco.Mods.TechTree.GraniteBlock, Eco.Mods"
                   },
                   "DepthRange": {
                     "max": 1,
@@ -1395,7 +1395,7 @@
                   "$type": "Eco.WorldGenerator.StandardTerrainModule, Eco.WorldGenerator",
                   "BlockType": {
                     "$id": "117",
-                    "Type": "Eco.Mods.TechTree.CrushedGraniteBlock, Eco.Mods"
+                    "Type": "Eco.Mods.TechTree.GraniteBlock, Eco.Mods"
                   },
                   "DepthRange": {
                     "max": 1,
@@ -1635,7 +1635,7 @@
                   "$type": "Eco.WorldGenerator.StandardTerrainModule, Eco.WorldGenerator",
                   "BlockType": {
                     "$id": "133",
-                    "Type": "Eco.Mods.TechTree.CrushedGraniteBlock, Eco.Mods"
+                    "Type": "Eco.Mods.TechTree.GraniteBlock, Eco.Mods"
                   },
                   "DepthRange": {
                     "max": 2,
@@ -1942,7 +1942,7 @@
                   "$type": "Eco.WorldGenerator.StandardTerrainModule, Eco.WorldGenerator",
                   "BlockType": {
                     "$id": "155",
-                    "Type": "Eco.Mods.TechTree.CrushedGraniteBlock, Eco.Mods"
+                    "Type": "Eco.Mods.TechTree.GraniteBlock, Eco.Mods"
                   },
                   "DepthRange": {
                     "max": 0,
@@ -1962,7 +1962,7 @@
                   "$type": "Eco.WorldGenerator.StandardTerrainModule, Eco.WorldGenerator",
                   "BlockType": {
                     "$id": "157",
-                    "Type": "Eco.Mods.TechTree.CrushedCopperOreBlock, Eco.Mods"
+                    "Type": "Eco.Mods.TechTree.CopperOreBlock, Eco.Mods"
                   },
                   "DepthRange": {
                     "max": 0,
@@ -2389,7 +2389,7 @@
                   "$type": "Eco.WorldGenerator.StandardTerrainModule, Eco.WorldGenerator",
                   "BlockType": {
                     "$id": "181",
-                    "Type": "Eco.Mods.TechTree.CrushedGoldOreBlock, Eco.Mods"
+                    "Type": "Eco.Mods.TechTree.GoldOreBlock, Eco.Mods"
                   },
                   "DepthRange": {
                     "max": 0,
@@ -2743,7 +2743,7 @@
                   "$type": "Eco.WorldGenerator.DepositTerrainModule, Eco.WorldGenerator",
                   "BlockType": {
                     "$id": "203",
-                    "Type": "Eco.Mods.TechTree.CrushedCopperOreBlock, Eco.Mods"
+                    "Type": "Eco.Mods.TechTree.CopperOreBlock, Eco.Mods"
                   },
                   "BlocksCountRange": {
                     "max": 12,
@@ -2975,7 +2975,7 @@
                   "$type": "Eco.WorldGenerator.StandardTerrainModule, Eco.WorldGenerator",
                   "BlockType": {
                     "$id": "219",
-                    "Type": "Eco.Mods.TechTree.CrushedSandstoneBlock, Eco.Mods"
+                    "Type": "Eco.Mods.TechTree.SandstoneBlock, Eco.Mods"
                   },
                   "DepthRange": {
                     "max": 20,
@@ -2995,7 +2995,7 @@
                   "$type": "Eco.WorldGenerator.StandardTerrainModule, Eco.WorldGenerator",
                   "BlockType": {
                     "$id": "221",
-                    "Type": "Eco.Mods.TechTree.CrushedIronOreBlock, Eco.Mods"
+                    "Type": "Eco.Mods.TechTree.IronOreBlock, Eco.Mods"
                   },
                   "DepthRange": {
                     "max": 20,
@@ -3027,7 +3027,7 @@
                   "$type": "Eco.WorldGenerator.StandardTerrainModule, Eco.WorldGenerator",
                   "BlockType": {
                     "$id": "225",
-                    "Type": "Eco.Mods.TechTree.CrushedSandstoneBlock, Eco.Mods"
+                    "Type": "Eco.Mods.TechTree.SandstoneBlock, Eco.Mods"
                   },
                   "DepthRange": {
                     "max": 0,
@@ -3047,7 +3047,7 @@
                   "$type": "Eco.WorldGenerator.StandardTerrainModule, Eco.WorldGenerator",
                   "BlockType": {
                     "$id": "227",
-                    "Type": "Eco.Mods.TechTree.CrushedIronOreBlock, Eco.Mods"
+                    "Type": "Eco.Mods.TechTree.IronOreBlock, Eco.Mods"
                   },
                   "DepthRange": {
                     "max": 0,
@@ -3730,7 +3730,7 @@
                   "$type": "Eco.WorldGenerator.StandardTerrainModule, Eco.WorldGenerator",
                   "BlockType": {
                     "$id": "264",
-                    "Type": "Eco.Mods.TechTree.CrushedLimestoneBlock, Eco.Mods"
+                    "Type": "Eco.Mods.TechTree.LimestoneBlock, Eco.Mods"
                   },
                   "DepthRange": {
                     "max": 0,
@@ -3762,7 +3762,7 @@
                   "$type": "Eco.WorldGenerator.StandardTerrainModule, Eco.WorldGenerator",
                   "BlockType": {
                     "$id": "268",
-                    "Type": "Eco.Mods.TechTree.CrushedGraniteBlock, Eco.Mods"
+                    "Type": "Eco.Mods.TechTree.GraniteBlock, Eco.Mods"
                   },
                   "DepthRange": {
                     "max": 1,
@@ -3824,7 +3824,7 @@
                   "$type": "Eco.WorldGenerator.StandardTerrainModule, Eco.WorldGenerator",
                   "BlockType": {
                     "$id": "276",
-                    "Type": "Eco.Mods.TechTree.CrushedGraniteBlock, Eco.Mods"
+                    "Type": "Eco.Mods.TechTree.GraniteBlock, Eco.Mods"
                   },
                   "DepthRange": {
                     "max": 1,
@@ -3885,7 +3885,7 @@
                   "$type": "Eco.WorldGenerator.StandardTerrainModule, Eco.WorldGenerator",
                   "BlockType": {
                     "$id": "283",
-                    "Type": "Eco.Mods.TechTree.CrushedLimestoneBlock, Eco.Mods"
+                    "Type": "Eco.Mods.TechTree.LimestoneBlock, Eco.Mods"
                   },
                   "DepthRange": {
                     "max": 6,
@@ -3917,7 +3917,7 @@
                   "$type": "Eco.WorldGenerator.StandardTerrainModule, Eco.WorldGenerator",
                   "BlockType": {
                     "$id": "287",
-                    "Type": "Eco.Mods.TechTree.CrushedSandstoneBlock, Eco.Mods"
+                    "Type": "Eco.Mods.TechTree.SandstoneBlock, Eco.Mods"
                   },
                   "DepthRange": {
                     "max": 11,
@@ -4123,7 +4123,7 @@
                   "$type": "Eco.WorldGenerator.StandardTerrainModule, Eco.WorldGenerator",
                   "BlockType": {
                     "$id": "302",
-                    "Type": "Eco.Mods.TechTree.CrushedLimestoneBlock, Eco.Mods"
+                    "Type": "Eco.Mods.TechTree.LimestoneBlock, Eco.Mods"
                   },
                   "DepthRange": {
                     "max": 1,
@@ -4392,7 +4392,7 @@
                   "$type": "Eco.WorldGenerator.StandardTerrainModule, Eco.WorldGenerator",
                   "BlockType": {
                     "$id": "325",
-                    "Type": "Eco.Mods.TechTree.CrushedShaleBlock, Eco.Mods"
+                    "Type": "Eco.Mods.TechTree.ShaleBlock, Eco.Mods"
                   },
                   "DepthRange": {
                     "max": 20,
@@ -4412,7 +4412,7 @@
                   "$type": "Eco.WorldGenerator.StandardTerrainModule, Eco.WorldGenerator",
                   "BlockType": {
                     "$id": "327",
-                    "Type": "Eco.Mods.TechTree.CrushedCoalBlock, Eco.Mods"
+                    "Type": "Eco.Mods.TechTree.CoalBlock, Eco.Mods"
                   },
                   "DepthRange": {
                     "max": 20,
