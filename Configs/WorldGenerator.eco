@@ -639,7 +639,7 @@
               "$id": "62",
               "BlockType": {
                 "$id": "63",
-                "Type": "Eco.Mods.TechTree.GneissBlock, Eco.Mods"
+                "Type": "Eco.Mods.TechTree.GraniteBlock, Eco.Mods"
               },
               "Max": 100,
               "Min": 70,
@@ -1352,7 +1352,7 @@
               "$id": "110",
               "BlockType": {
                 "$id": "111",
-                "Type": "Eco.Mods.TechTree.BasaltBlock, Eco.Mods"
+                "Type": "Eco.Mods.TechTree.GraniteBlock, Eco.Mods"
               },
               "Max": 20,
               "Min": 0,
@@ -1363,7 +1363,7 @@
                   "$type": "Eco.WorldGenerator.StandardTerrainModule, Eco.WorldGenerator",
                   "BlockType": {
                     "$id": "113",
-                    "Type": "Eco.Mods.TechTree.CrushedBasaltBlock, Eco.Mods"
+                    "Type": "Eco.Mods.TechTree.CrushedGraniteBlock, Eco.Mods"
                   },
                   "DepthRange": {
                     "max": 1,
@@ -1635,7 +1635,7 @@
                   "$type": "Eco.WorldGenerator.StandardTerrainModule, Eco.WorldGenerator",
                   "BlockType": {
                     "$id": "133",
-                    "Type": "Eco.Mods.TechTree.CrushedBasaltBlock, Eco.Mods"
+                    "Type": "Eco.Mods.TechTree.CrushedGraniteBlock, Eco.Mods"
                   },
                   "DepthRange": {
                     "max": 2,
@@ -2439,7 +2439,7 @@
                   "$type": "Eco.WorldGenerator.StandardTerrainModule, Eco.WorldGenerator",
                   "BlockType": {
                     "$id": "185",
-                    "Type": "Eco.Mods.TechTree.BasaltBlock, Eco.Mods"
+                    "Type": "Eco.Mods.TechTree.GraniteBlock, Eco.Mods"
                   },
                   "DepthRange": {
                     "max": 35,
@@ -2588,7 +2588,7 @@
               "$id": "190",
               "BlockType": {
                 "$id": "191",
-                "Type": "Eco.Mods.TechTree.GneissBlock, Eco.Mods"
+                "Type": "Eco.Mods.TechTree.GraniteBlock, Eco.Mods"
               },
               "Max": 85,
               "Min": 70,
@@ -3676,7 +3676,7 @@
               "$id": "253",
               "BlockType": {
                 "$id": "254",
-                "Type": "Eco.Mods.TechTree.GneissBlock, Eco.Mods"
+                "Type": "Eco.Mods.TechTree.GraniteBlock, Eco.Mods"
               },
               "Max": 65,
               "Min": 58,
@@ -3751,7 +3751,7 @@
               "$id": "265",
               "BlockType": {
                 "$id": "266",
-                "Type": "Eco.Mods.TechTree.BasaltBlock, Eco.Mods"
+                "Type": "Eco.Mods.TechTree.GraniteBlock, Eco.Mods"
               },
               "Max": 100,
               "Min": 0,
@@ -3762,7 +3762,7 @@
                   "$type": "Eco.WorldGenerator.StandardTerrainModule, Eco.WorldGenerator",
                   "BlockType": {
                     "$id": "268",
-                    "Type": "Eco.Mods.TechTree.CrushedBasaltBlock, Eco.Mods"
+                    "Type": "Eco.Mods.TechTree.CrushedGraniteBlock, Eco.Mods"
                   },
                   "DepthRange": {
                     "max": 1,
@@ -3824,7 +3824,7 @@
                   "$type": "Eco.WorldGenerator.StandardTerrainModule, Eco.WorldGenerator",
                   "BlockType": {
                     "$id": "276",
-                    "Type": "Eco.Mods.TechTree.CrushedBasaltBlock, Eco.Mods"
+                    "Type": "Eco.Mods.TechTree.CrushedGraniteBlock, Eco.Mods"
                   },
                   "DepthRange": {
                     "max": 1,
@@ -4072,7 +4072,7 @@
               "$id": "294",
               "BlockType": {
                 "$id": "295",
-                "Type": "Eco.Mods.TechTree.GneissBlock, Eco.Mods"
+                "Type": "Eco.Mods.TechTree.GraniteBlock, Eco.Mods"
               },
               "Max": 100,
               "Min": 70,
@@ -5015,7 +5015,7 @@
               "$id": "350",
               "BlockType": {
                 "$id": "351",
-                "Type": "Eco.Mods.TechTree.GneissBlock, Eco.Mods"
+                "Type": "Eco.Mods.TechTree.GraniteBlock, Eco.Mods"
               },
               "Max": 65,
               "Min": 58,
