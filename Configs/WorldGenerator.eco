@@ -135,28 +135,7 @@
               "Max": 0,
               "Min": 0,
               "NoiseFrequency": 1,
-              "SubModules": [
-                {
-                  "$id": "16",
-                  "$type": "Eco.WorldGenerator.StandardTerrainModule, Eco.WorldGenerator",
-                  "BlockType": {
-                    "$id": "17",
-                    "Type": "Eco.World.Blocks.RockySoilBlock, Eco.World"
-                  },
-                  "DepthRange": {
-                    "max": 200,
-                    "min": 0
-                  },
-                  "HeightRange": {
-                    "max": 1,
-                    "min": -1
-                  },
-                  "NoiseDistributionType": "Bands",
-                  "NoiseFrequency": 99,
-                  "NoiseType": "RidgedMulti",
-                  "PercentChance": 0.05
-                }
-              ]
+              "SubModules": []
             },
             {
               "$id": "18",
@@ -695,28 +674,7 @@
               "Max": 6,
               "Min": 4,
               "NoiseFrequency": 40,
-              "SubModules": [
-                {
-                  "$id": "70",
-                  "$type": "Eco.WorldGenerator.StandardTerrainModule, Eco.WorldGenerator",
-                  "BlockType": {
-                    "$id": "71",
-                    "Type": "Eco.World.Blocks.RockySoilBlock, Eco.World"
-                  },
-                  "DepthRange": {
-                    "max": 1,
-                    "min": 1
-                  },
-                  "HeightRange": {
-                    "max": 1,
-                    "min": -1
-                  },
-                  "NoiseDistributionType": "Blobs",
-                  "NoiseFrequency": 3,
-                  "NoiseType": "Perlin",
-                  "PercentChance": 0.3
-                }
-              ]
+              "SubModules": []
             },
             {
               "$id": "72",
@@ -1890,7 +1848,7 @@
               "$id": "148",
               "BlockType": {
                 "$id": "149",
-                "Type": "Eco.World.Blocks.RockySoilBlock, Eco.World"
+                "Type": "Eco.World.Blocks.DirtBlock, Eco.World"
               },
               "Max": 3,
               "Min": 1,
