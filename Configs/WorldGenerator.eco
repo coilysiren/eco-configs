@@ -45,7 +45,7 @@
         },
         "LandPercentRange": {
           "max": 1,
-          "min": 0.8
+          "min": 0.9
         },
         "MaxElevationOceanDistance": 10,
         "NumContinentsRange": {
@@ -76,7 +76,7 @@
         "NumWetlands": 1,
         "PointRadius": 10,
         "RiverCellAvoidance": 0,
-        "RiverCellWidth": 0,
+        "RiverCellWidth": 20,
         "SaveTerrainImage": true,
         "Seed": 0,
         "ShallowOceanSize": 0,
