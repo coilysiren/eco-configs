@@ -40,12 +40,12 @@
         },
         "IslandWeight": 0,
         "LakeSizeRange": {
-          "max": 0,
-          "min": 0
+          "max": 10,
+          "min": 5
         },
         "LandPercentRange": {
           "max": 1,
-          "min": 1
+          "min": 0.8
         },
         "MaxElevationOceanDistance": 10,
         "NumContinentsRange": {
@@ -84,11 +84,11 @@
         "CoolForestWeight": 0.1,
         "DesertWeight": 0.1,
         "HighDesertWeight": 0.1,
-        "IceWeight": 0.1,
+        "IceWeight": 0.2,
         "RainforestWeight": 0.1,
         "SteppeWeight": 0.1,
-        "TaigaWeight": 0.1,
-        "TundraWeight": 0.1,
+        "TaigaWeight": 0.2,
+        "TundraWeight": 0.2,
         "WarmForestWeight": 0.1,
         "WetlandWeight": 0.1
       },
